@@ -1,0 +1,42 @@
+{
+	"name": "haikooz",
+	"version": "1.0.0",
+	"description": "11ty blog engine for Haikooz blog",
+	"scripts": {
+		"build": "npx @11ty/eleventy",
+		"start": "npx @11ty/eleventy --serve --quiet",
+		"debug": "DEBUG=Eleventy* npx @11ty/eleventy",
+		"debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+		"benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/GoOz/Haikooz.git"
+	},
+	"author": {
+		"name": "GoOz",
+		"email": "gooz@foojin.com",
+		"url": "https://www.foojin.com/"
+	},
+	"license": "unlicense",
+	"engines": {
+		"node": ">=14"
+	},
+	"bugs": {
+		"url": "https://github.com/GoOz/Haikooz/issues"
+	},
+	"homepage": "https://github.com/GoOz/Haikooz#readme",
+	"devDependencies": {
+		"@11ty/eleventy": "2.0.1",
+		"@11ty/eleventy-img": "^2.0.1",
+		"@11ty/eleventy-navigation": "^0.3.5",
+		"@11ty/eleventy-plugin-bundle": "^1.0.4",
+		"@11ty/eleventy-plugin-rss": "^1.2.0",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
+		"eleventy-plugin-embed-everything": "^1.16.0",
+		"eleventy-plugin-time-to-read": "^1.3.0",
+		"luxon": "^3.2.1",
+		"markdown-it-anchor": "^8.6.6",
+		"prism-themes": "^1.9.0"
+	}
+}

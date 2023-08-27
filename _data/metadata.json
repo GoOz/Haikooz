@@ -1,0 +1,11 @@
+{
+	"title": "HaikoOz",
+	"url": "https://blog.foojin.com",
+	"language": "fr",
+	"description": "Journal personnel de GoOz, avec des mots petits et grands.",
+	"author": {
+		"name": "GoOz",
+		"email": "gooz@foojin.com",
+		"url": "https://www.foojin.com"
+	}
+}

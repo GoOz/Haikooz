@@ -1,0 +1,18 @@
+<ol reversed class="grid{% if home %} grid--highlight{% endif%}">
+{% for post in postslist | reverse %}
+	<li class="grid-item post-item">
+		<a href="{{ post.url }}">
+			<span class="reading-time">
+				<svg role="img" aria-label="Temps de lecture">
+		      <use href="#time"></use>
+		    </svg>
+			 	{{ post.content | timeToRead }}
+			</span>
+			{% if post.data.featured %}
+			{% image "../content/"+post.url+"/"+post.data.featured , "" %}
+			{% endif %}
+			<span class="post-item-title">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</span>
+			</a>
+	</li>
+{% endfor %}
+</ol>

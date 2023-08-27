@@ -1,0 +1,13 @@
+---
+permalink: /tags/
+layout: layouts/page.njk
+eleventyExcludeFromCollections: true
+---
+<h1>Tous les tags</h1>
+
+<ul class="tags-list">
+{% for tag in collections.all | getAllTags | filterTagList %}
+	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+	<li><a href="{{ tagUrl }}">{{ tag }}</a></li>
+{% endfor %}
+</ul>
