@@ -48,6 +48,7 @@ body {
 	color: var(--light);
 	background-color: var(--dark);
 	line-height: 1.6;
+	background-image: linear-gradient(90deg, var(--darkgrey) 0, var(--darkgrey) 14rem, var(--dark) 14rem, var(--dark) 100%);
 }
 
 h1 { font-size: var(--h1-font-size) }
@@ -320,16 +321,20 @@ header {
 }
 main {
 	flex: 1 1 auto;
-	overflow: auto;
 	background-color: var(--dark);
 }
 @media screen and (min-width: 50em) {
 	body {
 		display: flex;
 		flex-direction: row;
+	}
+	header {
+		position: sticky;
+		top: 0;
+		left: 0;
 		height: 100vh;
 		height: 100dvh;
-		align-items: stretch;
+		overflow: auto;
 	}
 }
 /*===============================
@@ -346,7 +351,6 @@ main {
 header {
 	display: flex;
 	flex-direction: column;
-	height: 100%;
 }
 .nav {
 	--action-color: var(--lighter);
