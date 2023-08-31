@@ -3,7 +3,7 @@ layout: layouts/base.njk
 ---
 {% if featured %}
 <figure class="feature">
-	{% image "../"+slug+"/"+featured , "", "(min-width: 50em) 90vw, 100vw" %}
+	{% image featured , "", "(min-width: 50em) 90vw, 100vw" %}
 	{% if featured_author %}
 	<figcaption>Photo de <a href="https://unsplash.com/@{{ featured_url}}">{{featured_author}}</a> sur Unsplash</figcaption>
 	{% endif %}
