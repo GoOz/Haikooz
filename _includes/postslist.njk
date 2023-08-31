@@ -2,10 +2,8 @@
 {% for post in postslist | reverse %}
 	<li class="grid-item post-item">
 		<a href="{{ post.url }}">
-			<span class="reading-time">
-				<svg role="img" aria-label="Temps de lecture">
-		      <use href="#time"></use>
-		    </svg>
+			<span class="reading-time" aria-label="Temps de lecture">
+		    {% svg "time" %}
 			 	{{ post.content | timeToRead }}
 			</span>
 			{% if post.data.featured %}

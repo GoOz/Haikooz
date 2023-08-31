@@ -9,6 +9,8 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const timeToRead = require('eleventy-plugin-time-to-read');
 const embedEverything = require("eleventy-plugin-embed-everything");
 const bundlerPlugin = require("@11ty/eleventy-plugin-bundle");
+const readerBar = require('eleventy-plugin-reader-bar')
+const svgSprite = require("eleventy-plugin-svg-sprite");
 
 module.exports = function(eleventyConfig) {
 	// PassThroughCopy
@@ -46,6 +48,10 @@ module.exports = function(eleventyConfig) {
 		style: 'short'
 	});
 	eleventyConfig.addPlugin(embedEverything);
+	eleventyConfig.addPlugin(readerBar)
+	eleventyConfig.addPlugin(svgSprite, {
+    path: "./public/img/svg-sprite",
+  });
 
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
