@@ -92,18 +92,6 @@ module.exports = function(eleventyConfig) {
 		return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
 	});
 
-	// Shortcodes
-	eleventyConfig.addShortcode("ogFeatured", async function(src) {
-
-		let metadata = await eleventyImage(src, {
-			widths: [600],
-			formats: ["jpeg"]
-		});
-
-		let data = metadata.jpeg[metadata.jpeg.length - 1];
-		return `<meta property="og:image" content="${data.url}">`;
-	});
-
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
 		mdLib.use(markdownItAnchor, {

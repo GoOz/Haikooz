@@ -34,4 +34,15 @@ module.exports = eleventyConfig => {
 		};
 		return eleventyImage.generateHTML(metadata, imageAttributes);
 	});
+	// OG Featured image
+	eleventyConfig.addAsyncShortcode("ogFeatured", async function(src) {
+		let metadata = await eleventyImage(src, {
+			widths: [600],
+			formats: ["jpeg"],
+			outputDir: path.join(eleventyConfig.dir.output, "img")
+		});
+
+		let data = metadata.jpeg[metadata.jpeg.length - 1];
+		return `<meta property="og:image" content="${data.url}">`;
+	});
 };
