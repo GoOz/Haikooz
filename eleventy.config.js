@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const { DateTime } = require("luxon");
 const markdownItAnchor = require("markdown-it-anchor");
 const eleventyImage = require("@11ty/eleventy-img");
@@ -11,6 +13,7 @@ const embedEverything = require("eleventy-plugin-embed-everything");
 const bundlerPlugin = require("@11ty/eleventy-plugin-bundle");
 const readerBar = require('eleventy-plugin-reader-bar')
 const svgSprite = require("eleventy-plugin-svg-sprite");
+const Webmentions = require("eleventy-plugin-webmentions");
 
 module.exports = function(eleventyConfig) {
 	// PassThroughCopy
@@ -51,6 +54,10 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(readerBar)
 	eleventyConfig.addPlugin(svgSprite, {
     path: "./public/img/svg-sprite",
+  });
+  eleventyConfig.addPlugin(Webmentions, {
+    domain: "blog.foojin.com",
+    token: process.env.WEBMENTION_TOKEN
   });
 
 	// Filters

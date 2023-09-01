@@ -29,6 +29,16 @@ layout: layouts/base.njk
 
 	{{ content | safe }}
 
+	{%- if webmentions.length > 0 %}
+	{# Get the webmention count for the current page #}
+	{%- set currentPostMentionCount = webmentions | webmentionCountForPage -%}
+	{# Get the webmentions for the current page #}
+	{%- set currentPostMentions = webmentions | webmentionsForPage -%}
+	<hr>
+	{{ currentPostMentionCount }} Réactions
+	{{ currentPostMentions[0] }}
+	{%- endif %}
+
 	{%- if collections.posts %}
 	{%- set previousPost = collections.posts | getPreviousCollectionItem %}
 	{%- set nextPost = collections.posts | getNextCollectionItem %}
