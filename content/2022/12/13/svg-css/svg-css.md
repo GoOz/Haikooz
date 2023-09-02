@@ -15,20 +15,20 @@ SVG est clairement un super format pour les illustrations sur le web. Mais ce qu
 
 Mais le sujet est un poil long et complexe alors voici le sommaire pour ce dont je vais vous parler.
 
-1. [Les différentes méthodes de chargement](#methodes)
-	1. [La balise `img`](#methode-img)
-	2. [La propriété CSS `background-image`](#methode-css-bgi)
-	3. [Le <span lang="en">inlined</span> `SVG`](#methode-inlined)
-	4. [Les `symbol` SVG](#methode-symbol)
-	5. [La balise `object`](#methode-object)
-	6. [Les Data URI](#methode-data-uri)
-	7. [Les avantages et inconvénients](#methodes-pros-cons)
-2. [Interagir avec un SVG depuis le document](#svg-css)
-	1. [Les propriétés CSS pour SVG](#proprietes)
-	2. [L'héritage CSS](#heritage)
-	3. [Le <span lang="en">Clipping</span>](#clipping)
-	4. [Le <span lang="en">Responsive</span>](#responsive)
-3. [Interagir avec un SVG depuis le SVG lui-même](#embarcation)
+1. [Les différentes méthodes de chargement](#les-differentes-methodes-de-chargement)
+	1. [La balise `img`](#la-balise-img)
+	2. [La propriété CSS `background-image`](#la-propriete-css-background-image)
+	3. [Le <span lang="en">inlined</span> `SVG`](#le-inlined-svg)
+	4. [Les `symbol` SVG](#les-symbol-svg)
+	5. [La balise `object`](#la-balise-object)
+	6. [Les Data URI](#les-data-uri)
+	7. [Les avantages et inconvénients](#les-avantages-et-inconvenients)
+2. [Interagir avec un SVG depuis le document](#interagir-avec-un-svg-depuis-le-document)
+	1. [Les propriétés CSS pour SVG](#les-proprietes-css-pour-svg)
+	2. [L'héritage CSS](#l-heritage-css)
+	3. [Le <span lang="en">Clipping</span>](#le-clipping)
+	4. [Le <span lang="en">Responsive</span>](#le-responsive)
+3. [Interagir avec un SVG depuis le SVG lui-même](#interagir-avec-un-svg-depuis-le-svg-lui-meme)
 
 ## Les différentes méthodes de chargement
 
@@ -178,7 +178,9 @@ J'en ai déjà un peu parlé sur chaque méthode mais ce seront ces avantages et
 - Est-ce que vous souhaitez pouvoir **interagir directement avec les formes de votre SVG depuis les styles et/ou le JavaScript de votre page** ?
 - Est-ce que au contraire, je veux juste **charger un SVG simple sans rien y changer comme une image bitmap** ?
 
-*À noter que si vous décidez de charger un SVG contenant du JS via un appel externe (`img`, `object`, etc) il vaut mieux qu'il vienne du même domaine que la page. Pour des raisons de sécurité, il me semble que certains navigateurs pourraient bloquer l'interprétation du JS (à prendre avec des pincettes car je ne suis sûr de rien à ce sujet).*
+<div class="notabene">
+Si vous décidez de charger un SVG contenant du JS via un appel externe (`img`, `object`, etc) il vaut mieux qu'il vienne du même domaine que la page. Pour des raisons de sécurité, il me semble que certains navigateurs pourraient bloquer l'interprétation du JS (à prendre avec des pincettes car je ne suis sûr de rien à ce sujet).
+</div>
 
 Pour vous aider à peut être y voir un poil plus clair voici ci-dessous un tableau récapitulatif.
 
@@ -249,7 +251,9 @@ Maintenant que vous connaissez toutes les bases nécessaires on va pouvoir passe
 
 ## Interagir avec un SVG depuis le document
 
-*Note: Tout ce qui va suivre ne sera possible que si votre SVG est inlined avec ou sans `symbol`.*
+<div class="notabene">
+Tout ce qui va suivre ne sera possible que si votre SVG est inlined avec ou sans symbol.
+</div>
 
 ### Les propriétés CSS pour SVG
 
@@ -301,55 +305,57 @@ Commençons par faire quelques tracés vectoriels simple avec SVG.
 
 Ce qui nous donnerait ça.
 
-<style>
-  .container-svgs { background-color: #fffbff;}
-  .container-svgs svg {
-    width: 8rem;
-    height: 8rem;
-  }
-</style>
-<div class="container-svgs">
-  <svg>
-		<rect x="10" y="10" width="100" height="100" stroke="#ffc09f" fill="transparent" stroke-width="5" />
-  </svg>
-  <svg>
-		<circle cx="60" cy="60" r="50" stroke="#ffee93" fill="transparent" stroke-width="5" />
-  </svg>
-  <svg>
-		<ellipse cx="60" cy="60" rx="40" ry="25" stroke="#fcf5c7" fill="transparent" stroke-width="5" />
-  </svg>
-  <svg>
-		<line x1="10" x2="100" y1="10" y2="100" stroke="#a0ced9" stroke-width="5" />
-  </svg>
-  <svg>
-		<polyline points="10,30 60,50 90,75 60,100 90" fill="none" stroke="#adf7b6" stroke-width="5" />
-  </svg>
-  <svg>
-		<polygon points="70,80 10,90 70, 5 90, 10" stroke="#eac4d5" fill="transparent" stroke-width="5" />
-  </svg>
-  <svg>
-    <defs>
-      <!-- Pattern courtesy of https://iros.github.io/patternfills/ -->
-      <!-- Pattern qui ne sera pas visible sauf si on l'appelle directement -->
-      <pattern id="pattern-1" patternUnits="userSpaceOnUse" width="10" height="10">
-        <image
-        	xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScgLz4KICA8cmVjdCB4PScwJyB5PScwJyB3aWR0aD0nOScgaGVpZ2h0PSc5JyBmaWxsPSdibGFjaycgLz4KPC9zdmc+"
-          x="0" y="0" width="10" height="10">
-        </image>
-      </pattern>
-    </defs>
-    <path
-    	d="M 10,30
-				A 20,20 0,0,1 50,30
-				A 20,20 0,0,1 90,30
-				Q 90,60 50,90
-				Q 10,60 10,30 z"
-      stroke="#e8d1c5"
-      stroke-width="5"
-      fill="transparent"
-    />
-  </svg>
-</div>
+{% demo 'Formes SVG de départ' %}
+
+```css
+svg {
+  width: 8rem;
+  height: 8rem;
+}
+```
+```html
+<svg>
+	<rect x="10" y="10" width="100" height="100" stroke="#ffc09f" fill="transparent" stroke-width="5" />
+</svg>
+<svg>
+	<circle cx="60" cy="60" r="50" stroke="#ffee93" fill="transparent" stroke-width="5" />
+</svg>
+<svg>
+	<ellipse cx="60" cy="60" rx="40" ry="25" stroke="#fcf5c7" fill="transparent" stroke-width="5" />
+</svg>
+<svg>
+	<line x1="10" x2="100" y1="10" y2="100" stroke="#a0ced9" stroke-width="5" />
+</svg>
+<svg>
+	<polyline points="10,30 60,50 90,75 60,100 90" fill="none" stroke="#adf7b6" stroke-width="5" />
+</svg>
+<svg>
+	<polygon points="70,80 10,90 70, 5 90, 10" stroke="#eac4d5" fill="transparent" stroke-width="5" />
+</svg>
+<svg>
+  <defs>
+    <!-- Pattern courtesy of https://iros.github.io/patternfills/ -->
+    <!-- Pattern qui ne sera pas visible sauf si on l'appelle directement -->
+    <pattern id="pattern-1" patternUnits="userSpaceOnUse" width="10" height="10">
+      <image
+      	xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScgLz4KICA8cmVjdCB4PScwJyB5PScwJyB3aWR0aD0nOScgaGVpZ2h0PSc5JyBmaWxsPSdibGFjaycgLz4KPC9zdmc+"
+        x="0" y="0" width="10" height="10">
+      </image>
+    </pattern>
+  </defs>
+  <path
+  	d="M 10,30
+			A 20,20 0,0,1 50,30
+			A 20,20 0,0,1 90,30
+			Q 90,60 50,90
+			Q 10,60 10,30 z"
+    stroke="#e8d1c5"
+    stroke-width="5"
+    fill="transparent"
+  />
+</svg>
+```
+{% enddemo %}
 
 Alors que peut-on changer sur un SVG avec du CSS ? Beaucoup de choses comme vous pouvez le voir sur [cette spec W3C](https://www.w3.org/TR/SVG/propidx.html) mais vous pourrez remarquer que c'est tout de même peu comparé à tout ce que CSS peut offrir.
 
@@ -397,79 +403,84 @@ Par exemple, voyons l'impact de ces quelques propriétés sur nos SVG.
     stroke: url(#pattern);
   }
 ```
-
-<style>
-    .props rect {
-    	stroke: crimson;
-    }
-    .props circle {
-        fill: teal;
-    }
-    .props ellipse {
-        stroke-width: 8;
-    }
-    .props line {
-        stroke-dasharray: 2 4% 5;
-    }
-    .props polyline {
-	    fill: rebeccapurple;
-    	stroke-width: 8;
-        stroke-linecap: round;
-    }
-    .props polygon {
-        fill: rebeccapurple;
-        stroke: url(#pattern);
-    }
-    .props path {
-        stroke: crimson;
-        fill: teal;
-        stroke-width: 8;
-        stroke-dasharray: 2 4% 5;
-        stroke-linecap: round;
-        stroke: url(#pattern);
-    }
-</style>
-<div class="container-svgs props">
-	<svg>
-		<rect x="10" y="10" width="100" height="100" stroke="#ffc09f" fill="transparent" stroke-width="5" />
-	</svg>
-	<svg>
-		<circle cx="60" cy="60" r="50" stroke="#ffee93" fill="transparent" stroke-width="5" />
-	</svg>
-	<svg>
-		<ellipse cx="60" cy="60" rx="40" ry="25" stroke="#fcf5c7" fill="transparent" stroke-width="5" />
-	</svg>
-	<svg>
-		<line x1="10" x2="100" y1="10" y2="100" stroke="#a0ced9" stroke-width="5" />
-	</svg>
-	<svg>
-		<polyline points="10,30 60,50 90,75 60,100 90" fill="none" stroke="#adf7b6" stroke-width="5" />
-	</svg>
-	<svg>
-		<polygon points="70,80 10,90 70, 5 90, 10" stroke="#eac4d5" fill="transparent" stroke-width="5" />
-	</svg>
-	<svg>
-		<defs>
-			<!-- Pattern courtesy of https://iros.github.io/patternfills/ -->
-			<pattern id="pattern" patternUnits="userSpaceOnUse" width="10" height="10">
-				<image
-					xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScgLz4KICA8cmVjdCB4PScwJyB5PScwJyB3aWR0aD0nOScgaGVpZ2h0PSc5JyBmaWxsPSdibGFjaycgLz4KPC9zdmc+"
-					x="0" y="0" width="10" height="10">
-				</image>
-			</pattern>
-		</defs>
-		<path
-			d="M 10,30
-			A 20,20 0,0,1 50,30
-			A 20,20 0,0,1 90,30
-			Q 90,60 50,90
-			Q 10,60 10,30 z"
-			stroke="#e8d1c5"
-			stroke-width="5"
-			fill="transparent"
-		/>
-	</svg>
-</div>
+{% demo 'Formes SVG stylées' %}
+```css
+svg {
+  width: 8rem;
+  height: 8rem;
+}
+rect {
+	stroke: crimson;
+}
+circle {
+  fill: teal;
+}
+ellipse {
+  stroke-width: 8;
+}
+line {
+  stroke-dasharray: 2 4% 5;
+}
+polyline {
+  fill: rebeccapurple;
+	stroke-width: 8;
+  stroke-linecap: round;
+}
+polygon {
+  fill: rebeccapurple;
+  stroke: url(#pattern);
+}
+path {
+  stroke: crimson;
+  fill: teal;
+  stroke-width: 8;
+  stroke-dasharray: 2 4% 5;
+  stroke-linecap: round;
+  stroke: url(#pattern);
+}
+```
+```html
+<svg>
+	<rect x="10" y="10" width="100" height="100" stroke="#ffc09f" fill="transparent" stroke-width="5" />
+</svg>
+<svg>
+	<circle cx="60" cy="60" r="50" stroke="#ffee93" fill="transparent" stroke-width="5" />
+</svg>
+<svg>
+	<ellipse cx="60" cy="60" rx="40" ry="25" stroke="#fcf5c7" fill="transparent" stroke-width="5" />
+</svg>
+<svg>
+	<line x1="10" x2="100" y1="10" y2="100" stroke="#a0ced9" stroke-width="5" />
+</svg>
+<svg>
+	<polyline points="10,30 60,50 90,75 60,100 90" fill="none" stroke="#adf7b6" stroke-width="5" />
+</svg>
+<svg>
+	<polygon points="70,80 10,90 70, 5 90, 10" stroke="#eac4d5" fill="transparent" stroke-width="5" />
+</svg>
+<svg>
+	<defs>
+		<!-- Pattern courtesy of https://iros.github.io/patternfills/ -->
+		<pattern id="pattern" patternUnits="userSpaceOnUse" width="10" height="10">
+			<image
+				xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScgLz4KICA8cmVjdCB4PScwJyB5PScwJyB3aWR0aD0nOScgaGVpZ2h0PSc5JyBmaWxsPSdibGFjaycgLz4KPC9zdmc+"
+				x="0" y="0" width="10" height="10">
+			</image>
+		</pattern>
+	</defs>
+	<path
+		d="M 10,30
+		A 20,20 0,0,1 50,30
+		A 20,20 0,0,1 90,30
+		Q 90,60 50,90
+		Q 10,60 10,30 z"
+		stroke="#e8d1c5"
+		stroke-width="5"
+		fill="transparent"
+	/>
+</svg>
+```
+{% enddemo %}
 
 Un petit détail aura peut être attiré votre attention ici. Pourquoi donc l'exemple `polyline` a une couleur à l'intérieur du tracé ? Comme si ce dernier avait un tracé fermé comme un `polygon` ?
 
@@ -487,14 +498,14 @@ Un SVG sera exclu du box-model CSS et donc n'héritera rien qui soit lié à ce 
 Prenons par exemple ces quelques tracés `<text>` propres à SVG et voyons ce qu'il se passe.
 
 ```css
-  .mon-svg-text {
-    width: 16rem;
-    height: 8rem;
-    color: DarkSeaGreen;
-  }
-  .mon-svg-text .small { font: italic 13px sans-serif; }
-  .mon-svg-text .heavy { font: bold 30px sans-serif; }
-  .mon-svg-text .Rrrrr { font: italic 40px serif; }
+.mon-svg-text {
+  width: 16rem;
+  height: 8rem;
+  color: DarkSeaGreen;
+}
+.mon-svg-text .small { font: italic 13px sans-serif; }
+.mon-svg-text .heavy { font: bold 30px sans-serif; }
+.mon-svg-text .Rrrrr { font: italic 40px serif; }
 ```
 
 ```html
@@ -505,26 +516,29 @@ Prenons par exemple ces quelques tracés `<text>` propres à SVG et voyons ce qu
 	<text x="95" y="55" class="Rrrrr">enfoiré !</text>
 </svg>
 ```
-    
-<style>
-  .mon-svg-text {
-  	background-color: white; /* For dark mode */
-    	width: 16rem;
-    	height: 8rem;
-    	color: DarkSeaGreen;
-  }
-  .mon-svg-text .small { font: italic 13px sans-serif; }
-  .mon-svg-text .heavy { font: bold 30px sans-serif; }
-  .mon-svg-text .Rrrrr { font: italic 40px serif; }
-</style>
-
-<div class="mon-svg-text">
-  <svg>
-    <text x="20" y="35" class="small">Mon</text>
-    <text x="50" y="35" class="heavy">chat</text>
-    <text x="55" y="55" class="small">est un</text>
-    <text x="95" y="55" class="Rrrrr">enfoiré !</text>
-  </svg>
+{% demo 'Texte SVG' %}
+```css
+body {background-color: #fff;}
+.mon-svg-text {
+	width: 16rem;
+	height: 8rem;
+	color: DarkSeaGreen;
+}
+.mon-svg-text .small { font: italic 13px sans-serif; }
+.mon-svg-text .heavy { font: bold 30px sans-serif; }
+.mon-svg-text .Rrrrr { font: italic 40px serif; }
+```
+```html
+<svg class="mon-svg-text">
+  <text x="20" y="35" class="small">Mon</text>
+  <text x="50" y="35" class="heavy">chat</text>
+  <text x="55" y="55" class="small">est un</text>
+  <text x="95" y="55" class="Rrrrr">enfoiré !</text>
+</svg>
+```
+{% enddemo %}
+<div class="notabene">
+	J'ai mis ici un fond blanc ici parce que par défaut un svg sans couleur définie est noir donc c'était mieux pour la visibilité.
 </div>
 
 Comme vous pouvez le voir la forme `text` prend bien en charge toutes les propriétés CSS propres aux fonts. Toutes ? Non ! Car la couleur devrait être `DarkSeaGreen` et ce noir est tout sauf du vert d'une mer sombre.
@@ -539,48 +553,49 @@ Et le seul moyen de récupérer la valeur de la `color` pour la doner à `fill` 
 Enfin quand je dis la seule… ça c'était avant puisque désormais on peut allègrement user et abuser des CSS custom properties ce qui offre encore plus de souplesse en forçant l'héritage de bien d'autres propriétés.
 
 ```css
-    .mon-svg-text {
-        --stroke-color: crimson;
-        width: 16rem;
-        height: 8rem;
-        color: DarkSeaGreen;
-    }
-    .mon-svg-text .small { font: italic 13px sans-serif; }
-    .mon-svg-text .heavy { font: bold 30px sans-serif; }
-    .mon-svg-text .Rrrrr { font: italic 40px serif; }
-    
-    .mon-svg-text text {
-        fill: currentColor;
-        stroke: var(--stroke-color);
-    }
+.mon-svg-text {
+  --stroke-color: crimson;
+  width: 16rem;
+  height: 8rem;
+  color: DarkSeaGreen;
+}
+.mon-svg-text .small { font: italic 13px sans-serif; }
+.mon-svg-text .heavy { font: bold 30px sans-serif; }
+.mon-svg-text .Rrrrr { font: italic 40px serif; }
+
+.mon-svg-text text {
+  fill: currentColor;
+  stroke: var(--stroke-color);
+}
 ```
 
-<style>
-  .mon-svg-text.fix {
-    --stroke-color: crimson;
-  	background-color: white; /* For dark mode */
-  	width: 16rem;
-  	height: 8rem;
-  	color: DarkSeaGreen;
-  }
-  .mon-svg-text .small { font: italic 13px sans-serif; }
-  .mon-svg-text .heavy { font: bold 30px sans-serif; }
-  .mon-svg-text .Rrrrr { font: italic 40px serif; }
+{% demo 'Texte SVG stylé' %}
+```css
+body {background-color: #fff;}
+.mon-svg-text {
+  --stroke-color: crimson;
+	width: 16rem;
+	height: 8rem;
+	color: DarkSeaGreen;
+}
+.mon-svg-text .small { font: italic 13px sans-serif; }
+.mon-svg-text .heavy { font: bold 30px sans-serif; }
+.mon-svg-text .Rrrrr { font: italic 40px serif; }
 
-  .mon-svg-text.fix text {
-    fill: currentColor;
-    stroke: var(--stroke-color);
-  }
-</style>
-
-<div class="mon-svg-text fix">
-  <svg>
-    <text x="20" y="35" class="small">Mon</text>
-    <text x="50" y="35" class="heavy">chat</text>
-    <text x="55" y="55" class="small">est un</text>
-    <text x="95" y="55" class="Rrrrr">enfoiré !</text>
-  </svg>
-</div>
+.mon-svg-text text {
+  fill: currentColor;
+  stroke: var(--stroke-color);
+}
+```
+```html
+<svg class="mon-svg-text">
+  <text x="20" y="35" class="small">Mon</text>
+  <text x="50" y="35" class="heavy">chat</text>
+  <text x="55" y="55" class="small">est un</text>
+  <text x="95" y="55" class="Rrrrr">enfoiré !</text>
+</svg>
+```
+{% enddemo %}
 
 Pour en savoir plus sur les propriétés CSS héritées naturellement, retournez jeter un œil à la même [spec W3C](https://www.w3.org/TR/SVG/propidx.html) citée plus haut.
 
@@ -591,83 +606,85 @@ On vient de voir comment CSS peut directement influencer sur un SVG mais ce dern
 Pour exemple, j'ai choisi un SVG d'un joli cœur bien rouge et trois conteneurs aux contenus divers : un rempli de texte, un avec une image et un avec un CSS `background-image`.
 
 ```css
-  .area, .svg {
-    display: block;
-    max-width: 500px;
-    height: 250px;
-    margin: 2rem auto;
-    overflow: hidden;
-  }
-  .lgbt {
-    background: linear-gradient(
-    to bottom,
-    #e40303,
-    #e40303 16.67%,
-    #ff8c00 16.67%,
-    #ff8c00 33.33%,
-    #ffed00 33.33%,
-    #ffed00 50%,
-    #008026 50%,
-    #008026 66.67%,
-    #004dff 66.67%,
-    #004dff 83.33%,
-    #750787 83.33%,
-    #750787
-    );
-  }
+.area, .svg {
+  display: block;
+  max-width: 500px;
+  height: 250px;
+  margin: 2rem auto;
+  overflow: hidden;
+}
+.lgbt {
+  background: linear-gradient(
+  to bottom,
+  #e40303,
+  #e40303 16.67%,
+  #ff8c00 16.67%,
+  #ff8c00 33.33%,
+  #ffed00 33.33%,
+  #ffed00 50%,
+  #008026 50%,
+  #008026 66.67%,
+  #004dff 66.67%,
+  #004dff 83.33%,
+  #750787 83.33%,
+  #750787
+  );
+}
 ```
 
 ```html
-  <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475.528 475.528">
-    <path fill="red" d="M237.376,436.245l0.774,0.976c210.94-85.154,292.221-282.553,199.331-367.706
-      c-92.899-85.154-199.331,30.953-199.331,30.953h-0.774c0,0-106.44-116.107-199.331-30.953
-      C-54.844,154.658,26.437,351.092,237.376,436.245z"/>
-  </svg>
-  <div class="area clip">
-    <p>Je t'adore à l'égal de la voûte nocturne,<br />
-	  	Ô vase de tristesse, ô grande taciturne,<br />
-	  	Et t'aime d'autant plus, belle, que tu me fuis,<br />
-	  	Et que tu me parais, ornement de mes nuits,<br />
-	  	Plus ironiquement accumuler les lieues<br />
-	  	Qui séparent mes bras des immensités bleues.<br />
-	  	<br />
-	  	Je m'avance à l'attaque, et je grimpe aux assauts,<br />
-	  	Comme après un cadavre un chœur de vermisseaux,<br />
-	  	Et je chéris, ô bête implacable et cruelle !<br />
-      Jusqu'à cette froideur par où tu m'es plus belle !</p>
-  </div>
-  <div class="area clip">
-    <img src="https://blog.foojin.com/content/images/size/w1000/2017/08/banner-large-bis.jpg" alt="Moi-même dans mon bain.">
-  </div>
-  <div class="area clip lgbt"></div>
+<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475.528 475.528">
+  <path fill="red" d="M237.376,436.245l0.774,0.976c210.94-85.154,292.221-282.553,199.331-367.706
+    c-92.899-85.154-199.331,30.953-199.331,30.953h-0.774c0,0-106.44-116.107-199.331-30.953
+    C-54.844,154.658,26.437,351.092,237.376,436.245z"/>
+</svg>
+<div class="area clip">
+  <p>Je t'adore à l'égal de la voûte nocturne,<br />
+  	Ô vase de tristesse, ô grande taciturne,<br />
+  	Et t'aime d'autant plus, belle, que tu me fuis,<br />
+  	Et que tu me parais, ornement de mes nuits,<br />
+  	Plus ironiquement accumuler les lieues<br />
+  	Qui séparent mes bras des immensités bleues.<br />
+  	<br />
+  	Je m'avance à l'attaque, et je grimpe aux assauts,<br />
+  	Comme après un cadavre un chœur de vermisseaux,<br />
+  	Et je chéris, ô bête implacable et cruelle !<br />
+    Jusqu'à cette froideur par où tu m'es plus belle !</p>
+</div>
+<div class="area clip">
+  <img src="https://blog.foojin.com/content/images/size/w1000/2017/08/banner-large-bis.jpg" alt="Moi-même dans mon bain.">
+</div>
+<div class="area clip lgbt"></div>
 ```
 
-<style>
-  .area, .svg {
-    display: block;
-    max-width: 500px;
-    height: 250px;
-    margin: 2rem auto;
-    overflow: hidden;
-  }
-  .lgbt {
-  	background: linear-gradient(
-		to bottom,
-		#e40303,
-		#e40303 16.67%,
-		#ff8c00 16.67%,
-		#ff8c00 33.33%,
-		#ffed00 33.33%,
-		#ffed00 50%,
-		#008026 50%,
-		#008026 66.67%,
-		#004dff 66.67%,
-		#004dff 83.33%,
-		#750787 83.33%,
-		#750787
-		);
-  }
-</style>
+{% demo 'Préparation clipping SVG' %}
+```css
+.area, .svg {
+  display: block;
+  max-width: 500px;
+  height: 250px;
+  margin: 2rem auto;
+  overflow: hidden;
+}
+.lgbt {
+	background: linear-gradient(
+	to bottom,
+	#e40303,
+	#e40303 16.67%,
+	#ff8c00 16.67%,
+	#ff8c00 33.33%,
+	#ffed00 33.33%,
+	#ffed00 50%,
+	#008026 50%,
+	#008026 66.67%,
+	#004dff 66.67%,
+	#004dff 83.33%,
+	#750787 83.33%,
+	#750787
+	);
+}
+```
+```html
 <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475.528 475.528">
   <path fill="red" d="M237.376,436.245l0.774,0.976c210.94-85.154,292.221-282.553,199.331-367.706
     c-92.899-85.154-199.331,30.953-199.331,30.953h-0.774c0,0-106.44-116.107-199.331-30.953
@@ -690,6 +707,8 @@ Pour exemple, j'ai choisi un SVG d'un joli cœur bien rouge et trois conteneurs 
 	{% image "./img/bath.jpg", "Moi-même dans mon bain" %}
 </div>
 <div class="area lgbt"></div>
+```
+{% enddemo %}
 
 Maintenant en retouchant un peu le SVG pour le préparer et un soupçon de CSS…
 
@@ -730,15 +749,41 @@ Rien de foufou pour le CSS, ici on va seulement donner l'`id` ou plutôt l'ancre
 
 Et on obtient ce qui suit.
 
-<style>
-  .clip {
-    clip-path: url(#clip);
-  }
-	/* Overwrite Blog default CSS for the sake of the example */
-  .area picture {
-  	margin: 0;
-  }
-</style>
+{% demo 'Clipping SVG' %}
+```css
+.area, .svg {
+  display: block;
+  max-width: 500px;
+  height: 250px;
+  margin: 2rem auto;
+  overflow: hidden;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+.lgbt {
+	background: linear-gradient(
+	to bottom,
+	#e40303,
+	#e40303 16.67%,
+	#ff8c00 16.67%,
+	#ff8c00 33.33%,
+	#ffed00 33.33%,
+	#ffed00 50%,
+	#008026 50%,
+	#008026 66.67%,
+	#004dff 66.67%,
+	#004dff 83.33%,
+	#750787 83.33%,
+	#750787
+	);
+}
+.clip {
+  clip-path: url(#clip);
+}
+```
+```html
 <svg
 	xmlns="http://www.w3.org/2000/svg" width="50%" viewBox="0 0 475.528 475.528" aria-hidden="true"
   style="position: absolute; width: 0; height: 0; overflow: hidden;">
@@ -764,15 +809,17 @@ Et on obtient ce qui suit.
     Jusqu'à cette froideur par où tu m'es plus belle !</p>
 </div>
 <div class="area clip">
-  {% image "./img/bath.jpg", "Moi-même dans mon bain" %}
+  {% image "./img/bath.jpg", "Moi-même dans mon bain", '500' %}
 </div>
 <div class="area clip lgbt"></div>
+```
+{% enddemo %}
 
 ### Le Responsive
 
 L'un des intérêts majeurs du SVG par rapport aux images bitmap est que, comme il s'agit de vectoriel, il répond très bien aux changements de taille. Qu'il soit rétréci ou agrandi le SVG restera propre et non pixélisé. Un petit bémol toutefois, si vous rétrécissez fortement votre SVG vous pourriez avoir un rendu des tracés un peu trop gros ou non proportionnels mais ça pourra être prévu en amont.
 
-Mais ce n'est pas ce dont nous allons parler. À la place nous allons voir ce qu'on peut faire avec un SVG et une Media Query.
+Mais ce n'est pas ce dont nous allons parler. À la place nous allons voir ce qu'on peut faire avec un SVG et une *Media Query*.
 
 De toute évidence on pourrait juste changer la taille du SVG selon la taille du viewport mais ce serait franchement pas drôle.  
 À la place on va carrément changer le dessin en fonction de la taille de l'écran.
@@ -782,18 +829,18 @@ Pour ça il nous un peu de CSS et un SVG avec plusieurs tracés.
 On va donc dès le départ cacher un tracé pendant que l'autre reste en place et selon la taille de l'écran on inversera ça.
 
 ```css
-  .rwd-svg {
-    display: block;
-    width: 20rem;
-    height: 20rem;
-    margin: 2rem auto;
-  }
-  .full {display: none;}
-  .broken {display: block;}
-  @media screen and (min-width: 64em) {
-    .full {display: block;}
-    .broken {display: none;}
-  }
+.rwd-svg {
+  display: block;
+  width: 20rem;
+  height: 20rem;
+  margin: 2rem auto;
+}
+.full {display: none;}
+.broken {display: block;}
+@media screen and (min-width: 64em) {
+  .full {display: block;}
+  .broken {display: none;}
+}
 ```
 
 Puis un SVG avec nos deux `path` que je peux distinguer grâce aux classes `full` et `broken`.
@@ -867,33 +914,33 @@ C'est en soi très pratique cependant on pourrait objecter en disant que c'est b
 Par exemple, j'ai repris mon petit cœur sur lequel j'ai ajouté quelques petits détails.
 
 ```xml
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475.528 475.528">
-      <style>/* <![CDATA[ */
-        :root {
-          --hue: 348;
-        }
-        path {
-          fill: hsl(var(--hue), 83%, 35%);
-          transform-origin: center;
-          transform: scale(1);
-          transition: all ease-in 300ms;
-        }
-        path:hover {
-          fill: hsl(var(--hue), 83%, 47%);
-          transform: scale(.9);
-        }
-      /* ]]> */</style>
-      <path id="heart" d="M237.376,436.245l0.774,0.976c210.94-85.154,292.221-282.553,199.331-367.706
-        c-92.899-85.154-199.331,30.953-199.331,30.953h-0.774c0,0-106.44-116.107-199.331-30.953
-        C-54.844,154.658,26.437,351.092,237.376,436.245z"/>
-      <script>/* <![CDATA[ */
-        const heart = document.getElementById('heart');
-        function clickHandler() {
-          heart.style.setProperty('--hue', Math.random() * 360);
-        }
-        heart.addEventListener('click', clickHandler);
-      /* ]]> */</script>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475.528 475.528">
+  <style>/* <![CDATA[ */
+    :root {
+      --hue: 348;
+    }
+    path {
+      fill: hsl(var(--hue), 83%, 35%);
+      transform-origin: center;
+      transform: scale(1);
+      transition: all ease-in 300ms;
+    }
+    path:hover {
+      fill: hsl(var(--hue), 83%, 47%);
+      transform: scale(.9);
+    }
+  /* ]]> */</style>
+  <path id="heart" d="M237.376,436.245l0.774,0.976c210.94-85.154,292.221-282.553,199.331-367.706
+    c-92.899-85.154-199.331,30.953-199.331,30.953h-0.774c0,0-106.44-116.107-199.331-30.953
+    C-54.844,154.658,26.437,351.092,237.376,436.245z"/>
+  <script>/* <![CDATA[ */
+    const heart = document.getElementById('heart');
+    function clickHandler() {
+      heart.style.setProperty('--hue', Math.random() * 360);
+    }
+    heart.addEventListener('click', clickHandler);
+  /* ]]> */</script>
+</svg>
 ```
 
 Vous pouvez remarquer que les styles CSS ou même le JavaScript sont encapsulés dans des "balises" `CDATA` pour la simple et bonne raison qu'en temps normal, dans un SVG, seuls sont attendus des balises formatées à la XML et, jusqu'à preuve du contraire, ni CSS ni JS ne le sont. Du coup, si on veut qu'ils soient interprétés comme ce qu'ils sont on doit les encapsuler dans du `CDATA`.
@@ -911,3 +958,15 @@ Par contre, si on met le même fichier dans une balise `object`… tout fonction
 </object>
 
 Bon j'ai surtout fait des exemples simples parce que je suis plus un codeur qu'un designer mais ça devrait vous montrer que la vraie limite concernant SVG et CSS est surtout notre imagination. 😉
+
+{% raw %}
+<script>
+  const iframes = document.querySelectorAll("iframe");  
+  iframes.forEach(item => {
+  	item.onload = function(){
+  		item.style.height = item.contentWindow.document.documentElement.scrollHeight
+ + 'px';
+ 		};
+  });
+</script>
+{% endraw %}

@@ -27,7 +27,7 @@ D'abord fabriquons la base du composant.
 .avatar {
   width: 2em;
   height: 2em;
-  margin: 1em;
+  margin: .25em;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -38,7 +38,8 @@ D'abord fabriquons la base du composant.
 }
 ```
 
-<style>
+{% demo 'Composant de base' %}
+```css
 	.avatar {
     width: 2em;
     height: 2em;
@@ -51,17 +52,18 @@ D'abord fabriquons la base du composant.
     font-size: 2em;
     color: black;
 	}
-</style>
+```
+```html
 <div class="avatar">
-    JC
+  JC
 </div>
+```
+{% enddemo %}
 
 Et voilà !
 
 Maintenant ajoutons donc notre JS pour changer ce `background-color` en fonction des initiales…  
 En l'occurrence j'ai choisi de jouer avec du [HSL](https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Values_and_units#valeurs_hsl_et_hsla) afin de ne changer aléatoirement que le hue tout en gardant le contrôle de la saturation et la luminosité pour ne pas avoir à gérer les contrastes pour l'accessibilité.
-
-*Note: Je n'ai pas touché au CSS ou au HTML de l'exemple précédent à part rajouté une classe `.avatar--custom` sur chaque avatar pour que l'exemple de base ne soit pas affecté.*
 
 ```js
 // Fonction honteusement pompée sur
@@ -77,7 +79,7 @@ function hue(str) {
 }
 
 // On va récupérer tous les avatars de la page qui sont personnalisés
-const avatars = document.querySelectorAll(".avatar--custom");
+const avatars = document.querySelectorAll(".avatar");
 
 // Et on va calculer la valeur du hue pour chacun d'entre eux
 // et le mettre sur un background-color dans du CSS inline
@@ -85,21 +87,36 @@ Array.from(avatars).forEach(element => {
     element.style.backgroundColor = `hsl(${hue(element.innerText)},85%,90%)`;
 });
 ```
-
-<div class="avatar avatar--custom">
+{% demo 'Composants avec background-color personnalisé' %}
+```css
+	.avatar {
+    width: 2em;
+    height: 2em;
+    margin: .25em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+    border-radius: 50%;
+    font-size: 2em;
+    color: black;
+	}
+```
+```html
+<div class="avatar">
     JC
 </div>
-<div class="avatar avatar--custom">
+<div class="avatar">
     YL
 </div>
-<div class="avatar avatar--custom">
+<div class="avatar">
     CR
 </div>
-<div class="avatar avatar--custom">
+<div class="avatar">
     SD
 </div>
-{% raw %}
-<script>
+```
+```js
 function hue(str) {
 	if (str === null) return;
 	let hash = 0;
@@ -110,17 +127,19 @@ function hue(str) {
 	return hash % 360;
 }
 
-const avatars = document.querySelectorAll(".avatar--custom");
+const avatars = document.querySelectorAll(".avatar");
 
 Array.from(avatars).forEach(element => {
 	element.style.backgroundColor = `hsl(${hue(element.innerText)},85%,90%)`;
 });
-</script>
-{% endraw %}
+````
+{% enddemo %}
 
 Ça marche bien, par contre on se retrouve avec du style inline ce qui en plus d'être indiscutablement moche (je suis évidemment objectif 🙃) devient aussi compliqué à surcharger. À part écrire directement par dessus, il ne reste que l'option `!important` ce qui est encore plus moche, indiscutablement toujours.
-{% image "./img/CleanShot-2022-12-20-at-16.44.29@2x.png", "Image du DOM après modification du JS" %}
-*Note: Oui les navigateurs traduisent le HSL (entre autres) en RGB. C'est un truc qu'ils font apparemment, je sais pas trop pourquoi mais ça change pas grand chose pour nous ici.*
+{% image "./img/bgcolor-custom.png", "Image du DOM après modification du JS" %}
+<div class="notabene">
+Oui les navigateurs traduisent le HSL (entre autres) en RGB. C'est un truc qu'ils font apparemment, je sais pas trop pourquoi mais ça change pas grand chose pour nous ici.
+</div>
 
 **MAIS !**
 
@@ -128,10 +147,10 @@ Il existe un petit nouveau plus si nouveau que ça dans le gang CSS : Les **CSS 
 
 Reprenons un peu alors notre code.
 
-Pas de changement sur le HTML (je vais juste changer la classe custom pour les mêmes raisons qu'auparavant).
+Pas de changement sur le HTML.
 
 ```html
-<div class="avatar avatar--custom-enhanced">
+<div class="avatar">
   JC
 </div>
 ```
@@ -142,7 +161,7 @@ Pour le CSS, on va se reposer désormais sur une CSS custom property pour le `ba
 .avatar {
   width: 2em;
   height: 2em;
-  margin: 1em;
+  margin: .25em;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -171,45 +190,64 @@ function hue(str) {
 }
 
 // On va récupérer tous les avatars de la page qui sont personnalisés
-const avatarsEnhanced = document.querySelectorAll(".avatar--custom-enhanced");
+const avatars = document.querySelectorAll(".avatar");
 
 // Et on va calculer la valeur du hue pour chacun d'entre eux
 // et le mettre dans une CSS custom property
-Array.from(avatarsEnhanced).forEach(element => {
+Array.from(avatars).forEach(element => {
     element.style.setProperty('--avatar-background-hue',`${hue(element.innerText)}`);
 });
 ```
 
-<style>
-.avatar--custom-enhanced {
-	background-color: hsl(var(--avatar-background-hue, 0), 85%, 90%);
+{% demo 'Composants avec background-color personnalisé via CSS custom properties' %}
+```css
+.avatar {
+  width: 2em;
+  height: 2em;
+  margin: .25em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(var(--avatar-background-hue, 0), 85%, 90%);
+  border-radius: 50%;
+  font-size: 2em;
+  color: black;
 }
-</style>
-<div class="avatar avatar--custom-enhanced">
+```
+```html
+<div class="avatar">
     JC
 </div>
-<div class="avatar avatar--custom-enhanced">
+<div class="avatar">
     YL
 </div>
-<div class="avatar avatar--custom-enhanced">
+<div class="avatar">
     CR
 </div>
-<div class="avatar avatar--custom-enhanced">
+<div class="avatar">
     SD
 </div>
-{% raw %}
-<script>
-const avatarsEnhanced = document.querySelectorAll(".avatar--custom-enhanced");
-
-Array.from(avatarsEnhanced).forEach(element => {
+```
+```js
+function hue(str) {
+    if (str === null) return;
+    let hash = 0;
+    for (var i = 0; i < str.length; i++) {
+        hash = str.charCodeAt(i) + ((hash << 5) - hash);
+        hash = hash & hash;
+    }
+	return hash % 360;
+}
+const avatars = document.querySelectorAll(".avatar");
+Array.from(avatars).forEach(element => {
 	element.style.setProperty('--avatar-background-hue',`${hue(element.innerText)}`);
 });
-</script>
-{% endraw %}
+```
+{% enddemo %}
 
 Ce qui donne exactement le même résultat… mais quand même en mieux parce que maintenant on peut surcharger simplement ces styles depuis le CSS si besoin.
 
 Et puis franchement c'est plus beau à voir, indiscutablement toujours.
-{% image "./img/CleanShot-2022-12-20-at-17.44.06@2x.png", "Image du DOM après modification du JS" %}
+{% image "./img/bgcolor-custom-enhanced.png", "Image du DOM après modification du JS" %}
 
 <script src="{{ script }}"></script>

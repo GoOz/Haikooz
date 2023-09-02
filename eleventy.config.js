@@ -14,6 +14,7 @@ const bundlerPlugin = require("@11ty/eleventy-plugin-bundle");
 const readerBar = require('eleventy-plugin-reader-bar')
 const svgSprite = require("eleventy-plugin-svg-sprite");
 const Webmentions = require("eleventy-plugin-webmentions");
+const { EleventyPluginCodeDemo } = require('eleventy-plugin-code-demo');
 
 module.exports = function(eleventyConfig) {
 	// PassThroughCopy
@@ -59,6 +60,25 @@ module.exports = function(eleventyConfig) {
     domain: "blog.foojin.com",
     token: process.env.WEBMENTION_TOKEN,
   });
+  eleventyConfig.addPlugin(EleventyPluginCodeDemo, {
+	  name: 'demo',
+	  renderDocument: ({ html, css, js }) => `
+	  <!DOCTYPE html>
+	  <html>
+	    <head>
+	    	<style>body{font-size:1.25em;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",Oxygen,Cantarell,sans-serif;color:hsl(0 0% 80%);background-color:hsl(0 0% 20%);line-height:1.6}</style>
+	      <style>${css}</style>
+	    </head>
+	    <body>
+	      ${html}
+	      <script>${js}</script>
+	    </body>
+	  </html>`,
+	  iframeAttributes: {
+	    frameborder: '0',
+	    width: '100%',
+	  },
+	});
 
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {

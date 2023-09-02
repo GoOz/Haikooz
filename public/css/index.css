@@ -222,6 +222,21 @@ pre > code {
 	flex: none;
 }
 
+.notabene {
+	margin: 1em;
+	padding: 1em;
+	font-size: .9em;
+	font-style: italic;
+	background-color: var(--grey);
+	border-left: .25em solid var(--border);
+}
+.notabene::before {
+	content: "N. B.";
+	display: block;
+	font-weight: bold;
+	font-style: normal;
+}
+
 .post-item {
 	box-sizing: border-box;
 	position: relative;
