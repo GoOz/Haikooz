@@ -29,14 +29,35 @@ layout: layouts/base.njk
 
 	{{ content | safe }}
 
-	{%- if webmentions.length > 0 %}
 	{# Get the webmention count for the current page #}
 	{%- set currentPostMentionCount = webmentions | webmentionCountForPage -%}
 	{# Get the webmentions for the current page #}
 	{%- set currentPostMentions = webmentions | webmentionsForPage -%}
+	{%- if currentPostMentionCount > 0 %}
 	<hr>
-	{{ currentPostMentionCount }} Réactions
-	{{ currentPostMentions[0] }}
+	<h2>WebMentions</h2>
+	<div class="wm-react">
+		{% if currentPostMentions.reposts.length >= 1 %}
+		<div class="wm-react-repost">
+			<span class="wm-react-label">Partages :</span>
+			<ul class="wm-react-list">
+				{% for mention in currentPostMentions.reposts %}
+				<li><a href="{{ mention.author.url }}" title="{{ mention.author.name }}"><img src="{{ mention.author.photo }}" alt="avatar de {{ mention.author.name }}"></a></li>
+			{% endfor %}
+			</ul>
+		</div>
+		{% endif %}
+		{% if currentPostMentions.likes.length >= 1 %}
+		<div class="wm-react-like">
+			<span class="wm-react-label">Likes :</span>
+			<ul class="wm-react-list">
+				{% for mention in currentPostMentions.likes %}
+				<li><a href="{{ mention.author.url }}" title="{{ mention.author.name }}"><img src="{{ mention.author.photo }}" alt="avatar de {{ mention.author.name }}"></a></li>
+			{% endfor %}
+			</ul>
+		</div>
+		{% endif %}
+	</div>
 	{%- endif %}
 
 	{%- if collections.posts %}

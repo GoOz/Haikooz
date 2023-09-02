@@ -57,7 +57,7 @@ module.exports = function(eleventyConfig) {
   });
   eleventyConfig.addPlugin(Webmentions, {
     domain: "blog.foojin.com",
-    token: process.env.WEBMENTION_TOKEN
+    token: process.env.WEBMENTION_TOKEN,
   });
 
 	// Filters

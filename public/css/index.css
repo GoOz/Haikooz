@@ -250,6 +250,11 @@ pre > code {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	transform: scale(1);
+	transition: transform var(--transition);
+}
+.post-item a:is(:hover, :focus-within) img {
+	transform: scale(1.15);
 }
 .post-item a .post-item-title {
 	--darkgrey-gradient-end: hsl(0 0% 15% / 0);
@@ -263,12 +268,10 @@ pre > code {
 	left: 0;
 	width: 100%;
 	height: auto;
-	min-height: 1%;
 	font-size: .9em;
 	padding: 1em;
 	text-align: left;
 	background: linear-gradient(0deg, var(--darkgrey) 0%, var(--darkgrey-gradient-intermediate) 80%, var(--darkgrey-gradient-end) 100%);
-	transition: min-height var(--transition), padding var(--transition);
 }
 
 .post-item .reading-time {
@@ -522,4 +525,35 @@ header {
 }
 .links-next {
 	text-align: right;
+}
+
+.wm-react {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+.wm-react > div {
+	flex: 1 1 calc(50% - 0.5rem);
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.wm-react-list {
+	list-style: none;
+	padding-inline-start: 1rem;
+	margin: 0;
+}
+.wm-react-list li {
+	position: relative;
+	left: -.25rem;
+}
+.wm-react-list li :is(a, img) {
+	display: block;
+	border-radius: 50%;
+	width: 2rem;
+	height: 2rem;
+}
+.wm-react-list li a {
+	border: 2px solid var(--light);
 }
