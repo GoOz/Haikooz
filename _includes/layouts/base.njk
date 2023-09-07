@@ -17,9 +17,9 @@
 
   	{# Opengraph #}
   	{% if home %}
-  	<meta property="og:site_name" content="HaïkoOz">
+  	<meta property="og:site_name" content="{{ metadata.title }}">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="HaïkoOz">
+    <meta property="og:title" content="{{ metadata.title }}">
     <meta property="og:description" content="{{ metadata.description }}">
     <meta property="og:url" content="https://blog.foojin.com/">
     <meta property="og:image" content="https://blog.foojin.com/img/banner.jpg">
@@ -28,7 +28,7 @@
     <meta property="og:image:height" content="483">
   	{% endif %}
   	{% if featured %}
-  	<meta property="og:site_name" content="HaïkoOz">
+  	<meta property="og:site_name" content="{{ metadata.title }}">
     <meta property="og:type" content="article">
     <meta property="og:title" content="{{ title }}">
     <meta property="og:description" content="{{ page.excerpt }}">
@@ -95,7 +95,7 @@
       </ul>
 		</header>
 
-		<main id="skip" class="reader-bar-start" tabindex="0">
+		<main id="skip" class="reader-bar-start">
 			{{ content | safe }}
 		</main>
 	</body>
