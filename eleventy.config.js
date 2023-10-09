@@ -24,6 +24,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("./content/**/*.svg");
 	eleventyConfig.addPassthroughCopy("./content/**/*.pdf");
 	eleventyConfig.addPassthroughCopy("./content/**/*.gif");
+	eleventyConfig.addPassthroughCopy("./content/**/*.webm");
 
 	// Generate excerpts
 	eleventyConfig.setFrontMatterParsingOptions({
