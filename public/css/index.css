@@ -64,6 +64,10 @@ h6 { font-size: var(--h6-font-size) }
 
 a[href] {
 	color: var(--action-color);
+	text-decoration: none;
+}
+a[href]:is(:hover, :focus-visible) {
+	text-decoration: underline;
 }
 a[href][download] {
 	display: flex;
@@ -544,7 +548,7 @@ header {
 
 .wm-react {
 	display: flex;
-	align-items: center;
+	align-items: start;
 	flex-wrap: wrap;
 	gap: 1rem;
 }
@@ -554,8 +558,12 @@ header {
 	align-items: center;
 	flex-wrap: wrap;
 }
+.wm-react-label {
+	font-weight: bold;
+}
 .wm-react-list {
 	display: flex;
+	flex-wrap: wrap;
 	list-style: none;
 	padding-inline-start: 1.5rem;
 	margin: 0;
@@ -564,12 +572,36 @@ header {
 	display: inline-block;
 	margin-inline-start: -.75rem;
 }
-.wm-react-list li :is(a, img) {
+.wm-react-avatar img {
 	display: block;
 	border-radius: 50%;
 	width: 2rem;
 	height: 2rem;
-}
-.wm-react-list li a {
 	border: 2px solid var(--light);
+}
+.wm-react-avatar {
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+}
+.wm-react-comment {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.wm-react-comment li {
+	position: relative;
+	padding: 1rem;
+}
+.wm-react-comment li:not(:last-child)::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 25%;
+	right: 25%;
+	border-bottom: 1px solid var(--border);
+}
+.wm-react-comment-content {
+	margin-block-start: .5rem;
 }
