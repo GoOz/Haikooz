@@ -555,13 +555,14 @@ header {
 	flex-wrap: wrap;
 }
 .wm-react-list {
+	display: flex;
 	list-style: none;
-	padding-inline-start: 1rem;
+	padding-inline-start: 1.5rem;
 	margin: 0;
 }
 .wm-react-list li {
-	position: relative;
-	left: -.25rem;
+	display: inline-block;
+	margin-inline-start: -.75rem;
 }
 .wm-react-list li :is(a, img) {
 	display: block;
