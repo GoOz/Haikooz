@@ -67,6 +67,11 @@
 				</ul>
 			</nav>
 			<ul class="network">
+				<li>
+					<a class="icon-only" href="/feeds/posts.xml" title="RSS feed" aria-label="RSS feed">
+						{% svg "rss", "network-icon" %}
+					</a>
+				</li>
         <li>
           <a class="icon-only" rel="me" href="https://github.com/GoOz/" aria-label="Github">
             {% svg "github", "network-icon" %}
@@ -77,7 +82,7 @@
             {% svg "mastodon", "network-icon" %}
           </a>
         </li>
-        <li>
+        {# <li>
           <a class="icon-only" href="https://pixelfed.social/@GoOz" aria-label="PixelFed">
             {% svg "pixelfed", "network-icon" %}
           </a>
@@ -91,7 +96,7 @@
           <a class="icon-only" href="https://glass.photo/gooz" aria-label="Glass">
             {% svg "glass", "network-icon" %}
           </a>
-        </li>
+        </li> #}
       </ul>
 		</header>
 
