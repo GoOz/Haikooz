@@ -42,7 +42,7 @@ layout: layouts/base.njk
 			<span class="wm-react-label">Partages :</span>
 			<ul class="wm-react-list">
 				{% for mention in currentPostMentions.reposts %}
-				<li><a class="wm-react-avatar" href="{{ mention.author.url }}" title="{{ mention.author.name }}"><img src="{{ mention.author.photo }}" alt="avatar de {{ mention.author.name }}"></a></li>
+				<li><a class="wm-react-avatar" href="{{ mention.author.url }}" title="{{ mention.author.name }}"><img loading="lazy" src="{{ mention.author.photo }}" alt="avatar de {{ mention.author.name }}"></a></li>
 			{% endfor %}
 			</ul>
 		</div>
@@ -52,7 +52,7 @@ layout: layouts/base.njk
 			<span class="wm-react-label">Likes :</span>
 			<ul class="wm-react-list">
 				{% for mention in currentPostMentions.likes %}
-				<li><a class="wm-react-avatar" href="{{ mention.author.url }}" title="{{ mention.author.name }}"><img src="{{ mention.author.photo }}" alt="avatar de {{ mention.author.name }}"></a></li>
+				<li><a class="wm-react-avatar" href="{{ mention.author.url }}" title="{{ mention.author.name }}"><img loading="lazy" src="{{ mention.author.photo }}" alt="avatar de {{ mention.author.name }}"></a></li>
 			{% endfor %}
 			</ul>
 		</div>
@@ -63,7 +63,7 @@ layout: layouts/base.njk
 			<ul class="wm-react-comment">
 				{% for mention in currentPostMentions.comments %}
 				<li>
-					<a class="wm-react-avatar" href="{{ mention.author.url }}"><img src="{{ mention.author.photo }}" alt="avatar de {{ mention.author.name }}"> {{ mention.author.name }}</a>
+					<a class="wm-react-avatar" href="{{ mention.author.url }}"><img loading="lazy" src="{{ mention.author.photo }}" alt="avatar de {{ mention.author.name }}"> {{ mention.author.name }}</a>
 					<div class="wm-react-comment-content">{{ mention.content.html | safe }}</div>
 				</li>
 			{% endfor %}
