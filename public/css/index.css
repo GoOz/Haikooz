@@ -561,6 +561,10 @@ header {
 	font-family: var(--font-family-monospace);
 	font-size: 0.8em;
 }
+.article p picture > img {
+	width: auto;
+	margin: 0 auto;
+}
 
 .links {
 	display: flex;
