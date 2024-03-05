@@ -3,10 +3,11 @@ title: On nous ment, on nous spolie.
 date: 2016-02-16
 featured: img/featured.jpg
 tags:
-  - humeur
+  - notes
 ---
 
 Hier, [Boris](http://twitter.com/borisschapira) réagissait sur un article du [Monde.fr](http://correcteurs.blog.lemonde.fr/2016/01/30/le-pronom-nous-est-il-entre-en-zone-omineuse/) à propos de la douce mais pernicieuse infection du "**nous**" par le "**on**", sur les impacts sémantiques, de la disparition de la responsabilité.
+
 ---
 
 Qu'on le veuille ou non, "nous" sera remplacé par "on". La langue française est vivante et évolue et se simplifie par le biais de son utilisation au jour le jour par ceux qui la parlent. Et n'allez pas me faire croire que le français est une langue simple. Elle est excessivement compliquée. La conjugaison est un monstre horrible, les règles grammaticales perverses et l'orthographe un punk à chien qui ne respecte que ce qu'il veut bien respecter.
@@ -17,13 +18,13 @@ La simplification est une bonne chose, et je dois dire que je suis souvent pour,
 
 Alors oui, "on" est un pronom indéfini et qu'il a encore cette fonction.
 
-Exemple: "*On a volé mon vélo cette nuit*"
+Exemple: "_On a volé mon vélo cette nuit_"
 
 Clairement, "on" rapporte à l'indéfini, et non pas à "nous".
 
 Mais "on" a naturellement pris le pas sur "nous" et ça ne pose aucun soucis.
 
-Exemple: "*On a raté notre avion à cause des bouchons sur l'autoroute*"
+Exemple: "_On a raté notre avion à cause des bouchons sur l'autoroute_"
 
 Clairement, "on" est défini, c'est nous.
 
@@ -43,4 +44,4 @@ Mais si vous voulez on peut aussi parler de "vous"… Je veux dire, ça fait des
 
 En bref, je suis plutôt pour la lente mais certaine disparition du "nous". Si vous n'êtes pas d'accord, faites-le moi savoir sur [Twitter](http://twitter.com/GoOz) :)
 
-*Cover par [~ Erebos](https://www.flickr.com/photos/erebos_/6169168565/)*
+_Cover par [~ Erebos](https://www.flickr.com/photos/erebos_/6169168565/)\_

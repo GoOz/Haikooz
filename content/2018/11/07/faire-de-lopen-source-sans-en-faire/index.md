@@ -3,10 +3,11 @@ title: 2 ans chez Cozy 🎂
 date: 2018-11-07
 featured: img/featured.jpg
 tags:
-  - humeur
+  - notes
 ---
 
 Ça va faire deux ans ce mois-ci que je suis chez Cozy. Et même si je continue à me faire spammer par des recruteurs de propositions à ne plus savoir quoi en faire, je m'y sens trop bien pour changer.
+
 ---
 
 **2 ans en télétravail, 2 ans à bosser sur un projet auquel je crois, 2 ans à côtoyer des gens brillants et bienveillants. Non vraiment, j'y suis bien.**

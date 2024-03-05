@@ -1,116 +1,176 @@
 ---
 layout: layouts/base.njk
+post: true
 ---
+
 {% if featured %}
 <figure class="feature">
 	{% image featured , "", "(min-width: 50em) 90vw, 100vw" %}
-	{% if featured_author %}
-	<figcaption>Photo de <a href="https://unsplash.com/@{{ featured_url}}">{{featured_author}}</a> sur Unsplash</figcaption>
+	{% if	featured_author %}
+	<figcaption>
+		Photo de <a href="https://unsplash.com/@{{ featured_url }}">{{ featured_author }}</a>	sur Unsplash
+	</figcaption>
 	{% endif %}
 </figure>
 {% endif %}
 
 <article class="article">
-	<h1>{{ title }}</h1>
-
-	<ul class="post-metadata">
-		<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
-		{%- for tag in tags | filterTagList %}
-		{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-		<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}{% endif %}</li>
-		{%- endfor %}
-		<li>
-			<span class="reading-time" aria-label="Temps de lecture">
-			  {% svg "time" %}
-			 	{{ content | timeToRead }}
-			</span>
-		</li>
-	</ul>
-
-	{{ content | safe }}
-
-	{# Get the webmention count for the current page #}
-	{%- set currentPostMentionCount = webmentions | webmentionCountForPage -%}
-	{# Get the webmentions for the current page #}
-	{%- set currentPostMentions = webmentions | webmentionsForPage -%}
-	{%- if currentPostMentionCount > 0 %}
-	<hr>
-	<h2>WebMentions</h2>
-	<div class="wm-react">
-		{% if currentPostMentions.reposts.length >= 1 %}
-		<div class="wm-react-repost">
-			<span class="wm-react-label">Partages :</span>
-			<ul class="wm-react-list">
-				{% for mention in currentPostMentions.reposts %}
-				<li><a class="wm-react-avatar" href="{{ mention.author.url }}" title="{{ mention.author.name }}"><img loading="lazy" src="{{ mention.author.photo }}" alt="avatar de {{ mention.author.name }}"></a></li>
-			{% endfor %}
-			</ul>
+	<div class="article-wrapper">
+		<aside>{{ content | toc | safe }}</aside>
+		<div class="content">
+			<div class="article-content">
+				<h1>{{ title }}</h1>
+				<ul class="post-metadata">
+					<li>
+						<time datetime="{{ page.date | htmlDateString }}">
+							{{ page.date | readableDate }}
+						</time>
+					</li>
+					{%- for tag in tags | filterTagList %}
+					{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+					<li>
+						<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
+						{%- if not loop.last %}{% endif %}
+					</li>
+					{%- endfor %}
+					<li>
+						<span class="reading-time" aria-label="Temps de lecture">
+							{% svg "time" %}
+							{{ content | timeToRead }}
+						</span>
+					</li>
+				</ul>
+				{{ content | safe }}
+			</div>
 		</div>
-		{% endif %}
-		{% if currentPostMentions.likes.length >= 1 %}
-		<div class="wm-react-like">
-			<span class="wm-react-label">Likes :</span>
-			<ul class="wm-react-list">
-				{% for mention in currentPostMentions.likes %}
-				<li><a class="wm-react-avatar" href="{{ mention.author.url }}" title="{{ mention.author.name }}"><img loading="lazy" src="{{ mention.author.photo }}" alt="avatar de {{ mention.author.name }}"></a></li>
-			{% endfor %}
-			</ul>
-		</div>
-		{% endif %}
-		{% if currentPostMentions.comments.length >= 1 %}
-		<div class="wm-react-comments">
-			<span class="wm-react-label">Commentaires :</span>
-			<ul class="wm-react-comment">
-				{% for mention in currentPostMentions.comments %}
-				<li>
-					<a class="wm-react-avatar" href="{{ mention.author.url }}"><img loading="lazy" src="{{ mention.author.photo }}" alt="avatar de {{ mention.author.name }}"> {{ mention.author.name }}</a>
-					<div class="wm-react-comment-content">{{ mention.content.html | safe }}</div>
-				</li>
-			{% endfor %}
-			</ul>
-		</div>
-		{% endif %}
 	</div>
-	{%- endif %}
 
-	{%- if collections.posts %}
-	{%- set previousPost = collections.posts | getPreviousCollectionItem %}
-	{%- set nextPost = collections.posts | getNextCollectionItem %}
-	{%- if nextPost or previousPost %}
-	<hr>
-	<h2>Lire d'autres billets</h2>
-	<ul class="links">
-		{%- if previousPost %}
-		<li class="links-prev post-item">
-			<a href="{{ previousPost.url }}">
-				<span class="reading-time" aria-label="Temps de lecture">
-			    {% svg "time" %}
-				 	{{ previousPost.content | timeToRead }}
-				</span>
-			  {% if previousPost.data.featured %}
-			  {% image "../../../../"+previousPost.url+"/"+previousPost.data.featured , "" %}
-			  {% endif %}
-			  <span class="post-item-title">{% if previousPost.data.title %}{{ previousPost.data.title }}{% else %}<code>{{ previousPost.url }}</code>{% endif %}</span>
-			</a>
-		</li>
-		{% endif %}
-		{%- if nextPost %}
-		<li class="links-next post-item">
-			<a href="{{ nextPost.url }}">
-				<span class="reading-time" aria-label="Temps de lecture">
-			    {% svg "time" %}
-				 	{{ nextPost.content | timeToRead }}
-				</span>
-			  {% if nextPost.data.featured %}
-			  {% image "../../../../"+nextPost.url+"/"+nextPost.data.featured , "" %}
-			  {% endif %}
-			  <span class="post-item-title">{% if nextPost.data.title %}{{ nextPost.data.title }}{% else %}<code>{{ nextPost.url }}</code>{% endif %}</span>
-			</a>
-		</li>
-		{% endif %}
-	</ul>
-	{%- endif %}
-	{%- endif %}
-
+	<div class="article-content">
+		{# Get the webmention count for the current page #}
+		{%- set currentPostMentionCount = webmentions | webmentionCountForPage -%}
+		{# Get the webmentions for the current page #}
+		{%- set currentPostMentions = webmentions | webmentionsForPage -%}
+		{%- if currentPostMentionCount > 0 %}
+		<hr />
+		<h2>WebMentions</h2>
+		<div class="wm-react">
+			{% if currentPostMentions.reposts.length >= 1 %}
+			<div class="wm-react-repost">
+				<span class="wm-react-label">Partages :</span>
+				<ul class="wm-react-list">
+					{% for mention in currentPostMentions.reposts %}
+					<li>
+						<a
+							class="wm-react-avatar"
+							href="{{ mention.author.url }}"
+							title="{{ mention.author.name }}"
+						>
+							<img
+								loading="lazy"
+								src="{{ mention.author.photo }}"
+								alt="avatar de {{ mention.author.name }}"
+							/>
+						</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+			{% endif %}
+			{% if currentPostMentions.likes.length >= 1 %}
+			<div class="wm-react-like">
+				<span class="wm-react-label">Likes :</span>
+				<ul class="wm-react-list">
+					{% for mention in currentPostMentions.likes %}
+					<li>
+						<a
+							class="wm-react-avatar"
+							href="{{ mention.author.url }}"
+							title="{{ mention.author.name }}"
+						>
+							<img
+								loading="lazy"
+								src="{{ mention.author.photo }}"
+								alt="avatar de {{ mention.author.name }}"
+							/>
+						</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+			{% endif %}
+			{% if currentPostMentions.comments.length >= 1 %}
+			<div class="wm-react-comments">
+				<span class="wm-react-label">Commentaires :</span>
+				<ul class="wm-react-comment">
+					{% for mention in currentPostMentions.comments %}
+					<li>
+						<a class="wm-react-avatar" href="{{ mention.author.url }}">
+							<img
+								loading="lazy"
+								src="{{ mention.author.photo }}"
+								alt="avatar de {{ mention.author.name }}"
+							/>
+							{{ mention.author.name }}
+						</a>
+						<div class="wm-react-comment-content">
+							{{ mention.content.html | safe }}
+						</div>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+			{% endif %}
+		</div>
+		{%- endif %}
+		{%- if collections.posts %}
+		{%- set previousPost = collections.posts | getPreviousCollectionItem %}
+		{%- set nextPost = collections.posts | getNextCollectionItem %} {%- if nextPost or previousPost %}
+		<hr />
+		<h2>Lire d'autres billets</h2>
+		<ul class="links">
+			{%- if previousPost %}
+			<li class="links-prev post-item">
+				<a href="{{ previousPost.url }}">
+					<span class="reading-time" aria-label="Temps de lecture">
+						{% svg "time" %}
+						{{ previousPost.content | timeToRead }}
+					</span>
+					{% if previousPost.data.featured %}
+					{% image "../../../../"+previousPost.url+"/"+previousPost.data.featured , "" %}
+					{% endif %}
+					<span class="post-item-title">
+						{% if previousPost.data.title %}
+						{{ previousPost.data.title }}
+						{% else %}
+						<code>{{ previousPost.url }}</code>
+						{% endif %}
+					</span>
+				</a>
+			</li>
+			{% endif %}
+			{%- if nextPost %}
+			<li class="links-next post-item">
+				<a href="{{ nextPost.url }}">
+					<span class="reading-time" aria-label="Temps de lecture">
+						{% svg "time" %}
+						{{ nextPost.content | timeToRead }}
+					</span>
+					{% if nextPost.data.featured %}
+					{% image "../../../../"+nextPost.url+"/"+nextPost.data.featured , "" %}
+					{% endif %}
+					<span class="post-item-title">
+						{% if nextPost.data.title %}
+						{{ nextPost.data.title }}
+						{% else %}
+						<code>{{ nextPost.url }}</code>
+						{% endif %}
+					</span>
+				</a>
+			</li>
+			{% endif %}
+		</ul>
+		{%- endif %}
+		{%- endif %}
+	</div>
 </article>
 {% readerBar "2px", "transparent", "hsl(239 78% 84%)", "0" %}

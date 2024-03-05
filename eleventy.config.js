@@ -2,21 +2,21 @@ require("dotenv").config();
 
 const { DateTime } = require("luxon");
 const markdownItAnchor = require("markdown-it-anchor");
-const eleventyImage = require("@11ty/eleventy-img");
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-const timeToRead = require('eleventy-plugin-time-to-read');
+const timeToRead = require("eleventy-plugin-time-to-read");
 const embedEverything = require("eleventy-plugin-embed-everything");
 const bundlerPlugin = require("@11ty/eleventy-plugin-bundle");
-const readerBar = require('eleventy-plugin-reader-bar')
+const readerBar = require("eleventy-plugin-reader-bar");
 const svgSprite = require("eleventy-plugin-svg-sprite");
 const Webmentions = require("eleventy-plugin-webmentions");
-const { EleventyPluginCodeDemo } = require('eleventy-plugin-code-demo');
+const { EleventyPluginCodeDemo } = require("eleventy-plugin-code-demo");
+const pluginTOC = require("eleventy-plugin-toc");
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
 	// PassThroughCopy
 	eleventyConfig.addPassthroughCopy({
 		"./public/": "/",
@@ -28,8 +28,8 @@ module.exports = function(eleventyConfig) {
 
 	// Generate excerpts
 	eleventyConfig.setFrontMatterParsingOptions({
-    excerpt: true,
-  });
+		excerpt: true,
+	});
 
 	// Watch content images for the image pipeline.
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
@@ -41,7 +41,7 @@ module.exports = function(eleventyConfig) {
 	// Official plugins
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginSyntaxHighlight, {
-		preAttributes: { tabindex: 0 }
+		preAttributes: { tabindex: 0 },
 	});
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
@@ -49,21 +49,22 @@ module.exports = function(eleventyConfig) {
 
 	// Community plugins
 	eleventyConfig.addPlugin(timeToRead, {
-		language: 'fr',
-		style: 'short'
+		language: "fr",
+		style: "short",
 	});
 	eleventyConfig.addPlugin(embedEverything);
-	eleventyConfig.addPlugin(readerBar)
+	eleventyConfig.addPlugin(readerBar);
 	eleventyConfig.addPlugin(svgSprite, {
-    path: "./public/img/svg-sprite",
-  });
-  eleventyConfig.addPlugin(Webmentions, {
-    domain: "blog.foojin.com",
-    token: process.env.WEBMENTION_TOKEN,
-  });
-  eleventyConfig.addPlugin(EleventyPluginCodeDemo, {
-	  name: 'demo',
-	  renderDocument: ({ html, css, js }) => `
+		path: "./public/img/svg-sprite",
+	});
+	eleventyConfig.addPlugin(Webmentions, {
+		domain: "blog.foojin.com",
+		token: process.env.WEBMENTION_TOKEN,
+	});
+	eleventyConfig.addPlugin(pluginTOC);
+	eleventyConfig.addPlugin(EleventyPluginCodeDemo, {
+		name: "demo",
+		renderDocument: ({ html, css, js }) => `
 	  <!DOCTYPE html>
 	  <html>
 	    <head>
@@ -75,27 +76,29 @@ module.exports = function(eleventyConfig) {
 	      <script>${js}</script>
 	    </body>
 	  </html>`,
-	  iframeAttributes: {
-	    frameborder: '0',
-	    width: '100%',
-	  },
+		iframeAttributes: {
+			frameborder: "0",
+			width: "100%",
+		},
 	});
 
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
-		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).setLocale('fr-FR').toFormat(format || "dd LLLL yyyy");
+		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" })
+			.setLocale("fr-FR")
+			.toFormat(format || "dd LLLL yyyy");
 	});
 
-	eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-		return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
+	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
 	});
 
 	// Get the first `n` elements of a collection.
 	eleventyConfig.addFilter("head", (array, n) => {
-		if(!Array.isArray(array) || array.length === 0) {
+		if (!Array.isArray(array) || array.length === 0) {
 			return [];
 		}
-		if( n < 0 ) {
+		if (n < 0) {
 			return array.slice(n);
 		}
 
@@ -108,20 +111,22 @@ module.exports = function(eleventyConfig) {
 	});
 
 	// Return all the tags used in a collection
-	eleventyConfig.addFilter("getAllTags", collection => {
+	eleventyConfig.addFilter("getAllTags", (collection) => {
 		let tagSet = new Set();
-		for(let item of collection) {
-			(item.data.tags || []).forEach(tag => tagSet.add(tag));
+		for (let item of collection) {
+			(item.data.tags || []).forEach((tag) => tagSet.add(tag));
 		}
 		return Array.from(tagSet);
 	});
 
 	eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
-		return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
+		return (tags || []).filter(
+			(tag) => ["all", "nav", "post", "posts"].indexOf(tag) === -1
+		);
 	});
 
 	// Customize Markdown library settings:
-	eleventyConfig.amendLibrary("md", mdLib => {
+	eleventyConfig.amendLibrary("md", (mdLib) => {
 		mdLib.use(markdownItAnchor, {
 			permalink: markdownItAnchor.permalink.ariaHidden({
 				placement: "after",
@@ -129,18 +134,14 @@ module.exports = function(eleventyConfig) {
 				symbol: "#",
 				ariaHidden: false,
 			}),
-			level: [1,2,3,4],
-			slugify: eleventyConfig.getFilter("slugify")
+			level: [1, 2, 3, 4],
+			slugify: eleventyConfig.getFilter("slugify"),
 		});
 	});
 
 	return {
 		// Control which files Eleventy will process
-		templateFormats: [
-			"md",
-			"njk",
-			"html",
-		],
+		templateFormats: ["md", "njk", "html"],
 
 		// Pre-process *.md files with: (default: `liquid`)
 		markdownTemplateEngine: "njk",
@@ -150,10 +151,10 @@ module.exports = function(eleventyConfig) {
 
 		// These are all optional:
 		dir: {
-			input: "content",         // default: "."
-			includes: "../_includes",  // default: "_includes"
-			data: "../_data",          // default: "_data"
-			output: "_site"
+			input: "content", // default: "."
+			includes: "../_includes", // default: "_includes"
+			data: "../_data", // default: "_data"
+			output: "_site",
 		},
 
 		// -----------------------------------------------------------------

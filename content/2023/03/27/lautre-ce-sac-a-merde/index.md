@@ -5,10 +5,11 @@ featured: img/featured.jpg
 featured_author: Carolina Heza
 featured_url: carolinahdzz
 tags:
-	- humeur
+	- notes
 ---
 
 L’enfer c’est les autres comme disait l’autre. C’est toujours l’autre. Jamais soi, jamais nos proches. C’est toujours de la faute des autres. Mais qui sommes-nous sinon les autres des autres. Sommes-nous alors leur enfer ?
+
 ---
 
 ## Les autres sont des cons.
@@ -38,7 +39,7 @@ Et vous auriez raison ma foi.
 
 Je le sais, vous le savez, nous le sachons, la vie c’est pas un film d’expressionnisme allemand, tout n’est pas que noir ou blanc. Y a des nuances de gris, au moins cinquante il paraît mais je dirais plus tout de même.
 
-Ça voudrait dire qu’il est fort probable que votre proche, même si ce qu’il ou elle vous a raconté est 100% véridique, n'aurait exprimé que son propre ressenti, en d’autres termes vous n’auriez qu’un seul son de cloche. 
+Ça voudrait dire qu’il est fort probable que votre proche, même si ce qu’il ou elle vous a raconté est 100% véridique, n'aurait exprimé que son propre ressenti, en d’autres termes vous n’auriez qu’un seul son de cloche.
 Il est donc tout aussi probable que ce tiers, supposément une raclure de chiotte à la turque, soit en train de raconter la même histoire de son propre point de vue à ses propres proches; histoire dans laquelle votre proche serait à son tour le fils d’unijambiste de la mésaventure.
 Tout dépend d’où on se place finalement.
 
@@ -54,4 +55,4 @@ C’est tellement compliqué d’être un animal social.
 
 Finalement, c’est vrai, l’enfer c’est les autres… ces gros enfoirés.
 
-*Ce billet vous a été présenté par les pensées de douche.*
+_Ce billet vous a été présenté par les pensées de douche._

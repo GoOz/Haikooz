@@ -6,10 +6,9 @@ featured_author: Shaira Dela Peña
 featured_url: shairad
 tags:
   - jdr
-  - cyberpunk-red
 ---
 
-*DISCLAIMER : Ceci est un compte-rendu d'une partie de jeu de rôle sur Cyberpunk RED du point de vue de mon personnage, Borys "Zed" Zedinski, un techie, sur la campagne Eurotour. Tout ceci n'est donc que fiction. Toute ressemblance bla bla bla…*
+_DISCLAIMER : Ceci est un compte-rendu d'une partie de jeu de rôle sur Cyberpunk RED du point de vue de mon personnage, Borys "Zed" Zedinski, un techie, sur la campagne Eurotour. Tout ceci n'est donc que fiction. Toute ressemblance bla bla bla…_
 
 ---
 
@@ -44,11 +43,11 @@ Pendant que Ousma se faisait ausculter et que Vinz allait à l'hôpital en urgen
 ## Entrée du 5 juin 2045
 
 Ranni et moi on a passé la matinée à jouer à un nouveau jeu : le cat fishing 💖  
-On s'est fait passer pour une collègue de travail de Sofia qui venait d'Ukraine auprès de Cédric et on a flirté comme pas possible, on lui a fait tellement de rentre dedans qu'il a pas pu dire non quand on lui a proposé un rendez-vous dans l'après midi dans un motel. 
+On s'est fait passer pour une collègue de travail de Sofia qui venait d'Ukraine auprès de Cédric et on a flirté comme pas possible, on lui a fait tellement de rentre dedans qu'il a pas pu dire non quand on lui a proposé un rendez-vous dans l'après midi dans un motel.
 
 Pour une fois on était préparé comme des pros… que l'on est censé être. J'avais réservé la chambre du motel en mon nom mais une fois arrivé Ranni a ensuite piraté le système pour supprimer le nom renseigné, puis elle fait en sorte qu'on ne soit pas enregistré sur les caméras de surveillance et enfin une fois dans la chambre Vinz et moi on est resté dans la salle de bain à attendre Cédric, Ousma à l'extérieur, pour empêcher toute fuite, prêt à rentrer quand il aurait le feu vert et Ranni qui faisait la bimbo sur le lit dans le noir.
 
-Et il est arrivé. Un jeune branleur de corpo tout peureux, j'en étais presque déçu. Il a bavé tout ce qu'il avait à dire sans qu'on ait eu besoin de le menacer de quoique ce soit. À ce moment là j'étais vraiment déçu. Par contre, on avait touché le gros lot ! Ce paumard était en fait celui qui avait engagé Béatrice pour approcher Jack. Le but était de le kidnapper pour le ramener à ses boss afin de se faire bien voir et monter dans la hiérarchie. Jack est vraiment pas très apprécié au sein de beaucoup de corpo, ce qui tient la route du coup. 
+Et il est arrivé. Un jeune branleur de corpo tout peureux, j'en étais presque déçu. Il a bavé tout ce qu'il avait à dire sans qu'on ait eu besoin de le menacer de quoique ce soit. À ce moment là j'étais vraiment déçu. Par contre, on avait touché le gros lot ! Ce paumard était en fait celui qui avait engagé Béatrice pour approcher Jack. Le but était de le kidnapper pour le ramener à ses boss afin de se faire bien voir et monter dans la hiérarchie. Jack est vraiment pas très apprécié au sein de beaucoup de corpo, ce qui tient la route du coup.
 
 Le seul hic c'est que personne devait mourir. Et il sait pas ce qu'il s'est passé mais Béatrice a répondu à aucun de ses messages depuis. Plus on remue la merde autour plus ça pue cette histoire. Puis il se chiait tellement dessus le gamin qu'il nous a filé direct le numéro de tel et l'adresse où créchait Béatrice.
 

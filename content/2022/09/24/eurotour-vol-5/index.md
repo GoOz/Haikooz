@@ -6,10 +6,9 @@ featured_author: Tony Reid
 featured_url: togna_bologna
 tags:
   - jdr
-  - cyberpunk-red
 ---
 
-*DISCLAIMER : Ceci est un compte-rendu d'une partie de jeu de rôle sur Cyberpunk RED du point de vue de mon personnage, Borys "Zed" Zedinski, un techie, sur la campagne Eurotour. Tout ceci n'est donc que fiction. Toute ressemblance bla bla bla…*
+_DISCLAIMER : Ceci est un compte-rendu d'une partie de jeu de rôle sur Cyberpunk RED du point de vue de mon personnage, Borys "Zed" Zedinski, un techie, sur la campagne Eurotour. Tout ceci n'est donc que fiction. Toute ressemblance bla bla bla…_
 
 ---
 
@@ -25,13 +24,13 @@ Connard a compris le message je crois. Mais, PUTAIN, j'ai jamais eu autant la ra
 Comment claquer 200 eddies pour rien pour les nuls…  
 Mais Connard nous avait pas menti alors je l'ai laissé partir avec sa prise.
 
-J'étais rageux mais j'avais l'info alors on a décollé mais c'était sans compter qu'une meuf, manifestement pétée de tune, nous interpelle. Elle était accompagnée de ses deux frères, Tweedledum et Tweedledee (c'était sûrement pas ça leur vrais noms, mais je m'en fous) et elle a dit s'appeller Leona Walder. Elle nous a parlé comme si on était ses grouillots et que si on allait voir Jacques, fallait qu'on lui transmette un message de sa part. 
+J'étais rageux mais j'avais l'info alors on a décollé mais c'était sans compter qu'une meuf, manifestement pétée de tune, nous interpelle. Elle était accompagnée de ses deux frères, Tweedledum et Tweedledee (c'était sûrement pas ça leur vrais noms, mais je m'en fous) et elle a dit s'appeller Leona Walder. Elle nous a parlé comme si on était ses grouillots et que si on allait voir Jacques, fallait qu'on lui transmette un message de sa part.
 
-Alors je lui ai dit "OK, pour 200 eddies". 😆 
+Alors je lui ai dit "OK, pour 200 eddies". 😆
 
 Elle a pas ri. Elle a pas aimé en fait. Et elle nous a encore plus mal parlé. J'ai pas aimé non plus en retour alors je lui ai dit de bien aller se faire foutre. Je crois qu'elle a pas trop apprécié, c'est pour ça qu'elle a dit à Tweedledum et Tweedledee de nous casser la gueule pendant qu'elle-même allait casser la gueule de Ranni.
 
-Les deux guignols étaient pas bien costauds mais putain ce qu'ils étaient rapide, j'ai pris plusieurs pains dans le gueule et j'en ai pas mis autant. Mais moi quand ça touchait ça faisait mal, hinhin. Ousma est clairement un meilleur bastonneur que moi du coup il a couché le sien en un clin d'œil ou presque… et il a dû m'aider en tenant le mien pour être sûr que je le rate pas. Ce que j'ai fait dans un premier temps mais je suis rattrapé et je l'ai couché aussi. 
+Les deux guignols étaient pas bien costauds mais putain ce qu'ils étaient rapide, j'ai pris plusieurs pains dans le gueule et j'en ai pas mis autant. Mais moi quand ça touchait ça faisait mal, hinhin. Ousma est clairement un meilleur bastonneur que moi du coup il a couché le sien en un clin d'œil ou presque… et il a dû m'aider en tenant le mien pour être sûr que je le rate pas. Ce que j'ai fait dans un premier temps mais je suis rattrapé et je l'ai couché aussi.
 
 Pendant ce temps Ranni a fusionné avec les fougères de la salle pour semer Leona. C'est marrant de se dire qu'elle a réussi à être discrète alors que c'est un peu une grande gueule pour une gamine de 16 ans.  
 Enfin du coup après notre victoire on s'est barré au musée.

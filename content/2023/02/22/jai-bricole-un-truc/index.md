@@ -5,12 +5,13 @@ featured: img/featured.jpg
 featured_author: Sneaky Elbow
 featured_url: sneakyelbow
 tags:
-  - humeur
+  - notes
   - jdr
   - code
 ---
 
 Je bosse vraiment dans le développement web depuis 2007 et j'ai jamais vraiment fait un projet open-source de A à Z qui serve à quelqu'un d'autre que moi depuis tout ce temps. Mais je crois que ce temps est révolu.
+
 ---
 
 Voyez, je suis à mes heures perdues grand amateur de jeu de rôle sur table et à la fois un peu fan de technologie. Tout ça pour dire que, souvent, plus le jeu a des règles complexes plus la sempiternelle feuille de personnage sous forme papier devient vite chiante à maintenir à jour. Pas impossible mais chiante.
@@ -55,7 +56,7 @@ Comme dit plus haut, j'avais l'intention de base de faire un repo open-source de
 
 Forcément si on parle de front uniquement ce serait du HTML/CSS/JS. Mais est-ce que j'utilise un système de templating pour HTML du genre Handlebars ? Est-ce que j'utilise un pré ou post-procésseur CSS comme Sass ? Est-ce que j'utilise un Framework JS pour monter tout ça comme ReactJS ?
 
-Les réponses à ces questions étaient : Non. À chacune d'entre elles. 
+Les réponses à ces questions étaient : Non. À chacune d'entre elles.
 Je suis parti en mode Vanilla de bout en bout.
 Enfin presque. Mais on verra plus tard. En tout cas ça allait être une app complètement statique.
 
@@ -63,7 +64,7 @@ Enfin presque. Mais on verra plus tard. En tout cas ça allait être une app com
 
 Ce que je voulais à minima c'était que les champs qui sont des duplicatas d'autres champs soient gérés automatiquement et que les champs qui sont le résultat d'addition de plusieurs autres champs soient remplis aussi automatiquement.
 
-Puis les potes du club de JdR m'ont dit que ce serait cool de pouvoir mettre en exergue une compétence de carrière parce que, dans ce jeu, ce sont les compétences qu'on doit améliorer si l'ont veut passer au niveau de carrière suivant. Normalement sur une feuille on met une croix ou on entoure cette dernière mais il me fallait un moyen de faire ça sur l'app. 
+Puis les potes du club de JdR m'ont dit que ce serait cool de pouvoir mettre en exergue une compétence de carrière parce que, dans ce jeu, ce sont les compétences qu'on doit améliorer si l'ont veut passer au niveau de carrière suivant. Normalement sur une feuille on met une croix ou on entoure cette dernière mais il me fallait un moyen de faire ça sur l'app.
 Puis ils m'ont dit aussi que ce serait cool si l'app calculait automatiquement le poids des affaires que le personnage possède sur lui puisque, dans WFRP toujours, le personnage ne peut porter un poids d'objet limité.
 
 Ça faisait déjà deux nouvelles fonctionnalités.
@@ -84,7 +85,7 @@ Voilà j'avais ma liste de fonctionnalités de départ.
 
 En 2-3 semaines j'ai beaucoup tatonné mais j'arrivais globalement à mes fins. Toutes mes fins? Non…
 
-Il s'avère que mon formulaire a beaucoup de données, beaucoup trop pour tout passer en queryStrings pour faire du partage via URL parce que tous les browsers ont une limite de longueur d'URL et ils sont loin d'être égaux. Certains sont à 60 000 caractères, d'autre à 2 000… De base mon URL, à vide, serait dans les 4 000 et même si je bidouillais pour optimiser la longueur des queries ça ne serait jamais assez bon. 
+Il s'avère que mon formulaire a beaucoup de données, beaucoup trop pour tout passer en queryStrings pour faire du partage via URL parce que tous les browsers ont une limite de longueur d'URL et ils sont loin d'être égaux. Certains sont à 60 000 caractères, d'autre à 2 000… De base mon URL, à vide, serait dans les 4 000 et même si je bidouillais pour optimiser la longueur des queries ça ne serait jamais assez bon.
 
 J'ai donc dû abandonné cette fonctionnalité. En tout cas telle quelle. Peut être que j'y reviendrai mais différemment plus tard.
 
@@ -98,11 +99,12 @@ J'ai globalement construit ça au mieux, aussi bien que je savais le faire.
 
 Et je suis vraiment satisfait du résultat. Rien que de voir les données de performance ça me laisse en joie.
 {% image "./img/wfrp-perf.png", "" %}
+
 - moins de 10 requêtes HTTP
 - ~140 Ko tout compris
 - ~37Ko une fois Gzippé
 
-Alors je dis pas que l'app est parfaite, faut encore la tester à plus grande échelle que juste moi, il y a sûrement des axes d'améliorations et j'ai déjà des nouvelles fonctionnalités dans les tuyaux. 
+Alors je dis pas que l'app est parfaite, faut encore la tester à plus grande échelle que juste moi, il y a sûrement des axes d'améliorations et j'ai déjà des nouvelles fonctionnalités dans les tuyaux.
 Mais c'est là, ça marche et c'est disponible pour qui souhaite l'utiliser.
 
 Le repo est sur [Github](https://github.com/GoOz/wfrp-sheet) et l'app disponible sur [Github Pages](https://gooz.github.io/wfrp-sheet/#en) !

@@ -6,10 +6,9 @@ featured_author: Valentin Beauvais
 featured_url: valentinbvs
 tags:
   - jdr
-  - cyberpunk-red
 ---
 
-*DISCLAIMER : Ceci est un compte-rendu d'une partie de jeu de rôle sur Cyberpunk RED du point de vue de mon personnage, Borys "Zed" Zedinski, un techie, sur la campagne Eurotour. Tout ceci n'est donc que fiction. Toute ressemblance bla bla bla…*
+_DISCLAIMER : Ceci est un compte-rendu d'une partie de jeu de rôle sur Cyberpunk RED du point de vue de mon personnage, Borys "Zed" Zedinski, un techie, sur la campagne Eurotour. Tout ceci n'est donc que fiction. Toute ressemblance bla bla bla…_
 
 ---
 
@@ -54,12 +53,12 @@ J'espère que ces brits ont de l'alcool de qualité.
 
 Putain mais quelle soirée ! Ah ça a fait du bien, ça faisait longtemps que j'avais pas passé une si bonne soirée pour souffler.
 
-On est allé dans un de ces pubs, je sais plus le nom, et on s'est mis à boire et se marrer avec Vinz. 
+On est allé dans un de ces pubs, je sais plus le nom, et on s'est mis à boire et se marrer avec Vinz.
 On faisait un peu tâche par contre. Non pas que les brits avaient une meilleure descente, juste ils y connaissent rien en classe vestimentaire apparemment, on était parmi les plus stylés. Y avait bien un autre groupe plus loin fringué un peu à la Night City aussi, il devait pas être du coin non plus.
 
 Enfin même s'ils ont pas de style ces brits savent vivre il faut l'avouer.
 
-La soirée se passe et une bagarre éclate entre deux mecs au niveau du bar pas très loin de nous. Je commence à prendre les paris avec Vinz et le duo de boxeurs s'invite à notre table avec fracas. J'ai à peine eu le temps de sauver ma bouteille. 
+La soirée se passe et une bagarre éclate entre deux mecs au niveau du bar pas très loin de nous. Je commence à prendre les paris avec Vinz et le duo de boxeurs s'invite à notre table avec fracas. J'ai à peine eu le temps de sauver ma bouteille.
 
 Vinz, lui, a préféré sauver sa bouteille pour la fracasser sur la tête du mec qui s'était étalé sur la table. Je comprends pas toujours pourquoi il fait ce qu'il fait… mais toujours est-il qu'un des potes costauds du gars en question a vu ça et s'est ramené pour remettre les idées de Vinz en place. Hahaha il m'aurait demandé je lui aurait dit que c'était vain mais bon. Je l'ai laissé faire. En sirotant mon scotch. Le sourire aux lèvres.
 
@@ -67,9 +66,9 @@ J'ai dû m'interposer à un moment parce que Vinz avait toujours la technique ma
 
 C'est après ça qu'un des mecs de l'autre groupe sappé à la NC est venu nous voir. Il marchait le dos droit et il était propre comme un sou neuf, pas un pli sur ses fringues, rien. Sûrement un ex-militaire.
 Il s'approche donc et nous dit direct qu'il aime notre style (je sais pas s'il parlait de nos fringues ou de la baston mais dans un cas comme dans l'autre ça aurait été vrai héhé) et nous demande d'où on vient. Il a l'air enchanté de savoir qu'on vient de NC et là il nous propose un job.
-Bon je suis pas enchanté par l'idée de prime abord, je suis en vacances bordel. 
+Bon je suis pas enchanté par l'idée de prime abord, je suis en vacances bordel.
 
-Mais le gars, qui s'est présenté sous le nom de Ace, nous propose de bosser sur la tournée européenne de Jack *fucking* Entropy, bordel de merde, cette star de rock de légende sur le retour. Un boulot tranquille de techie pour bibi tout en visitant l'Angleterre, la Belgique, la France, l'Italie, Suède et la République Tchèque en étant payé ET nourri, logé, blanchi. Le rêve ! Bien plus tranquille que tous ces jobs qu'on a fait dernièrement. Au moins là je risquerai pas ma vie et rien que pour ça ça vaut le coup. Entre temps on a rejoint sa table et il nous a présenté son acolyte : un solo du nom d'Ousma, un gars qui a l'air d'avoir de la bouteille dans le métier.
+Mais le gars, qui s'est présenté sous le nom de Ace, nous propose de bosser sur la tournée européenne de Jack _fucking_ Entropy, bordel de merde, cette star de rock de légende sur le retour. Un boulot tranquille de techie pour bibi tout en visitant l'Angleterre, la Belgique, la France, l'Italie, Suède et la République Tchèque en étant payé ET nourri, logé, blanchi. Le rêve ! Bien plus tranquille que tous ces jobs qu'on a fait dernièrement. Au moins là je risquerai pas ma vie et rien que pour ça ça vaut le coup. Entre temps on a rejoint sa table et il nous a présenté son acolyte : un solo du nom d'Ousma, un gars qui a l'air d'avoir de la bouteille dans le métier.
 
 Bon on a pas dit oui tout de suite, on voulait en parler à Philip d'abord mais on a pris ses coordonnées et on lui a dit qu'on le tiendrait au courant.
 

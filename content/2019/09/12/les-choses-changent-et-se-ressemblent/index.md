@@ -5,12 +5,13 @@ featured: img/featured.jpg
 featured_author: Erol Ahmed
 featured_url: erol
 tags:
-  - humeur
+  - notes
 ---
 
 ## Il était une fois…
 
 Quand je suis entré dans le métier, il y a plus de 10 ans, il y avait les dev backend qui s'occupaient de tout ce qui se passait sur le serveur, PHP et MySQL par exemple et les intégrateurs, comme moi, de tout ce qui se passait côté navigateur c'est à dire HTML et CSS principalement. Le JS servait alors peu mais quand les jQuery et autres Mootools ont explosé on s'y est mis aussi.
+
 ---
 
 Et puis le JS a évolué, beaucoup évolué pour prendre la place qu'il prend aujourd'hui.
@@ -23,7 +24,7 @@ On est allé tellement loin qu'on a remplacé la majorité de ce que faisait les
 
 Définir ce qui fait quoi et qui est quoi devient alors bien compliqué quand on se rend compte qu'on utilise désormais une technologie frontend pour faire un job originellement backend. Qu'est-ce qui détermine ce qui est frontend ou ce qui est backend ? Le langage utilisé ? Le métier ? Je ne suis pas sûr de pouvoir répondre à cette question.
 
-Mais quelle est donc la place de l'intégrateur dans ce nouveau paradigme ?  À l'époque je faisais bien un peu de PHP mais c'était principalement pour le templating, pour créer le DOM des pages mais je ne touchais rien au code métier, aux accès et traitement de la base de données, etc.
+Mais quelle est donc la place de l'intégrateur dans ce nouveau paradigme ? À l'époque je faisais bien un peu de PHP mais c'était principalement pour le templating, pour créer le DOM des pages mais je ne touchais rien au code métier, aux accès et traitement de la base de données, etc.
 
 Pour moi c'est ça le frontend, créer et maintenir le DOM, sa mise en page et avec un peu d'interactivité, c'est tout.
 

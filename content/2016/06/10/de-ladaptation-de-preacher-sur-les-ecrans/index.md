@@ -3,17 +3,18 @@ title: De l'adaptation de Preacher sur les écrans
 date: 2016-06-10
 featured: img/featured.jpg
 tags:
-  - humeur
+  - notes
 ---
 
 Je ne suis pas un critique émérite de séries télé ou même de comics mais hé, je me suis dit que ça couterait rien de donner mon avis sur cette fraîche nouvelle série qu'est **Preacher** et de quelques autres adaptation de comics.
+
 ---
 
 **GARANTI 100% SANS SPOIL**
 
 ## On dit que je ressemble à Alain Deloin
 
-Comme je disais, je lis les comics de *Preacher* et je les adore. Du bon *[Vertigo](https://fr.wikipedia.org/wiki/Vertigo_%28DC_Comics%29)* comme on fait plus, vraiment.
+Comme je disais, je lis les comics de _Preacher_ et je les adore. Du bon _[Vertigo](https://fr.wikipedia.org/wiki/Vertigo_%28DC*Comics%29)* comme on fait plus, vraiment.
 
 Alors quand j'ai appris son adaptation télévisuelle j'ai tout de suite été intrigué. Je suivais son actu et j'avais lu que les créateurs annonçaient d'emblée que la série ne suivrait pas les comics.
 
@@ -43,7 +44,7 @@ Il garde son accent irlandais, son franc parler et ses faiblesses et forces de v
 
 {% image "./img/Cass-compare.jpg", "Comparaison Cass" %}
 
-**Arseface** ou *Eugène Root*, joué par **Ian Colletti** est sûrement, à mon goût, le plus fidèle aux comics, physiquement et psychologiquement.
+**Arseface** ou _Eugène Root_, joué par **Ian Colletti** est sûrement, à mon goût, le plus fidèle aux comics, physiquement et psychologiquement.
 
 {% image "./img/Arseface-compare.jpg", "Comparaison Arseface" %}
 
@@ -70,9 +71,9 @@ Prenons les adaptations de comics en série par exemple.
 
 Les zombies n'étant vraiment qu'un contexte dans les comics, c'est le comportement humain qui est au centre de tout et je trouve que, même si c'est toujours bien présent dans la série, on la perd beaucoup. Et c'est dommage.
 
-**Constantine** (**Hellblazer** en comics en fait, puisque Constantine n'est que le nom du héros) a eu le droit a plusieurs adaptations. Notamment une [série](https://fr.wikipedia.org/wiki/Constantine_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)) en 2014 qui n'a eu le droit qu'à une saison de 13 épisodes et un [film](https://fr.wikipedia.org/wiki/Constantine_(film)) avec **Keanu Reeves** en 2005.
+**Constantine** (**Hellblazer** en comics en fait, puisque Constantine n'est que le nom du héros) a eu le droit a plusieurs adaptations. Notamment une [série](<https://fr.wikipedia.org/wiki/Constantine_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)>) en 2014 qui n'a eu le droit qu'à une saison de 13 épisodes et un [film](<https://fr.wikipedia.org/wiki/Constantine_(film)>) avec **Keanu Reeves** en 2005.
 
-Concernant le film, je dirai que c'est une mauvaise adaptation mais une adaptation bonne. C'est à dire que je trouve le film plutôt sympa à voir mais qui n'a pas franchement pas grand chose à voir avec Hellblazer.   Différente ambiance, psychologie et physique des personnages très loin de l'original. Ça n'a de Constantine que le nom.
+Concernant le film, je dirai que c'est une mauvaise adaptation mais une adaptation bonne. C'est à dire que je trouve le film plutôt sympa à voir mais qui n'a pas franchement pas grand chose à voir avec Hellblazer. Différente ambiance, psychologie et physique des personnages très loin de l'original. Ça n'a de Constantine que le nom.
 
 La série, elle, est beaucoup plus proche, sur plusieurs point, c'est une bien meilleure adaptation mais qui avait peut être un scénario un peu juste en rebondissement et en intensité. C'est sûrement une des raisons de son arrêt d'ailleurs. Et c'est bien dommage.
 

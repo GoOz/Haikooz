@@ -6,17 +6,18 @@ featured_author: Roman Mager
 featured_url: roman_lazygeek
 tags:
   - code
-  - humeur
+  - notes
 ---
 
 Vous savez quand on a un métier dont le savoir est en perpétuelle évolution, et c'est le cas du mien l'intégration web / le développement front-end, on a, pour peu que notre propre n'égo ne se sente pas pousser des ailes, l'immuable sensation d'être une sous-merde.
+
 ---
 
 Nous sommes, nous autres intégrateurs, sous le joug au mieux d'une humilité sans faille, au pire d'un sentiment d'imposture. Marie "[kReEsTaL](https://twitter.com/kreestal)" Guilllaumet, dans son billet "[L'intégration web, cette leçon d'humilité](http://www.lesintegristes.net/2013/03/19/integration-web-humilite/)", le résume à la perfection.
 
 J'ai toujours su les sujets que je connaissais et su des sujets que j'ignorais (mais que je pouvais savoir en poussant l'étude). Cependant j'ignorais ce que j'ignorais. Rien de bien alarmant en soi, c'est on ne peut plus logique. Non, ce qui me faisait peur, c'était l'ampleur même de cette ignorance.
 
-Cette ignorance, parlons-en. Je me suis laissé bouffer bien longtemps par ça. J'ai longtemps été dans des petites équipes front qui avaient peu ou prou le même niveau que moi mais pour faire ma veille je suivais des *kadors*, des *ninjas* ou encore des *gourous*. Le genre de personne qui vont font baver et qui surtout vous font ressentir ce sentiment d'infériorité.
+Cette ignorance, parlons-en. Je me suis laissé bouffer bien longtemps par ça. J'ai longtemps été dans des petites équipes front qui avaient peu ou prou le même niveau que moi mais pour faire ma veille je suivais des _kadors_, des _ninjas_ ou encore des _gourous_. Le genre de personne qui vont font baver et qui surtout vous font ressentir ce sentiment d'infériorité.
 
 Et puis le temps passe, mon savoir s'enrichit, mon niveau augmente naturellement, sans que je ne cherche à atteindre quoique ce soit. Et avant même que je n'ai le temps de faire un bilan personnel, on me propose de donner des formations web. L'expérience me semblait intéressante alors j'ai sauté dans le bateau et me voilà **formateur**.
 

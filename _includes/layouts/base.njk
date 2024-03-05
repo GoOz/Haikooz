@@ -1,107 +1,167 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{ metadata.language }}">
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>{{ title or metadata.title }}</title>
-		<meta name="description" content="{{ description or metadata.description }}">
-		<link rel="webmention" href="https://webmention.io/blog.foojin.com/webmention" />
-		<link rel="alternate" href="/feeds/posts.xml" type="application/atom+xml" title="{{ metadata.title }}">
-		<meta name="generator" content="{{ eleventy.generator }}">
+		<meta
+			name="description"
+			content="{{ description or metadata.description }}"
+		/>
+		<link
+			rel="webmention"
+			href="https://webmention.io/blog.foojin.com/webmention"
+		/>
+		<link
+			rel="alternate"
+			href="/feeds/posts.xml"
+			type="application/atom+xml"
+			title="{{ metadata.title }}"
+		/>
+		<meta name="generator" content="{{ eleventy.generator }}" />
 		{%- css %}{% include "public/css/index.css" %}{% endcss %}
 		{%- css %}{% include "node_modules/prism-themes/themes/prism-atom-dark.min.css" %}{% endcss %}
 		{%- css %}{% include "public/css/prism-diff.css" %}{% endcss %}
 		<link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 
-  	{# Opengraph #}
-  	{% if home %}
-  	<meta property="og:site_name" content="{{ metadata.title }}">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ metadata.title }}">
-    <meta property="og:description" content="{{ metadata.description }}">
-    <meta property="og:url" content="https://blog.foojin.com/">
-    <meta property="og:image" content="https://blog.foojin.com/img/banner.jpg">
-    <meta property="og:locale" content="fr_FR">
-    <meta property="og:image:width" content="1000">
-    <meta property="og:image:height" content="483">
-  	{% endif %}
-  	{% if featured %}
-  	<meta property="og:site_name" content="{{ metadata.title }}">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="{{ title }}">
-    <meta property="og:description" content="{{ page.excerpt }}">
-    <meta property="og:url" content="{{ metadata.url }}{{ page.url | htmlBaseUrl}}">
-    {% ogFeatured "content/"+page.url+featured %}
-    <meta property="og:locale" content="fr_FR">
-    <meta property="article:published_time" content="{{ date | htmlDateString}}">
-    {%- for tag in tags | filterTagList %}
-		<meta property="article:tag" content="{{ tag }}">
+		{# Opengraph #}
+		{% if home %}
+		<meta property="og:site_name" content="{{ metadata.title }}" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="{{ metadata.title }}" />
+		<meta property="og:description" content="{{ metadata.description }}" />
+		<meta property="og:url" content="https://blog.foojin.com/" />
+		<meta
+			property="og:image"
+			content="https://blog.foojin.com/img/banner.jpg"
+		/>
+		<meta property="og:locale" content="fr_FR" />
+		<meta property="og:image:width" content="1000" />
+		<meta property="og:image:height" content="483" />
+		{% endif %}
+		{% if featured %}
+		<meta property="og:site_name" content="{{ metadata.title }}" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="{{ title }}" />
+		<meta property="og:description" content="{{ page.excerpt }}" />
+		<meta
+			property="og:url"
+			content="{{ metadata.url }}{{ page.url | htmlBaseUrl }}"
+		/>
+		{% ogFeatured "content/"+page.url+featured %}
+		<meta property="og:locale" content="fr_FR" />
+		<meta
+			property="article:published_time"
+			content="{{ date | htmlDateString }}"
+		/>
+		{%- for tag in tags | filterTagList %}
+		<meta property="article:tag" content="{{ tag }}" />
 		{% endfor %}
-    <meta property="og:image:width" content="2000">
-    <meta property="og:image:height" content="1333">
-  	{% endif %}
+		<meta property="og:image:width" content="2000" />
+		<meta property="og:image:height" content="1333" />
+		{% endif %}
 	</head>
 	<body>
 		{% svgsprite %}
 		<a href="#skip" class="skip visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/" class="home-link img-link"><img src="/img/haikooz.svg" alt="{{ metadata.title }}"></a>
+			<a href="/" class="home-link img-link"
+				><img src="/img/haikooz.svg" alt="{{ metadata.title }}"
+			/></a>
 			<nav>
 				<h2 class="visually-hidden">Menu de navigation</h2>
 				<ul class="nav">
-					<li class="nav-item"><a href="https://www.foojin.com">Homepage</a></li>
+					<li class="nav-item">
+						<a href="https://www.foojin.com">Homepage</a>
+					</li>
 					<li class="nav-item"><a href="/cv">CV</a></li>
-					<li class="nav-item"><a href="https://www.bloogart.com">Photographie</a></li>
+					<li class="nav-item">
+						<a href="https://www.bloogart.com">Photographie</a>
+					</li>
 					<li class="nav-item">
 						<a href="/tags">Tags</a>
 						<ul class="tags-list">
-						{% for tag in collections.all | getAllTags | filterTagList %}
+							{% for tag in collections.all | getAllTags | filterTagList %}
 							{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-							<li><a href="{{ tagUrl }}">{{ tag }}</a></li>
-						{% endfor %}
+							<li>
+								<a href="{{ tagUrl }}">{{ tag }}</a>
+							</li>
+							{% endfor %}
 						</ul>
 					</li>
 				</ul>
 			</nav>
 			<ul class="network">
 				<li>
-					<a class="icon-only" href="/feeds/posts.xml" title="RSS feed" aria-label="RSS feed">
+					<a
+						class="icon-only"
+						href="/feeds/posts.xml"
+						title="RSS feed"
+						aria-label="RSS feed"
+					>
 						{% svg "rss", "network-icon" %}
 					</a>
 				</li>
-        <li>
-          <a class="icon-only" rel="me" href="https://github.com/GoOz/" aria-label="Github">
-            {% svg "github", "network-icon" %}
-          </a>
-        </li>
-        <li>
-          <a class="icon-only" rel="me" href="https://mamot.fr/@GoOz" aria-label="Mastodon">
-            {% svg "mastodon", "network-icon" %}
-          </a>
-        </li>
-        {# <li>
-          <a class="icon-only" href="https://pixelfed.social/@GoOz" aria-label="PixelFed">
-            {% svg "pixelfed", "network-icon" %}
-          </a>
-        </li>
-        <li>
-          <a class="icon-only" href="https://www.instagram.com/gooz/" aria-label="Instagram">
-            {% svg "instagram", "network-icon" %}
-          </a>
-        </li>
-        <li>
-          <a class="icon-only" href="https://glass.photo/gooz" aria-label="Glass">
-            {% svg "glass", "network-icon" %}
-          </a>
-        </li> #}
-      </ul>
+				<li>
+					<a
+						class="icon-only"
+						rel="me"
+						href="https://github.com/GoOz/"
+						aria-label="Github"
+					>
+						{% svg "github", "network-icon" %}
+					</a>
+				</li>
+				<li>
+					<a
+						class="icon-only"
+						rel="me"
+						href="https://mamot.fr/@GoOz"
+						aria-label="Mastodon"
+					>
+						{% svg "mastodon", "network-icon" %}
+					</a>
+				</li>
+				{#
+				<li>
+					<a
+						class="icon-only"
+						href="https://pixelfed.social/@GoOz"
+						aria-label="PixelFed"
+					>
+						{% svg "pixelfed", "network-icon" %}
+					</a>
+				</li>
+				<li>
+					<a
+						class="icon-only"
+						href="https://www.instagram.com/gooz/"
+						aria-label="Instagram"
+					>
+						{% svg "instagram", "network-icon" %}
+					</a>
+				</li>
+				<li>
+					<a
+						class="icon-only"
+						href="https://glass.photo/gooz"
+						aria-label="Glass"
+					>
+						{% svg "glass", "network-icon" %}
+					</a>
+				</li>
+				#}
+			</ul>
 		</header>
 
 		<main id="skip" class="reader-bar-start">
 			{{ content | safe }}
 		</main>
+		{% if post %}
+		<script src="/js/toc.js"></script>
+		{% endif %}
 	</body>
 </html>

@@ -6,10 +6,9 @@ featured_author: Aleksandr Popov
 featured_url: 5tep5
 tags:
   - jdr
-  - cyberpunk-red
 ---
 
-*DISCLAIMER : Ceci est un compte-rendu d'une partie de jeu de rôle sur Cyberpunk RED du point de vue de mon personnage, Borys "Zed" Zedinski, un techie, sur la campagne Eurotour. Tout ceci n'est donc que fiction. Toute ressemblance bla bla bla…*
+_DISCLAIMER : Ceci est un compte-rendu d'une partie de jeu de rôle sur Cyberpunk RED du point de vue de mon personnage, Borys "Zed" Zedinski, un techie, sur la campagne Eurotour. Tout ceci n'est donc que fiction. Toute ressemblance bla bla bla…_
 
 ---
 
@@ -38,13 +37,13 @@ Bref c'est parti en sucette, très vite et très fort. J'ai déboulé vite dans 
 
 Quand Karim a décidé de se barrer, Ranni, pas certaine que Ousma ait été en capacité de l'arrêter, a décidé de tenter de le prendre à revers en repassant par la cour intérieure jusque dans la rue. Pendant ce temps, j'ai dégainé ma belle Lucille et j'ai tiré dans le lard d'un des mastodontes, Vinz lui a fini par se planquer derrière le bureau parce qu'il avait déjà pris quelques pruneaux et Ousma est parti en mode combat corps à corps contre son Godzilla, le taré.
 
-Tout du long j'ai essayé de convaincre mon King Kong de se rendre parce que je voyais bien qu'il avait commencé à sérieusement pisser du sang mais il a fini par se planquer de l'autre côté du pas de la porte. Tant pis je me suis dis, allons-y pour le finish. Alors j'ai déboulé en sautant proche du sol pour éviter de me faire avoir à hauteur d'homme, je visais déjà dans la bonne direction prêt à appuyer sur la détente… ce que j'ai fait dès que je l'ai eu en ligne de mire. 
+Tout du long j'ai essayé de convaincre mon King Kong de se rendre parce que je voyais bien qu'il avait commencé à sérieusement pisser du sang mais il a fini par se planquer de l'autre côté du pas de la porte. Tant pis je me suis dis, allons-y pour le finish. Alors j'ai déboulé en sautant proche du sol pour éviter de me faire avoir à hauteur d'homme, je visais déjà dans la bonne direction prêt à appuyer sur la détente… ce que j'ai fait dès que je l'ai eu en ligne de mire.
 
 C'est seulement une fraction de seconde après avoir appuyé sur cette foutue détente que je me suis rendu compte qu'il avait les mains en l'air au dessus de sa tête… enfin jusqu'à ce qu'il n'y ait plus de tête…
 
 Ousma pendant sa valse avec son malabar a eu la présence d'esprit de choper le Karim, le restreindre et le menacer pour que la valse finisse enfin.
-Ranni a fini par arriver à la porte, on lui a alors ouvert puis on a entamé les discussions. 
+Ranni a fini par arriver à la porte, on lui a alors ouvert puis on a entamé les discussions.
 
-C'est même pas dit qu'on obtienne ce qu'on est venu récupérer. 
+C'est même pas dit qu'on obtienne ce qu'on est venu récupérer.
 
 Putain de journée sans fin.

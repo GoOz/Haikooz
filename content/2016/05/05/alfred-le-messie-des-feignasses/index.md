@@ -3,20 +3,20 @@ title: Alfred, le messie des feignasses
 date: 2016-05-05
 featured: img/featured.jpg
 tags:
-  - software
-  - protips
+  - tips
 ---
 
 Plus les années passent, moins je touche à ma souris. C'est un fait. Je pense que la raison principale est que je passe beaucoup de mon temps sur ma machine à coder et que ça, ça se fait uniquement au clavier.
+
 ---
 
-Du coup, on apprend vite les raccourcis pour ne pas avoir à lâcher ce clavier. C'est sûrement ce qui m'a le plus attiré chez les *launchers*
+Du coup, on apprend vite les raccourcis pour ne pas avoir à lâcher ce clavier. C'est sûrement ce qui m'a le plus attiré chez les _launchers_
 
 Au commencement **[Spotlight](https://support.apple.com/fr-fr/HT204014)** n'existait pas. Mais on avait **[Quicksilver](https://qsapp.com/)**. Pas franchement très connu et pas toujours très stable, il avait le mérite d'être déjà très pratique à l'époque.
 
 Mais vint le sauveur des feignasses, celui qui faisait beaucoup et promettait encore plus : **[Alfred](https://www.alfredapp.com/)**
 
-Si je vous en parle aujourd'hui c'est surtout que la v3 va très bientôt sortir et que je me suis rendu compte que trop peu de personnes connaissaient ce *launcher* et même ceux qui le connaissaient, n'étaient pas au fait de son grand pouvoir.
+Si je vous en parle aujourd'hui c'est surtout que la v3 va très bientôt sortir et que je me suis rendu compte que trop peu de personnes connaissaient ce _launcher_ et même ceux qui le connaissaient, n'étaient pas au fait de son grand pouvoir.
 
 Alors oui, la version gratuite d'**Alfred** n'a pas grand chose de plus que **Spotlight** si ce n'est tout de même une plus grande souplesse et "configurabilité". Mais je ne vais pas là vous faire un comparatif, je vais juste vous montrer quelques trucs que peut faire Alfred… en version **[Powerpack](https://www.alfredapp.com/powerpack/)**, c'est à dire payante mais honnêtement, le logiciel vaut son pesant de cacahuète.
 
@@ -33,7 +33,7 @@ Par exemple, j'ai ajouté celui de MDN ou celui du conjugueur. Pour la configura
 
 Tout est expliqué et c'est plutôt simple tout de même.
 
-Pour l'utilisation, tapez juste le *keyword* choisi puis votre recherche. Simple, non?
+Pour l'utilisation, tapez juste le _keyword_ choisi puis votre recherche. Simple, non?
 {% image "./img/mdn-search.png", "MDN search" %}
 
 Vous pouvez aussi imaginer un moteur de recherche avec des suggestions mais pour ça il faudra passer par un workflow et on verra ça plus tard. :)
@@ -92,7 +92,7 @@ hopla, je clique (ou je tape entrée) et le code RGB est dans mon presse-papier.
 
 ### Convert
 
-Parfois, à force de trainer sur des sites anglosaxons, je galère à faire la conversion d'unités de mesure, ou bien encore de devises. Pas de problème, j'ai *convert*.
+Parfois, à force de trainer sur des sites anglosaxons, je galère à faire la conversion d'unités de mesure, ou bien encore de devises. Pas de problème, j'ai _convert_.
 
 ![Alfred conv](img/alfred-conv.gif)
 
@@ -128,7 +128,7 @@ Pour celui-ci par contre, il vous faudra une APIKey, disponible gratuitement, c'
 - Des raccourcis pour vos emoticons les plus compliqués à mémoriser
 - Faire des calculs de pourcentage en un clin d'œil
 - Faire une recherche dans le catalogue de **Netflix**
-- Lancer Firefox avec un différent *profile*
+- Lancer Firefox avec un différent _profile_
 - Ouvrir une connexion FTP avec Filezilla alors que l'app n'est même pas encore lancée
 - Et toujours plus… la limite n'est que celle de votre imagination.
 
@@ -140,4 +140,4 @@ Finalement, **Alfred** n'est pas juste un concurrent de Spotlight, son but est v
 
 En espérant que j'aurais réussi à vous apprendre des trucs, et si vous avez des questions, n'hésitez pas à me les poser sur [Twitter](https://twitter.com/GoOz) ou IRC (##openweb sur Freenode).
 
-*Cover de [clickonkirai](https://www.flickr.com/photos/clickonkirai/7175120640/)*
+_Cover de [clickonkirai](https://www.flickr.com/photos/clickonkirai/7175120640/)_

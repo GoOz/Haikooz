@@ -6,10 +6,11 @@ featured_author: Clem Onojeghuo
 featured_url: clemono
 tags:
   - code
-  - humeur
+  - notes
 ---
 
 Le dernier billet en date de ce blog fêtait mes deux ans chez Cozy. Je n'en ferai pas trois. Ça a été une aventure mémorable et malgré les aléas de la vie d'une startup j'en garderai un très bon souvenir.
+
 ---
 
 Toujours est-il que je suis donc disponible pour un nouveau job.
@@ -27,7 +28,7 @@ Pour plus de détails, je vous invite à regarder [mon CV]({{ "/cv/" | htmlBaseU
 
 Je ne sais pas trop en fait. J'ai bien aimé travailler sur un produit chez Cozy. C'était différent de ce que j'avais connu avant.  
 Travailler sur un projet long terme apporte des défis différents comme la maintenance pointue, la surveillance des performances, les refactoring intelligents, etc.  
-Mais j'aime aussi le travail en agence pour des défis opposés comme la possibilité de tester plein de choses, nouvelles ou non, le fort potentiel aux nouvelles connaissances qui sont un bon carburant pour mon cerveau. 
+Mais j'aime aussi le travail en agence pour des défis opposés comme la possibilité de tester plein de choses, nouvelles ou non, le fort potentiel aux nouvelles connaissances qui sont un bon carburant pour mon cerveau.
 
 En fait, je ne sais pas ce que je veux faire mais je sais ce que je ne veux pas faire.
 

@@ -5,7 +5,7 @@ featured: img/featured.jpg
 featured_author: Arnaud Jaegers
 featured_url: ajaegers
 tags:
-  - humeur
+  - notes
 ---
 
 À chaque nouvelle élection, un phénomène massif pointe le bout de son nez, c'est l'**abstentionnisme**.
@@ -14,13 +14,13 @@ tags:
 
 À chaque nouvelle élection où les partis d'extrêmes font de bons scores, on se laisse aller en diatribes belliqueuses contre cette partie de la population.
 
-Mais qui sont ces *abstentionnistes* ? Quels sont leurs réseaux ?
+Mais qui sont ces _abstentionnistes_ ? Quels sont leurs réseaux ?
 
 ## Qui sont-ils ?
 
-J'aimerais qu'on prenne le temps ici de s'intéresser à ces gens, de savoir qui ils sont, d'où ils viennent et pourquoi ils ne se lèvent pas du canapé, parce que même les plus "*démocrates*" auto-proclamés, ceux-là même qui défendent la différence de culture, d'ethnicité, d'opinion, ont tendance à cracher sur le lot sans distinction.
+J'aimerais qu'on prenne le temps ici de s'intéresser à ces gens, de savoir qui ils sont, d'où ils viennent et pourquoi ils ne se lèvent pas du canapé, parce que même les plus "_démocrates_" auto-proclamés, ceux-là même qui défendent la différence de culture, d'ethnicité, d'opinion, ont tendance à cracher sur le lot sans distinction.
 
-Voici donc une liste non-exhaustive des différents type de "*branleurs démocrates*" :
+Voici donc une liste non-exhaustive des différents type de "_branleurs démocrates_" :
 
 - **Les ermites**, ou ceux qui sont dans leur petit monde, refusant de s'intégrer à la vie sociale et donc à la vie politique. Ils n'ont souvent même pas eu vent des élections et ne s'en plaignent d'ailleurs pas.
 - **Les indisposés**, ou ceux qui étaient inopinément malades, bloqués quelque part avec un empêchement de dernière minute, ceux-là même dont le besoin de se soigner ou de se sortir de leur propre merde était plus important que d'aller mettre un papier dans une boîte.
@@ -36,11 +36,11 @@ Voilà, on a fait le tour des groupes les plus importants, si j'en ai oublié, d
 
 Le malaise arrive surtout lorsqu'un parti d'idéologie extrême fait un bon score. On cherche désespérement, sans relâche, un coupable. Il faut blâmer. Il faut un bouc émissaire.
 
-Accuser le *voteur extrême* ? Non, c'est son droit le plus strict de voter, même si l'on est pas d'accord avec lui.
+Accuser le _voteur extrême_ ? Non, c'est son droit le plus strict de voter, même si l'on est pas d'accord avec lui.
 
-Accuser le *voteur blanc* ? Non, lui aussi s'est exprimé malgré tout.
+Accuser le _voteur blanc_ ? Non, lui aussi s'est exprimé malgré tout.
 
-Accuser le *voteur nul volontaire* ? Ils sont si peu nombreux que ça n'aurait aucun impact.
+Accuser le _voteur nul volontaire_ ? Ils sont si peu nombreux que ça n'aurait aucun impact.
 
 Il ne reste donc que les abstentionnistes, ceux qui n'ont pas voulu ou pu prendre part aux élections. Ce sont eux les fautifs. On blâme ceux qui n'ont rien fait au motif fallacieux que ce sont des voix en moins **contre** ces partis extrêmes, alors que le principe des élections est, et à toujours été, de voter **pour** ceux que l'on veut voir au pouvoir, mais passons…
 

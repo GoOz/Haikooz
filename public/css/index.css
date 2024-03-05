@@ -126,9 +126,66 @@ a[href][download]::after {
 
 article {
 	font-size: 1.25em;
+	padding: 1rem;
+}
+.article-wrapper {
+	display: grid;
+	grid-template-columns: 1fr fit-content(15rem);
+	grid-template-areas: "content aside";
+	gap: 1rem;
+	padding-inline-start: 1rem;
+
+	.content {
+		grid-area: content;
+	}
+
+	aside {
+		grid-area: aside;
+	}
+}
+.article-content {
 	max-width: 65ch;
 	margin: 0 auto;
+}
+aside .toc {
+	position: sticky;
+	inset-block-start: 1rem;
+	margin-inline-start: auto;
+	background-color: var(--darkgrey);
+	font-size: 0.7em;
+	border-radius: 1rem;
+	max-height: calc(100dvh - 4rem);
+	overflow: auto;
 	padding: 1rem;
+	padding-inline-start: 0;
+}
+aside .toc ol {
+	padding-inline-start: 1rem;
+	list-style: none;
+	counter-reset: none;
+}
+aside .toc ol li {
+	counter-increment: none;
+
+	&::before,
+	li::before {
+		content: "";
+	}
+}
+aside .toc a {
+	padding: 0.125rem 0.375rem;
+	border-radius: 0.5rem;
+	background-color: transparent;
+	transition: color 400ms ease-in-out, background-color 400ms ease-in-out;
+}
+aside .toc .active > a {
+	background-color: var(--action-color);
+	color: var(--dark);
+}
+@media screen and (max-width: 68em) {
+	aside {
+		display: none;
+	}
 }
 
 p {
@@ -417,17 +474,25 @@ header {
 :where(.nav-item, .tags-list) :is(a[href]:link, a[href]:visited) {
 	text-decoration: none;
 }
-
 :where(.nav-item, .tags-list) :is(a[href]:hover, a[href]:focus) {
 	text-decoration: underline;
 }
 
 .tags-list {
 	--action-color: var(--lighter);
-	list-style-type: none;
+	font-style: italic;
 }
 .nav .tags-list {
 	display: none;
+}
+.article .tags-list {
+	list-style-type: none;
+	padding: 0;
+
+	li {
+		display: inline-block;
+		padding-inline: 0.5rem;
+	}
 }
 
 .network {

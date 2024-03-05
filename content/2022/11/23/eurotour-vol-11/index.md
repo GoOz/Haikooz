@@ -6,10 +6,9 @@ featured_author: Aleksandr Popov
 featured_url: 5tep5
 tags:
   - jdr
-  - cyberpunk-red
 ---
 
-*DISCLAIMER : Ceci est un compte-rendu d'une partie de jeu de rôle sur Cyberpunk RED du point de vue de mon personnage, Borys "Zed" Zedinski, un techie, sur la campagne Eurotour. Tout ceci n'est donc que fiction. Toute ressemblance bla bla bla…*
+_DISCLAIMER : Ceci est un compte-rendu d'une partie de jeu de rôle sur Cyberpunk RED du point de vue de mon personnage, Borys "Zed" Zedinski, un techie, sur la campagne Eurotour. Tout ceci n'est donc que fiction. Toute ressemblance bla bla bla…_
 
 ---
 
@@ -25,7 +24,7 @@ Pendant qu'elle s'est immiscée dans la propriété, Vinz et Ousma en ont fait u
 Une fois passé les buissons Ranni est tombée nez à nez sur un molosse modifié avec du chrome. Le genre de chien qui peut faire vraiment mal en plus d'avoir une connexion directe aux forces de l'ordre en cas d'alerte. Ça puait !  
 Mais il dormait le clébard alors elle a continué plus loin jusque trouver un point d'accès pour finalement réussir à couper les caméras de sécurité.
 
-Pendant ce temps j'ai réessayé de sonner à l'interphone, sans grande conviction, et cette connasse m'a raccroché au nez. 😠 
+Pendant ce temps j'ai réessayé de sonner à l'interphone, sans grande conviction, et cette connasse m'a raccroché au nez. 😠
 J'ai dû faire un petit effet malgré tout parce que Ranni, après s'être infiltrée par une fenêtre ouverte, a entendu du mouvement à l'intérieur. Le genre qui sonne comme quelqu'un de paniqué et de pressé.
 
 Son cracheur au poing elle est descendue de l'étage jusque trouver Béatrice et, tout en la braquant, lui a demandé avec autant de bienveillance dont Ranni puisse faire preuve de nous ouvrir la porte. Bon ça a pas servi à grand chose parce que j'ai réussi à ouvrir la porte tout seul grâce à mes doigts de fée, je sais pas trop comment d'ailleurs mais j'ai réussi à débloquer le portail. Mais c'est sûr c'était avant que Béatrice ne l'ouvre à distance… Si si c'est certain !
@@ -50,4 +49,4 @@ Mais Ousma déconne pas non plus et malgré les deux pruneaux que son gilet avai
 Sentant le vent tourner en sa défaveur il a tenté une fuite risquée en se laissant tomber du haut de la passerelle. Et ça se serait probablement pas trop mal passé si Vinz lui avait pas collé un pruneau dans sa caboche juste avant la chute. L'atterrissage est tout à coup devenu mortel. M'enfin je le plaindrai pas.
 On a eu beau le fouiller, il avait rien sur lui. Faut croire qu'on ne saura jamais qui était le commanditaire qui voulait la peau de Jack.
 
-Enfin toujours est-il qu'on a **encore** sauvé la vie de Jack. C'est ça aussi d'être un professionnel. J'espère qu'on aura un bonus. 
+Enfin toujours est-il qu'on a **encore** sauvé la vie de Jack. C'est ça aussi d'être un professionnel. J'espère qu'on aura un bonus.

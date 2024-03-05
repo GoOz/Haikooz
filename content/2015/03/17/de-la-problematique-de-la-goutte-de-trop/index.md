@@ -3,11 +3,12 @@ title: De la problématique de la goutte de trop.
 date: 2015-03-17
 featured: img/featured.jpg
 tags:
-  - humeur
-  - protips
+  - notes
+  - tips
 ---
 
 Je me baladais un jour dans la [forêt de Marly](https://www.google.fr/maps/place/Foret+de+Marly,+Marly+le+Roi+Forest,+78620+L%27%C3%89tang-la-Ville/@48.8628984,2.0564139,16z/data=!4m2!3m1!1s0x47e687d57299aba3:0x482779b4764984f?hl=en) avec ma douce et tendre, et une conversation en amenant une autre, elle vient à me parler du [pisse debout](http://www.pissedebout.fr/) et remarque qu'elle pourrait enfin savoir ce que c'est que pisser debout et peut-être même comprendre le pourquoi de la goutte de pisse sur la cuvette.
+
 ---
 
 Là, je prends mon plus bel air narquois, non pas parce que je suis un macho phallocrate et misogyne mais parce que je suis juste un simple connard, et je lui dis qu'elle ne comprendrait qu'une partie mais pas tout, car le "pisse-debout" n'est malgré tout pas un pénis. Et c'est alors que j'ai essayé de lui expliquer toutes les possibles explications de la goutte de trop.
@@ -44,11 +45,11 @@ Tout est collé, il n'y a pas de sortie possible pour l'urine… en apparence ca
 
 Et voici que notre urine trouve son chemin sur l'endroit le plus faible du collage de prépuce.
 
-Est-ce que cette faille est juste en face du *méat* (c'est le nom poli pour le trou du pipi) ? NOOOOOOON bien sûr, il est un peu plus à droite ou à gauche… **ou pire** un double bingo à droite **et** à gauche.
+Est-ce que cette faille est juste en face du _méat_ (c'est le nom poli pour le trou du pipi) ? NOOOOOOON bien sûr, il est un peu plus à droite ou à gauche… **ou pire** un double bingo à droite **et** à gauche.
 
 Bref, vous commencez à pisser de biais et vous aviez beau vous être positionné comme il fallait, pour au moins une fraction de seconde, **vous pissez à côté… sur la cuvette**.
 
-D'aucuns vous diraient que la situation est facilement contournable en prenant le soin de bien décaloter le prépuce avant de commencer à uriner et ils auraient raison, mais soyons sérieux, nous ne sommes pas toujours 100% *aware* surtout pour un pipi dans la nuit ou au réveil. Enfin je dis ça…
+D'aucuns vous diraient que la situation est facilement contournable en prenant le soin de bien décaloter le prépuce avant de commencer à uriner et ils auraient raison, mais soyons sérieux, nous ne sommes pas toujours 100% _aware_ surtout pour un pipi dans la nuit ou au réveil. Enfin je dis ça…
 
 ## Sous pression
 
@@ -66,7 +67,7 @@ Du coup vous allez aux toilettes, vous décalotez parce que vous faites ça bien
 
 ### Le problème
 
-Vous avez manifestement sous-estimé la pression. Votre urine est telle *Usain Bolt* sur ses starting blocks et telle *Usain Bolt* elle part comme une fusée. Trop pour vous. Trop pour l'orientation que vous avez choisi pour votre pénis. Et là c'est le drame, **un bout du premier jet part sur la cuvette…**
+Vous avez manifestement sous-estimé la pression. Votre urine est telle _Usain Bolt_ sur ses starting blocks et telle _Usain Bolt_ elle part comme une fusée. Trop pour vous. Trop pour l'orientation que vous avez choisi pour votre pénis. Et là c'est le drame, **un bout du premier jet part sur la cuvette…**
 
 Mais attendez, cette connasse de pression n'en a pas fini avec vous. Au tout début, le flux est continu, homogène; votre vessie se dégonfle, se vide au rythme de votre satisfaction, et plus elle se vide, plus la pression diminue.
 
@@ -84,7 +85,7 @@ Dans le même genre que la problématique et sournoise pression, vous avez le pi
 
 ### La situation
 
-Vous allez aux toilettes, sortez votre engin de son écrin de coton, et décidez de ne pas retenir l'élastique de votre slibard et le laissez délicatement posé à la base de votre pénis parce que vous avez un mickey dans le nez des plus coriaces et que vous êtes persuadé d'être un pro du *multitasking*.
+Vous allez aux toilettes, sortez votre engin de son écrin de coton, et décidez de ne pas retenir l'élastique de votre slibard et le laissez délicatement posé à la base de votre pénis parce que vous avez un mickey dans le nez des plus coriaces et que vous êtes persuadé d'être un pro du _multitasking_.
 
 Rien d'affolant jusque-là. Mais connaissez-vous la blague de l'arroseur arrosé ? Avec le gars qui tord le tuyau d'eau ? Mais siiiii, j'en suis sûr.
 
@@ -154,4 +155,4 @@ De toute façon, je vous surveille !
 
 ![](http://media.giphy.com/media/IUjPltWbiuyUo/giphy.gif)
 
-*Cover par [ André Zehetbauer](https://www.flickr.com/photos/az1172/2267066030)*
+_Cover par [ André Zehetbauer](https://www.flickr.com/photos/az1172/2267066030)_

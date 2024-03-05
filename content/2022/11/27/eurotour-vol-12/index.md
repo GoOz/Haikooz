@@ -6,10 +6,9 @@ featured_author: Cristina Gottardi
 featured_url: cristina_gottardi
 tags:
   - jdr
-  - cyberpunk-red
 ---
 
-*DISCLAIMER : Ceci est un compte-rendu d'une partie de jeu de rôle sur Cyberpunk RED du point de vue de mon personnage, Borys "Zed" Zedinski, un techie, sur la campagne Eurotour. Tout ceci n'est donc que fiction. Toute ressemblance bla bla bla…*
+_DISCLAIMER : Ceci est un compte-rendu d'une partie de jeu de rôle sur Cyberpunk RED du point de vue de mon personnage, Borys "Zed" Zedinski, un techie, sur la campagne Eurotour. Tout ceci n'est donc que fiction. Toute ressemblance bla bla bla…_
 
 ---
 
@@ -17,7 +16,7 @@ tags:
 
 On vient de clôturer la tournée française en finissant avec brio cette étape bordelaise. Tout s'est bien passé. Pas de tueur à gage, pas de virée nocturne. Nickel ! J'aime quand une tournée se déroule sans accroc.
 
- Par contre on vient de nous apprendre que notre date à Lisbonne du 9 juin a été annulée. La réputation qui accompagne notre cher Jack a eu raison du gouvernement portugais. Ils ont eu trop peur des débordements qui ont suivi les concerts jusque là. Bon je vais pas les blâmer de flairer le plan foireux vu tout ce qu'on a vécu depuis le début ce serait bien mal venu de ma part.
+Par contre on vient de nous apprendre que notre date à Lisbonne du 9 juin a été annulée. La réputation qui accompagne notre cher Jack a eu raison du gouvernement portugais. Ils ont eu trop peur des débordements qui ont suivi les concerts jusque là. Bon je vais pas les blâmer de flairer le plan foireux vu tout ce qu'on a vécu depuis le début ce serait bien mal venu de ma part.
 
 Pour combler ce creux dans le calendrier, le manager de la tournée a décidé qu'on ferait tous une étape de 3 jours à Bern en Suisse du 8 au 10, pour se reposer en attendant le concert de Venise le 11.
 

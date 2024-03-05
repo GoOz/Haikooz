@@ -6,10 +6,11 @@ featured_author: Nikko Macaspac
 featured_url: nikkotations
 tags:
   - code
-  - humeur
+  - notes
 ---
 
 Une vie sans apprendre sur soi ou sur ce qui nous entoure n'est pas vraiment une vie.
+
 ---
 
 Cela fait plus de 10 ans que je travaille dans le web, toujours quasi dans le même contexte, et il y a un peu plus d'1 an j'ai rejoint une Start-Up, **Cozy Cloud**, qui était comme un tout nouveau paradigme pour moi. Non pas parce que c'était une Start-Up mais pour ce que j'y faisais, que ce soit les technologies, les manières de travailler, l'environnement, etc.
@@ -18,7 +19,7 @@ En bref, je suis passé d'open-space à un bureau chez moi en télétravail, je 
 
 Beaucoup de changements, beaucoup de pertes de repère et donc beaucoup de doutes.
 
-Le changement d'organisation a peut-être été le seul qui ne m'a apporté que de la sérénité. Adieu la frustration de la dernière roue du carosse, on travaille tous vraiment *ensemble* et ça fonctionne bien.
+Le changement d'organisation a peut-être été le seul qui ne m'a apporté que de la sérénité. Adieu la frustration de la dernière roue du carosse, on travaille tous vraiment _ensemble_ et ça fonctionne bien.
 
 Le changement d'environnement apporte son lot de challenge au quotidien mais rien d'insurmontable. Étant de nature assez introverti et à l'aise avec la solitude à faible dose, le fait d'être seul chez moi pour travailler ne m'a pas vraiment posé de problème. La communication par contre s'en voit chamboulée. Si auparavant on pouvait discuter de ceci et de cela autour de la machine à café ou sur le coin d'un bureau, désormais il faut être nettement plus strict mais, encore une fois, rien qu'un peu de discipline ne puisse vraiment régler.
 

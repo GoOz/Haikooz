@@ -4,15 +4,16 @@ date: 2022-08-22
 featured: img/featured.jpg
 featured_author: Markus Spiske
 featured_url: markusspiske
-tags: 
+tags:
   - jdr
-  - humeur
+  - notes
 ---
 
 Je me suis vendu à la cause hybride et je me déleste donc de mon cher reflex adoré et de tout ce qui va avec.
+
 ---
 
-# Canon EOS 7D
+## Canon EOS 7D
 
 Quelques éraflures sur l'écran d'information mais l'écran LCD et tout le reste de l'appareil est nickel.
 
@@ -26,7 +27,7 @@ Quelques éraflures sur l'écran d'information mais l'écran LCD et tout le rest
 
 {% image "./img/IMG_2652.jpg", "" %}
 
-# Canon Grip BG-E7
+## Canon Grip BG-E7
 
 En très bon état, vient avec une batterie supplémentaire Canon LP-E6 et adaptateur pour pile si vous préférez les piles.
 
@@ -42,7 +43,7 @@ En très bon état, vient avec une batterie supplémentaire Canon LP-E6 et adapt
 
 {% image "./img/IMG_2658.jpg", "" %}
 
-# Flash Canon 430EX II Speedlite
+## Flash Canon 430EX II Speedlite
 
 Comme neuf, je ne l'ai quasiment jamais utilisé pour être honnête. Je préfère travailler avec la lumière naturel en général.
 
@@ -58,7 +59,7 @@ Il vient avec son pied amovible et sa sacoche de transport.
 
 {% image "./img/IMG_2664.jpg", "" %}
 
-# Objectif Canon EF 50mm f/1.8
+## Objectif Canon EF 50mm f/1.8
 
 Mon petit préféré. Parfait pour les portraits avec sa grande ouverture.
 
@@ -68,7 +69,7 @@ Mon petit préféré. Parfait pour les portraits avec sa grande ouverture.
 
 {% image "./img/IMG_2667.jpg", "" %}
 
-# Objectif Canon EF-S 10-22mm f/3.5-4.5 USM
+## Objectif Canon EF-S 10-22mm f/3.5-4.5 USM
 
 Un peu plus usé que les autres car c'est déjà une deuxième main. Mais c'est un bon grand angle avec une ouverture décente. Il vient avec un filtre UV Hoya mais sans capuchon (je l'ai acheté sans déjà à l'époque).
 
@@ -84,7 +85,7 @@ Bien que le plus usé, il ne s'agit là que d'usure superficielle comme des anno
 
 {% image "./img/IMG_2682.jpg", "" %}
 
-# Objectif Canon EF 28-80mm f/3.5-5.6
+## Objectif Canon EF 28-80mm f/3.5-5.6
 
 Objectif somme toute standard mais très correct pour un zoom/dézoom léger.
 
@@ -94,7 +95,7 @@ Objectif somme toute standard mais très correct pour un zoom/dézoom léger.
 
 {% image "./img/IMG_2674.jpg", "" %}
 
-# Objectif Canon EF-S 55-250mm f/4-5.6 IS
+## Objectif Canon EF-S 55-250mm f/4-5.6 IS
 
 Bon objectif avec un très bon zoom de départ et stabilisation d'image s'il vous plait. Parfait pour jouer les paparazzis d'animaux en restant à distance et garantir une image assez nette.
 
@@ -106,7 +107,7 @@ Bon objectif avec un très bon zoom de départ et stabilisation d'image s'il vou
 
 {% image "./img/IMG_2671.jpg", "" %}
 
-# Objectif Canon EF-S 18-55mm f/3.5-5.6 II
+## Objectif Canon EF-S 18-55mm f/3.5-5.6 II
 
 Objectif "de base" qui est vendu avec l'appareil d'origine.
 
@@ -116,7 +117,7 @@ Objectif "de base" qui est vendu avec l'appareil d'origine.
 
 {% image "./img/IMG_2677.jpg", "" %}
 
-# Objectif Canon EF 75-300mm f/4-5.6 III
+## Objectif Canon EF 75-300mm f/4-5.6 III
 
 Zoom plus puisssant que le précédent mais sans stabilisateur par contre.
 
@@ -128,7 +129,7 @@ Zoom plus puisssant que le précédent mais sans stabilisateur par contre.
 
 {% image "./img/IMG_2686.jpg", "" %}
 
-# Et les petits accessoires qui vont avec…
+## Et les petits accessoires qui vont avec…
 
 - Lanière
 - Cartes mémoires (1Go, 4Go, 8Go)
@@ -143,7 +144,7 @@ Zoom plus puisssant que le précédent mais sans stabilisateur par contre.
 
 {% image "./img/IMG_2691.jpg", "" %}
 
-# Ok et combien ?
+## Ok et combien ?
 
 Tout ceci côté à l'argus, en ajustant un peu ici et là et en offrant les accessoires ci-dessus on arrive à 956€ que je vais arrondir à 900€.
 
