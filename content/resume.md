@@ -11,7 +11,7 @@ eleventyExcludeFromCollections: true
 {% endcss %}
 # UI Developer / Frontend Developer
 
-[Voir la version française]({{ "/resume/" | htmlBaseUrl }})
+[Voir la version française]({{ "/cv/" | htmlBaseUrl }})
 
 ## About me
 

@@ -75,13 +75,23 @@
 				<h2 class="visually-hidden">Menu de navigation</h2>
 				<ul class="nav">
 					<li class="nav-item">
+						{% svg "home", "nav-icon" %}
 						<a href="https://www.foojin.com">Homepage</a>
 					</li>
-					<li class="nav-item"><a href="/cv">CV</a></li>
 					<li class="nav-item">
+						{% svg "resume", "nav-icon" %}
+						<a href="/cv">CV</a>
+					</li>
+					<li class="nav-item">
+						{% svg "camera", "nav-icon" %}
 						<a href="https://www.bloogart.com">Photographie</a>
 					</li>
 					<li class="nav-item">
+						{% svg "archives", "nav-icon" %}
+						<a href="https://tweets.foojin.com">Tweetback</a>
+					</li>
+					<li class="nav-item">
+						{% svg "hashtag", "nav-icon" %}
 						<a href="/tags">Tags</a>
 						<ul class="tags-list">
 							{% for tag in collections.all | getAllTags | filterTagList %}
