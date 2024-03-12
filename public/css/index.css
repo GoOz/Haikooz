@@ -128,65 +128,6 @@ article {
   font-size: 1.25em;
   padding: 1rem;
 }
-.article-wrapper {
-  display: grid;
-  grid-template-columns: 1fr fit-content(15rem);
-  grid-template-areas: "content aside";
-  gap: 1rem;
-  padding-inline-start: 1rem;
-
-  .content {
-    grid-area: content;
-  }
-
-  aside {
-    grid-area: aside;
-  }
-}
-.article-content {
-  max-width: 65ch;
-  margin: 0 auto;
-}
-aside .toc {
-  position: sticky;
-  inset-block-start: 1rem;
-  margin-inline-start: auto;
-  background-color: var(--darkgrey);
-  font-size: 0.7em;
-  border-radius: 1rem;
-  max-height: calc(100dvh - 4rem);
-  overflow: auto;
-  padding: 1rem;
-  padding-inline-start: 0;
-}
-aside .toc ol {
-  padding-inline-start: 1rem;
-  list-style: none;
-  counter-reset: none;
-}
-aside .toc ol li {
-  counter-increment: none;
-
-  &::before,
-  li::before {
-    content: "";
-  }
-}
-aside .toc a {
-  padding: 0.125rem 0.375rem;
-  border-radius: 0.5rem;
-  background-color: transparent;
-  transition: color 400ms ease-in-out, background-color 400ms ease-in-out;
-}
-aside .toc .active > a {
-  background-color: var(--action-color);
-  color: var(--dark);
-}
-@media screen and (max-width: 68em) {
-  aside {
-    display: none;
-  }
-}
 
 p {
   margin-block-start: 0;
@@ -238,6 +179,27 @@ ol:not([class]) li::before {
 }
 ol:not([class]) li li::before {
   content: counters(item, ".") " ";
+}
+
+blockquote {
+  position: relative;
+  font-style: italic;
+  border-inline-start: 0.5rem solid var(--action-color);
+  padding: 2rem 2rem 1rem 5rem;
+  margin-inline: -1rem;
+  font-size: 0.8em;
+  background-color: var(--darkgreyalpha);
+
+  &::before {
+    content: "\201D";
+    position: absolute;
+    inset-inline-start: 0;
+    inset-block-start: 0.5rem;
+    font-family: serif;
+    font-size: 6em;
+    line-height: 1;
+    color: var(--action-color);
+  }
 }
 
 hr {
@@ -567,6 +529,70 @@ header {
 /*============================
 *            Post            *
 ============================*/
+.article-wrapper {
+  display: grid;
+  grid-template-columns: 1fr fit-content(15rem);
+  grid-template-areas: "content aside";
+  gap: 1rem;
+  padding-inline-start: 1rem;
+
+  .content {
+    grid-area: content;
+  }
+
+  aside {
+    grid-area: aside;
+  }
+}
+.article-content {
+  max-width: 65ch;
+  margin: 0 auto;
+}
+aside .toc {
+  position: sticky;
+  inset-block-start: 1rem;
+  margin-inline-start: auto;
+  background-color: var(--darkgrey);
+  font-size: 0.7em;
+  border-radius: 1rem;
+  max-height: calc(100dvh - 4rem);
+  overflow: auto;
+  padding: 1rem;
+  padding-inline-start: 0;
+}
+aside .toc ol {
+  padding-inline-start: 1rem;
+  list-style: none;
+  counter-reset: none;
+}
+aside .toc ol li {
+  counter-increment: none;
+
+  &::before,
+  li::before {
+    content: "";
+  }
+}
+aside .toc a {
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  transition: color 400ms ease-in-out, background-color 400ms ease-in-out;
+}
+aside .toc .active > a {
+  background-color: var(--action-color);
+  color: var(--dark);
+}
+@media screen and (max-width: 68em) {
+  .article-wrapper {
+    display: block;
+    padding-inline-start: 0;
+  }
+  aside {
+    display: none;
+  }
+}
+
 .feature {
   max-width: 100%;
   margin: 0;
