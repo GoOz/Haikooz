@@ -15,56 +15,58 @@ const svgSprite = require("eleventy-plugin-svg-sprite");
 const Webmentions = require("eleventy-plugin-webmentions");
 const { EleventyPluginCodeDemo } = require("eleventy-plugin-code-demo");
 const pluginTOC = require("eleventy-plugin-toc");
+const pluginUnfurl = require("eleventy-plugin-unfurl");
 
 module.exports = function (eleventyConfig) {
-	// PassThroughCopy
-	eleventyConfig.addPassthroughCopy({
-		"./public/": "/",
-	});
-	eleventyConfig.addPassthroughCopy("./content/**/*.svg");
-	eleventyConfig.addPassthroughCopy("./content/**/*.pdf");
-	eleventyConfig.addPassthroughCopy("./content/**/*.gif");
-	eleventyConfig.addPassthroughCopy("./content/**/*.webm");
+  // PassThroughCopy
+  eleventyConfig.addPassthroughCopy({
+    "./public/": "/",
+  });
+  eleventyConfig.addPassthroughCopy("./content/**/*.svg");
+  eleventyConfig.addPassthroughCopy("./content/**/*.pdf");
+  eleventyConfig.addPassthroughCopy("./content/**/*.gif");
+  eleventyConfig.addPassthroughCopy("./content/**/*.webm");
 
-	// Generate excerpts
-	eleventyConfig.setFrontMatterParsingOptions({
-		excerpt: true,
-	});
+  // Generate excerpts
+  eleventyConfig.setFrontMatterParsingOptions({
+    excerpt: true,
+  });
 
-	// Watch content images for the image pipeline.
-	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
+  // Watch content images for the image pipeline.
+  eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 
-	// App plugins
-	eleventyConfig.addPlugin(require("./eleventy.config.drafts.js"));
-	eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
+  // App plugins
+  eleventyConfig.addPlugin(require("./eleventy.config.drafts.js"));
+  eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
 
-	// Official plugins
-	eleventyConfig.addPlugin(pluginRss);
-	eleventyConfig.addPlugin(pluginSyntaxHighlight, {
-		preAttributes: { tabindex: 0 },
-	});
-	eleventyConfig.addPlugin(pluginNavigation);
-	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-	eleventyConfig.addPlugin(bundlerPlugin);
+  // Official plugins
+  eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(pluginSyntaxHighlight, {
+    preAttributes: { tabindex: 0 },
+  });
+  eleventyConfig.addPlugin(pluginNavigation);
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+  eleventyConfig.addPlugin(bundlerPlugin);
 
-	// Community plugins
-	eleventyConfig.addPlugin(timeToRead, {
-		language: "fr",
-		style: "short",
-	});
-	eleventyConfig.addPlugin(embedEverything);
-	eleventyConfig.addPlugin(readerBar);
-	eleventyConfig.addPlugin(svgSprite, {
-		path: "./public/img/svg-sprite",
-	});
-	eleventyConfig.addPlugin(Webmentions, {
-		domain: "blog.foojin.com",
-		token: process.env.WEBMENTION_TOKEN,
-	});
-	eleventyConfig.addPlugin(pluginTOC);
-	eleventyConfig.addPlugin(EleventyPluginCodeDemo, {
-		name: "demo",
-		renderDocument: ({ html, css, js }) => `
+  // Community plugins
+  eleventyConfig.addPlugin(timeToRead, {
+    language: "fr",
+    style: "short",
+  });
+  eleventyConfig.addPlugin(embedEverything);
+  eleventyConfig.addPlugin(readerBar);
+  eleventyConfig.addPlugin(svgSprite, {
+    path: "./public/img/svg-sprite",
+  });
+  eleventyConfig.addPlugin(Webmentions, {
+    domain: "blog.foojin.com",
+    token: process.env.WEBMENTION_TOKEN,
+  });
+  eleventyConfig.addPlugin(pluginTOC);
+  eleventyConfig.addPlugin(pluginUnfurl);
+  eleventyConfig.addPlugin(EleventyPluginCodeDemo, {
+    name: "demo",
+    renderDocument: ({ html, css, js }) => `
 	  <!DOCTYPE html>
 	  <html>
 	    <head>
@@ -76,97 +78,97 @@ module.exports = function (eleventyConfig) {
 	      <script>${js}</script>
 	    </body>
 	  </html>`,
-		iframeAttributes: {
-			frameborder: "0",
-			width: "100%",
-		},
-	});
+    iframeAttributes: {
+      frameborder: "0",
+      width: "100%",
+    },
+  });
 
-	// Filters
-	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
-		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" })
-			.setLocale("fr-FR")
-			.toFormat(format || "dd LLLL yyyy");
-	});
+  // Filters
+  eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
+    return DateTime.fromJSDate(dateObj, { zone: zone || "utc" })
+      .setLocale("fr-FR")
+      .toFormat(format || "dd LLLL yyyy");
+  });
 
-	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
-		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
-	});
+  eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
+  });
 
-	// Get the first `n` elements of a collection.
-	eleventyConfig.addFilter("head", (array, n) => {
-		if (!Array.isArray(array) || array.length === 0) {
-			return [];
-		}
-		if (n < 0) {
-			return array.slice(n);
-		}
+  // Get the first `n` elements of a collection.
+  eleventyConfig.addFilter("head", (array, n) => {
+    if (!Array.isArray(array) || array.length === 0) {
+      return [];
+    }
+    if (n < 0) {
+      return array.slice(n);
+    }
 
-		return array.slice(0, n);
-	});
+    return array.slice(0, n);
+  });
 
-	// Return the smallest number argument
-	eleventyConfig.addFilter("min", (...numbers) => {
-		return Math.min.apply(null, numbers);
-	});
+  // Return the smallest number argument
+  eleventyConfig.addFilter("min", (...numbers) => {
+    return Math.min.apply(null, numbers);
+  });
 
-	// Return all the tags used in a collection
-	eleventyConfig.addFilter("getAllTags", (collection) => {
-		let tagSet = new Set();
-		for (let item of collection) {
-			(item.data.tags || []).forEach((tag) => tagSet.add(tag));
-		}
-		return Array.from(tagSet);
-	});
+  // Return all the tags used in a collection
+  eleventyConfig.addFilter("getAllTags", (collection) => {
+    let tagSet = new Set();
+    for (let item of collection) {
+      (item.data.tags || []).forEach((tag) => tagSet.add(tag));
+    }
+    return Array.from(tagSet);
+  });
 
-	eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
-		return (tags || []).filter(
-			(tag) => ["all", "nav", "post", "posts"].indexOf(tag) === -1
-		);
-	});
+  eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
+    return (tags || []).filter(
+      (tag) => ["all", "nav", "post", "posts"].indexOf(tag) === -1
+    );
+  });
 
-	// Customize Markdown library settings:
-	eleventyConfig.amendLibrary("md", (mdLib) => {
-		mdLib.use(markdownItAnchor, {
-			permalink: markdownItAnchor.permalink.ariaHidden({
-				placement: "after",
-				class: "header-anchor",
-				symbol: "#",
-				ariaHidden: false,
-			}),
-			level: [1, 2, 3, 4],
-			slugify: eleventyConfig.getFilter("slugify"),
-		});
-	});
+  // Customize Markdown library settings:
+  eleventyConfig.amendLibrary("md", (mdLib) => {
+    mdLib.use(markdownItAnchor, {
+      permalink: markdownItAnchor.permalink.ariaHidden({
+        placement: "after",
+        class: "header-anchor",
+        symbol: "#",
+        ariaHidden: false,
+      }),
+      level: [1, 2, 3, 4],
+      slugify: eleventyConfig.getFilter("slugify"),
+    });
+  });
 
-	return {
-		// Control which files Eleventy will process
-		templateFormats: ["md", "njk", "html"],
+  return {
+    // Control which files Eleventy will process
+    templateFormats: ["md", "njk", "html"],
 
-		// Pre-process *.md files with: (default: `liquid`)
-		markdownTemplateEngine: "njk",
+    // Pre-process *.md files with: (default: `liquid`)
+    markdownTemplateEngine: "njk",
 
-		// Pre-process *.html files with: (default: `liquid`)
-		htmlTemplateEngine: "njk",
+    // Pre-process *.html files with: (default: `liquid`)
+    htmlTemplateEngine: "njk",
 
-		// These are all optional:
-		dir: {
-			input: "content", // default: "."
-			includes: "../_includes", // default: "_includes"
-			data: "../_data", // default: "_data"
-			output: "_site",
-		},
+    // These are all optional:
+    dir: {
+      input: "content", // default: "."
+      includes: "../_includes", // default: "_includes"
+      data: "../_data", // default: "_data"
+      output: "_site",
+    },
 
-		// -----------------------------------------------------------------
-		// Optional items:
-		// -----------------------------------------------------------------
+    // -----------------------------------------------------------------
+    // Optional items:
+    // -----------------------------------------------------------------
 
-		// If your site deploys to a subdirectory, change `pathPrefix`.
-		// Read more: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix
+    // If your site deploys to a subdirectory, change `pathPrefix`.
+    // Read more: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix
 
-		// When paired with the HTML <base> plugin https://www.11ty.dev/docs/plugins/html-base/
-		// it will transform any absolute URLs in your HTML to include this
-		// folder name and does **not** affect where things go in the output folder.
-		pathPrefix: "/",
-	};
+    // When paired with the HTML <base> plugin https://www.11ty.dev/docs/plugins/html-base/
+    // it will transform any absolute URLs in your HTML to include this
+    // folder name and does **not** affect where things go in the output folder.
+    pathPrefix: "/",
+  };
 };

@@ -5,13 +5,15 @@ eleventyNavigation:
   key: CV
   order: 2
 ---
+
 {%- css %}
 @media print {
-	body header, .skip, a[href] {
-		display: none;
-	}	
+body header, .skip, a[href] {
+display: none;
+}
 }
 {% endcss %}
+
 # Intégrateur / UI Developer / Frontend Dev
 
 [See english version]({{ "/resume/" | htmlBaseUrl }})
@@ -36,11 +38,11 @@ Atomic Design / ITCSS / BEM / SuitCSS / CSS Modules / RWD / Progressive enhancem
 
 ### Pre/Post-processeurs
 
-Sass / LESS / Stylus / PostCSS (cssNext)
+Sass / LESS / Stylus / PostCSS
 
 ### Outils de templating
 
-Handlebars / Twig / Pug (ex-Jade) / Liquid / Django
+Handlebars / Twig / Pug / Liquid / Django / Jinja2
 
 ### Frameworks JavaScript
 

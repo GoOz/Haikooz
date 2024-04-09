@@ -2,13 +2,15 @@
 layout: layouts/page.njk
 eleventyExcludeFromCollections: true
 ---
+
 {%- css %}
 @media print {
-	body header, .skip, a[href] {
-		display: none;
-	}	
+body header, .skip, a[href] {
+display: none;
+}
 }
 {% endcss %}
+
 # UI Developer / Frontend Developer
 
 [Voir la version française]({{ "/cv/" | htmlBaseUrl }})
@@ -34,11 +36,11 @@ Atomic Design / ITCSS / BEM / SuitCSS / CSS Modules / RWD / Progressive enhancem
 
 ### Pre/Post-processors
 
-Sass / LESS / Stylus / PostCSS (cssNext)
+Sass / LESS / Stylus / PostCSS
 
 ### Templating engines
 
-Handlebars / Twig / Pug (ex-Jade) / Liquid / Django
+Handlebars / Twig / Pug / Liquid / Django
 
 ### JavaScript frameworks
 
