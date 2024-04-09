@@ -722,6 +722,10 @@ aside .toc .active > a {
   align-items: center;
   gap: 0.5rem;
 }
+.wm-react .wm-react-comments {
+  display: block;
+  flex-basis: 100%;
+}
 .wm-react-comment {
   display: block;
   list-style: none;
