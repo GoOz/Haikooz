@@ -3,6 +3,7 @@ node_modules/
 package-lock.json
 .env
 _webmentioncache/
+.cache/
 # Obsidian files
 .obsidian
 templates
