@@ -2,8 +2,8 @@
 title: Les femmes et les enfants d'abord
 date: 2025-01-21
 featured: img/featured.jpg
-featured_author: 
-featured_url: 
+featured_author: Noah Silliman
+featured_url: noahsilliman
 tags:
   - notes
 ---
