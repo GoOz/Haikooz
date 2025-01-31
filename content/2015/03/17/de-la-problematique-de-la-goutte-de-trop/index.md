@@ -2,9 +2,7 @@
 title: De la problématique de la goutte de trop.
 date: 2015-03-17
 featured: img/featured.jpg
-tags:
-  - notes
-  - tips
+tags: [notes, tips]
 ---
 
 Je me baladais un jour dans la [forêt de Marly](https://www.google.fr/maps/place/Foret+de+Marly,+Marly+le+Roi+Forest,+78620+L%27%C3%89tang-la-Ville/@48.8628984,2.0564139,16z/data=!4m2!3m1!1s0x47e687d57299aba3:0x482779b4764984f?hl=en) avec ma douce et tendre, et une conversation en amenant une autre, elle vient à me parler du [pisse debout](http://www.pissedebout.fr/) et remarque qu'elle pourrait enfin savoir ce que c'est que pisser debout et peut-être même comprendre le pourquoi de la goutte de pisse sur la cuvette.
@@ -17,7 +15,7 @@ Et je vais tenter de vous retranscrire tout ça, de la manière la plus exhausti
 
 Tout d'abord, il vous faut avoir en tête l'image du doux instrument qu'est le pénis. Je m'en voudrais de remettre en cause votre connaissance du dit appareil mais je préfère encore faire un petit rappel pour que nous partions tous sur des bases communes. Alors voici :
 
-{% image "./img/Sche-ma_du_pe-nis.png", "Schéma du pénis" %}
+![Schéma du pénis](img/Sche-ma_du_pe-nis.png)
 
 C'est bon ? vous l'avez bien en tête ?
 

@@ -2,8 +2,7 @@
 title: Alfred, le messie des feignasses
 date: 2016-05-05
 featured: img/featured.jpg
-tags:
-  - tips
+tags: tips
 ---
 
 Plus les années passent, moins je touche à ma souris. C'est un fait. Je pense que la raison principale est que je passe beaucoup de mon temps sur ma machine à coder et que ça, ça se fait uniquement au clavier.
@@ -29,12 +28,12 @@ En plus d'avoir les grands classiques comme Google, Bing, Duckduckgo, Wikipedia,
 Par exemple, j'ai ajouté celui de MDN ou celui du conjugueur. Pour la configuration, pas besoin d'accès à l'API, il suffit de connaitre l'URL des recherches, pour peu que le site en question le permette.
 
 Ça ressemble globalement à ça :
-{% image "./img/custom-search.png", "Custom search" %}
+![Custom search](img/custom-search.png)
 
 Tout est expliqué et c'est plutôt simple tout de même.
 
 Pour l'utilisation, tapez juste le _keyword_ choisi puis votre recherche. Simple, non?
-{% image "./img/mdn-search.png", "MDN search" %}
+![MDN search](img/mdn-search.png)
 
 Vous pouvez aussi imaginer un moteur de recherche avec des suggestions mais pour ça il faudra passer par un workflow et on verra ça plus tard. :)
 

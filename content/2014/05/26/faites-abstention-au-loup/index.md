@@ -4,8 +4,7 @@ date: 2014-05-26
 featured: img/featured.jpg
 featured_author: Arnaud Jaegers
 featured_url: ajaegers
-tags:
-  - notes
+tags: notes
 ---
 
 À chaque nouvelle élection, un phénomène massif pointe le bout de son nez, c'est l'**abstentionnisme**.

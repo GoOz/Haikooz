@@ -4,9 +4,7 @@ date: 2022-12-13
 featured: img/featured.jpg
 featured_author: Michael Fenton
 featured_url: michaelrfenton
-tags:
-  - code
-  - tips
+tags: [code, tips]
 ---
 
 SVG est clairement un super format pour les illustrations sur le web. Mais ce qui en fait un encore meilleur format est le fait qu'il peut interagir avec CSS et ça c'est vraiment cool ! ❤️
@@ -783,8 +781,8 @@ Pour exemple, j'ai choisi un SVG d'un joli cœur bien rouge et trois conteneurs 
 </div>
 <div class="area clip">
   <img
-    src="https://blog.foojin.com/content/images/size/w1000/2017/08/banner-large-bis.jpg"
-    alt="Moi-même dans mon bain."
+    src="https://picsum.photos/200/300"
+    alt="Lorem picsum"
   />
 </div>
 <div class="area clip lgbt"></div>
@@ -849,7 +847,7 @@ Pour exemple, j'ai choisi un SVG d'un joli cœur bien rouge et trois conteneurs 
   </p>
 </div>
 <div class="area img">
-  {% image "./img/bath.jpg", "Moi-même dans mon bain" %}
+  <img eleventy:ignore src="https://picsum.photos/200/300" alt="Lorem picsum">
 </div>
 <div class="area lgbt"></div>
 ```
@@ -967,7 +965,7 @@ img {
   </p>
 </div>
 <div class="area clip">
-  {% image "./img/bath.jpg", "Moi-même dans mon bain", '500' %}
+  <img eleventy:ignore src="https://picsum.photos/200/300" alt="Lorem picsum">
 </div>
 <div class="area clip lgbt"></div>
 ```

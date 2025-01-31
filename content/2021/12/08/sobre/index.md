@@ -4,8 +4,7 @@ date: 2021-12-08
 featured: img/featured.jpg
 featured_author: Sven Brandsma
 featured_url: seffen99
-tags:
-  - notes
+tags: notes
 ---
 
 C'est fou ce qu'on peut amasser en une vie… et je ne suis même pas encore "vieux". Pourtant je vois chez moi dès que je tourne la tête, ici et là, des objets plus ou moins utiles. M'en vient alors les questions de pourquoi j'amasse et pourquoi je ne me débarrasse pas de certains de ces objets.

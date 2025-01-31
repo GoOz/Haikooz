@@ -2,8 +2,7 @@
 title: De l'adaptation de Preacher sur les écrans
 date: 2016-06-10
 featured: img/featured.jpg
-tags:
-  - notes
+tags: notes
 ---
 
 Je ne suis pas un critique émérite de séries télé ou même de comics mais hé, je me suis dit que ça couterait rien de donner mon avis sur cette fraîche nouvelle série qu'est **Preacher** et de quelques autres adaptation de comics.
@@ -26,7 +25,7 @@ Les personnages par contre sont globalement fidèles, à quelques nuances près.
 
 **Jesse Custer**, le pasteur, joué par **[Dominic Cooper](https://fr.wikipedia.org/wiki/Dominic_Cooper)** est bien un pasteur torturé au passé trouble et à la foi branlante. Physiquement on est à peu près dedans. Évidemment l'acteur ne ressemblent pas comme à deux gouttes d'eau au personnage des comics mais finalement on s'en fout de ça.
 
-{% image "./img/Jesse-Custer-compare.jpg", "Comparaison Jesse Custer" %}
+![Comparaison Jesse Custer](img/Jesse-Custer-compare.jpg)
 
 **Tulip O'Hare**, l'ex petite amie de Jesse et jouée par **[Ruth Negga](https://fr.wikipedia.org/wiki/Ruth_Negga)** par contre est un brin différente.
 
@@ -36,21 +35,21 @@ Puis, alors que dans les comics elle ne cesse de se battre pour prouver à Jesse
 
 Et pour ceux qui la voit comme une vile tentatrice, c'est loin d'être le cas dans les comics, au contraire, et j'espère que les auteurs de la série garderont cet aspect. C'est pas parce qu'elle est badass que c'est une vilaine succube qui détournera le "héros" du droit chemin.
 
-{% image "./img/Tulip-compare.jpg", "Comparaison Tulip" %}
+![Comparaison Tulip](img/Tulip-compare.jpg)
 
 **Cassidy**, le vampire irlandais, joué par **[Joseph Gilgun](https://fr.wikipedia.org/wiki/Joseph_Gilgun)** (que j'ai adoré dans Misfits) n'est physiquement pas très proche. Là où dans les comics, il garde perpétuellement ses lunettes de soleil en plus d'être blond/châtain clair lui aussi, on perd tout ça dans la série. Mais est-ce gênant ? Je suis un peu déçu pour les lunettes, mais globalement non, on s'en fout.
 
 Il garde son accent irlandais, son franc parler et ses faiblesses et forces de vampire.
 
-{% image "./img/Cass-compare.jpg", "Comparaison Cass" %}
+![Comparaison Cass](img/Cass-compare.jpg)
 
 **Arseface** ou _Eugène Root_, joué par **Ian Colletti** est sûrement, à mon goût, le plus fidèle aux comics, physiquement et psychologiquement.
 
-{% image "./img/Arseface-compare.jpg", "Comparaison Arseface" %}
+![Comparaison Arseface](img/Arseface-compare.jpg)
 
 Son père, le shérif **Hugo Root**, joué par **[W. Earl Brown](https://fr.wikipedia.org/wiki/W._Earl_Brown)** lui... C'est le plus éloigné de tous, en tout point. Je vais même pas m'étendre à lister les différences. Je me demande juste, même si j'en doute fortement, s'il lui arrivera les même choses que dans les comics qui m'ont vraiment bien fait marrer.
 
-{% image "./img/Sheriff-Root-compare.jpg", "Comparaison Sheriff-Root" %}
+![Comparaison Sheriff Root](img/Sheriff-Root-compare.jpg)
 
 ## Et pourtant...
 

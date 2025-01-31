@@ -4,10 +4,7 @@ date: 2023-02-22
 featured: img/featured.jpg
 featured_author: Sneaky Elbow
 featured_url: sneakyelbow
-tags:
-  - notes
-  - jdr
-  - code
+tags: [notes, jdr, code]
 ---
 
 Je bosse vraiment dans le développement web depuis 2007 et j'ai jamais vraiment fait un projet open-source de A à Z qui serve à quelqu'un d'autre que moi depuis tout ce temps. Mais je crois que ce temps est révolu.
@@ -98,7 +95,8 @@ Par contre, déployer tout ça sur Github Pages quand on a un builder, c'est une
 J'ai globalement construit ça au mieux, aussi bien que je savais le faire.
 
 Et je suis vraiment satisfait du résultat. Rien que de voir les données de performance ça me laisse en joie.
-{% image "./img/wfrp-perf.png", "" %}
+
+![Performance de WFRP](img/wfrp-perf.png)
 
 - moins de 10 requêtes HTTP
 - ~140 Ko tout compris

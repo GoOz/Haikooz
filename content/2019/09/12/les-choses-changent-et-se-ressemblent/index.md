@@ -4,8 +4,7 @@ date: 2019-09-12
 featured: img/featured.jpg
 featured_author: Erol Ahmed
 featured_url: erol
-tags:
-  - notes
+tags: notes
 ---
 
 ## Il était une fois…

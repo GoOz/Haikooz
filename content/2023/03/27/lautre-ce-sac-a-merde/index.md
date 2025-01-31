@@ -4,8 +4,7 @@ date: 2023-03-27
 featured: img/featured.jpg
 featured_author: Carolina Heza
 featured_url: carolinahdzz
-tags:
-	- notes
+tags: notes
 ---
 
 L’enfer c’est les autres comme disait l’autre. C’est toujours l’autre. Jamais soi, jamais nos proches. C’est toujours de la faute des autres. Mais qui sommes-nous sinon les autres des autres. Sommes-nous alors leur enfer ?
@@ -32,7 +31,7 @@ Franchement c’est pas de notre faute. Si comme moi vous êtes contre le racism
 Forcément, du point de vue de l’autre, tout est aussi vrai pour nous.
 
 Et là vous allez me dire…
-{% image "./img/IMG_2865.jpg", "Waouh, tellement de manichéisme, très binaire" %}
+![Waouh, tellement de manichéisme, très binaire](img/IMG_2865.jpg)
 Et vous auriez raison ma foi.
 
 ## Les autres c’est pas forcément des cons

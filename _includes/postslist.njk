@@ -7,7 +7,7 @@
 			 	{{ post.content | timeToRead }}
 			</span>
 			{% if post.data.featured %}
-			{% image "../content/"+post.url+"/"+post.data.featured , "" %}
+			<img src="/{{ post.url }}/{{ post.data.featured }}" alt="" sizes="(min-width: 50em) 50vw, 100vw">
 			{% endif %}
 			<span class="post-item-title">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</span>
 			</a>

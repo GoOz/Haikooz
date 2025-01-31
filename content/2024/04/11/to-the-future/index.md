@@ -4,8 +4,7 @@ date: 2024-04-11
 featured: img/featured.jpg
 featured_author: Tomasz Frankowski
 featured_url: sunlifter
-tags:
-  - notes
+tags: notes
 ---
 
 **En vrac**
@@ -24,7 +23,7 @@ Mais les projets eux, ça change pas très souvent alors je me suis dit que j'al
 
 C'est chose faite !
 
---- 
+---
 
 Je viens de lire [La route](https://www.dargaud.com/bd/la-route/la-route-la-route-bda5512960) de Larcenet. C'était magnifique. Triste et magnifique.
 

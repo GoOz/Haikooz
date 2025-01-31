@@ -4,9 +4,7 @@ date: 2016-02-16
 featured: img/featured.jpg
 featured_author: Rowan Neal
 featured_url: rowaneal
-tags:
-  - code
-  - tips
+tags: [code, tips]
 ---
 
 ## On parle de quoi là déjà ?
@@ -99,15 +97,15 @@ Dans tous les cas, avant de taper sur _entrée_, n'oubliez pas de rajouter le po
 
 Vous devriez arriver sur une page de login comme ça.
 
-{% image "./img/znc-login.png", "ZNC login" %}
+![ZNC login](img/znc-login.png)
 
 Loggez-vous donc comme il se doit avec les identifiants que vous avez renseignés à l'installation et une fois ceci fait allez directement aux "_Global settings_".
 
-{% image "./img/znc-listen-ports.png", "ZNC listen ports" %}
+![ZNC listen ports](img/znc-listen-ports.png)
 
 Dans la section "_Listen ports_" apparait le port que vous avez choisi à l'installation. Mais vous pouvez en ajouter autant que vous le souhaitez même si je vous conseille d'avoir une putain de bonne raison de le faire. Notez que vous ne pouvez éditer ou supprimer le port en cours d'utilisation.
 
-{% image "./img/znc-settings.png", "ZNC settings" %}
+![ZNC settings](img/znc-settings.png)
 
 Dans la section "_settings_", vous pouvez vous amuser à changer le theme de l'admin de ZNC mais ils sont tous moches, soyons honnêtes. Le thème "_Ice_" est peut être le moins dégueulasse mais bon, faites comme bon vous semble, ce n'est pas important.
 
@@ -115,7 +113,7 @@ Ce qui est important par contre c'est le "_Maximum Buffer Size_", c'est le nombr
 
 Vous pouvez laisser le reste de cette section par défaut.
 
-{% image "./img/znc-global-modules.png", "ZNC global modules" %}
+![ZNC global modules](img/znc-global-modules.png)
 
 Dans la section "_Global modules_", s'activent et se désactivent les modules disponibles embarqués avec ZNC concernant l'administration et la gestion de ZNC.
 
@@ -125,7 +123,7 @@ Allez donc cliquer sur "_Your settings_" dans la navigation et vous arriverez su
 
 Dans la section "_Authentication_" les options ne concernent que les informations pour se connecter à cette même admin. Rien à voir avec les serveurs IRC qu'on renseignera plus tard. Donc à moins de vouloir modifier vos identifiants, ne touchez à rien.
 
-{% image "./img/znc-auth.png", "ZNC auth" %}
+![ZNC auth](img/znc-auth.png)
 
 Dans la section "_IRC Information_" seront les informations par défaut de connexion aux serveurs IRC. Les mêmes que l'on renseigne quand on se connecte sans BNC à IRC finalement, rien de neuf. Retenons surtout les trois premiers champs _Nickname_, _Alt. Nickname_ et _Ident_.
 
@@ -134,11 +132,11 @@ Dans la section "_IRC Information_" seront les informations par défaut de conne
 - _Ident (ou username)_, contrairement au _nickname_, n'est pas forcément unique. L'_idents_ apparaitra surtout lors de votre connexion à un salon ou si une personne utilise un `whois` sur vous. Habituellement _nickname_ et _idents_ sont identiques mais rien ne vous l'oblige.
 - _Realname_ sera votre identité. Rien ne vous oblige à mettre vos véritables nom et prénom, moi je ne le fais pas, mais c'est là que vous pouvez le renseigner si vous le souhaitez.
 
-{% image "./img/znc-irc-infos.png", "ZNC irc infos" %}
+![ZNC irc infos](img/znc-irc-infos.png)
 
 Dans la section "_Networks_" se trouvent tous les serveurs que vous avez ajoutés, et comme on ne l'a pas encore vu, vous ne devriez rien avoir, à part peut-être Freenode si vous avez laissé ZNC installer ce serveur par défaut. Pour l'instant, on n'y fera rien mais retenez que c'est ici qu'il faudra aller pour éditer vos serveurs.
 
-{% image "./img/znc-networks.png", "ZNC networks" %}
+![ZNC networks](img/znc-networks.png)
 
 Dans la section "_Modules_" se trouvent vos modules par défaut qui seront activés sur tous les serveurs, à moins que vous ne disiez le contraire dans la configuration de chaque serveur. Il y en a pléthore et je ne vais pas passer tout en revue mais vous pouvez cliquer sur le lien du nom pour avoir plus d'infos.
 
@@ -146,21 +144,21 @@ Ce que je vais vous dire par contre, c'est de cocher le module "_clearbufferonms
 
 Et ce sera tout de nécessaire mais je conseille tout de même de laisser tout par défaut à moins que vous sachiez exactement ce que vous faites.
 
-{% image "./img/znc-modules.png", "ZNC modules" %}
+![ZNC modules](img/znc-modules.png)
 
 Dans la section "_Default Settings_", vous pourrez définir surtout la taille du tampon pour votre propre utilisateur. Mettons que vous gériez le _bouncer_ pour plusieurs personnes, vous pouvez mettre le _buffer size_ global à 200 et booster le vôtre à 1000 parce que vous êtes une radasse de gros chacal. Mais ce n'est qu'un exemple.
 
-{% image "./img/znc-default-settings.png", "ZNC default settings" %}
+![ZNC default settings](img/znc-default-settings.png)
 
 Dans la section "_Flags_", surtout, **SURTOUT**, décochez les deux options _Auto Clear Chan Buffer_ et _Auto Clear Query Buffer_, sinon l'option _clearbufferonmsg_ que vous avez coché auparavant ne servira à rien. Comme leur nom l'indique, ces deux options vident le tampon des salons et messages privés si vous êtes quelque part connecté à ZNC.
 
 Pour le reste, vous pouvez laisser par défaut.
 
-{% image "./img/znc-flags.png", "ZNC flags" %}
+![ZNC flags](img/znc-flags.png)
 
 Dans la section "_ZNC Behavior_", rien à signaler, éditez si vous le souhaitez mais rien n'est vraiment très important.
 
-{% image "./img/znc-behaviour.png", "ZNC behaviour" %}
+![ZNC behaviour](img/znc-behaviour.png)
 
 Bien ! Là, globalement, ZNC est configuré, il ne reste qu'à ajouter des serveurs. Sur ce point je ne vais pas m'attarder, c'est assez simple.
 
@@ -186,7 +184,7 @@ Bon ok, il va falloir renseigner d'autres choses pour se connecter à ZNC.
 
 Je vais montrer la fenêtre type sur Limechat pour l'exemple.
 
-{% image "./img/znc-limechat.png", "ZNC limechat" %}
+![ZNC limechat](img/znc-limechat.png)
 
 Passons tout en revue :
 
@@ -227,7 +225,7 @@ Voilà, vous avez toutes les bases et n'oubliez pas que Google est votre ami (bi
 
 En bonus, voici à quoi ressemble mon client IRC en action.
 
-{% image "./img/weechat.png", "Weechat" %}
+![Weechat](img/weechat.png)
 
 Comme je l'ai dit plus tôt, j'utilise [weechat](https://weechat.org/), un client en lige de commande.
 

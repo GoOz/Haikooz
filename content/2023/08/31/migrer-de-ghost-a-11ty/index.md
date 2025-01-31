@@ -4,9 +4,7 @@ date: 2023-08-31
 featured: img/featured.jpg
 featured_author: Chris Briggs
 featured_url: cgbriggs19
-tags:
-  - code
-  - tips
+tags: [code, tips]
 ---
 
 Après plusieurs années d'utilisation de Ghost comme CMS de ce blog ainsi que mon portfolio, j'ai décidé de migrer sur Eleventy. Ça n'a pas été super facile mais franchement pas très compliqué non plus.
@@ -28,7 +26,7 @@ Alors je me suis mis bille en tête de migrer tout ça sur [Eleventy](https://ww
 
 Le nerf de la guerre d'une migration c'est d'abord de pouvoir récupérer les données et ce de manière exploitable. Heureusement, **Ghost** fait ça très bien puisqu'il suffit d'aller dans les _Settings_ puis _Labs_ et cliquer sur le joli bouton _Export_ pour obtenir un magnifique JSON.
 
-{% image "./img/admin_ghost.png", "Screenshot de la page Settings de l'admin de Ghost" %}
+![Screenshot de la page Settings de l'admin de Ghost](img/admin_ghost.png)
 
 Seul inconvénient, mais pas irrémédiable, il ne s'agit que du contenu textuel des billets et pas les autres potentiels _assets_ extérieurs comme, notamment, les images. Pour obtenir ces derniers vous pouvez aller récupérer tout ça sur votre serveur via un client FTP par exemple et prendre tout ce qui est dans le dossier `content` de votre instance **Ghost**.
 

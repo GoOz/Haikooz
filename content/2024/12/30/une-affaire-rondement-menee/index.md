@@ -2,16 +2,13 @@
 title: Une affaire rondement menée
 date: 2024-12-30
 featured: img/featured.jpg
-tags:
-  - notes
-  - photo
+tags: [notes, photo]
 ---
 
 Début 2024 [j'ai décidé de me lancer dans un challenge photo](https://blog.foojin.com/2023/12/22/shuffle-mon-challenge-photo/), avec une photo par semaine, et aujourd'hui c'est la fin de l'année et donc du challenge. Faisons le point !
 
 ---
-
-{% image "./img/shuffle-01.jpg", "Shuffle 01" %}
+![Shuffle 01](img/shuffle-01.jpg)
 
 Je l'ai fini ! En respectant les conditions de bout en bout, pendant 1 an. Rien que pour ça je suis assez fier de moi. Rétrospectivement je suis content de mon choix d'avoir fait un challenge 52 (chaque semaine) plutôt que 365 (chaque jour), parce que le principe était bien trop complexe pour que je réussisse à faire ça tous les jours. Il m'est arrivé de passer la semaine à trouver quoi faire en fonction du tirage que j'avais eu.
 
@@ -21,7 +18,7 @@ Mais à part ça j'ai respecté tout de A à Z.
 
 Parfois je faisais la photo le jour même du tirage, parfois je la faisais la veille du tirage pour la semaine suivante. Sur ce point c'était plutôt chaotique. Entre les aléas de la vie et les tirages complexes, ce n'était pas possible d'être régulier mais ça importait peu finalement. Seul le résultat final comptait.
 
-{% image "./img/shuffle-20.jpg", "Shuffle 20" %}
+![Shuffle 20](img/shuffle-20.jpg)
 
 ## Ce que j'en ai tiré
 
@@ -31,7 +28,7 @@ Par contre j'ai vraiment bien repris goût à la photographie. J'ai développé 
 
 Pour moi qui peinait à définir ma photographie, j'ai, je pense, vraiment affiné mon parcours photographique et ça c'est cool. Je ne suis toujours pas sûr à 100% mais c'est nettement moins flou que ça ne l'a été.
 
-{% image "./img/shuffle-28.jpg", "Shuffle 28" %}
+![Shuffle 28](img/shuffle-28.jpg)
 
 ## Et maintenant ?
 
@@ -41,4 +38,4 @@ Et si jamais vous aviez raté ça, je vous invite à aller voir la série **Shuf
 
 Merci à celles et ceux qui avaient suivi mon aventure toute l'année et à bientôt pour une autre aventure !
 
-{% image "./img/shuffle-48.jpg", "Shuffle 48" %}
+![Shuffle 48](img/shuffle-48.jpg)

@@ -4,8 +4,7 @@ date: 2024-04-24
 featured: img/featured.jpg
 featured_author: Noah Buscher
 featured_url: noahbuscher
-tags:
-  - notes
+tags: notes
 ---
 
 Cela fait plusieurs années que je suis membre du bureau d'une association de jeu de rôle et si nos interactions avec la mairie sont rares, elles ne sont jamais sereines car tout parait toujours compliqué et insurmontable avec eux.

@@ -4,8 +4,7 @@ date: 2023-12-22
 featured: img/featured.jpg
 featured_author: Paul Skorupskas
 featured_url: pawelskor
-tags:
-  - photo
+tags: photo
 ---
 
 Depuis quelques temps je me suis un peu poussé au cul pour reprendre la photographie avec plus d'assiduité. Seul problème, mon boulot consiste à avoir ce même cul vissé sur une chaise toute la journée devant un ordinateur et ce toujours dans le même bureau, chez moi. Alors je me suis mis à penser que faire un petit challenge serait une bonne idée.
@@ -117,7 +116,8 @@ Sur mon objectif j'ai 22 valeurs possible pour l'ouverture, ce qui donne un tabl
 J'ai beau avoir beaucoup de dés pour mes parties de jeu de rôle, j'ai jamais eu, ni trouvé, de dé 21, 22 ou 14.\
 Alors à la place on va utiliser une application en ligne, en l'occurence [Roll a Die](https://rolladie.net/) qui a le mérite de pouvoir faire des dés aux valeurs personnelles ainsi que de nous permettre de lancer les 3 dés en une fois, pour chaque fois nous générer notre challenge de la semaine.
 
-{% image "./img/rolladie.png", "capture d'écran de l'application Roll a Die" %}
+![Capture d'écran de l'application Roll a Die](img/rolladie.png)
+
 ## Yaplukafokon
 
 Et voilà, j'ai décidé d'humblement appeler ce challenge le **Shuffle challenge** !!

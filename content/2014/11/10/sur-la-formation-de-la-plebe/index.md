@@ -4,9 +4,7 @@ date: 2014-11-10
 featured: img/featured.jpg
 featured_author: Roman Mager
 featured_url: roman_lazygeek
-tags:
-  - code
-  - notes
+tags: [code, notes]
 ---
 
 Vous savez quand on a un métier dont le savoir est en perpétuelle évolution, et c'est le cas du mien l'intégration web / le développement front-end, on a, pour peu que notre propre n'égo ne se sente pas pousser des ailes, l'immuable sensation d'être une sous-merde.
