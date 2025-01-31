@@ -4,8 +4,7 @@ date: 2021-02-01
 featured: img/featured.jpg
 featured_author: Sébastien Goldberg
 featured_url: sebastiengoldberg
-tags:
-  - notes
+tags: notes
 ---
 
 Cela fait déjà quelques années que j'ai commencé à "dégoogliser" mon internet afin de garder mes données perso pour ma tronche. J'ai bien réduit ma relation avec Google mais il me restait à restreindre ma relation avec Marko Zuckerberg et son mastodonte de Facebook.  

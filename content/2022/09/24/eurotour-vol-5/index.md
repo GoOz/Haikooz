@@ -4,8 +4,7 @@ date: 2022-09-24
 featured: img/featured.jpg
 featured_author: Tony Reid
 featured_url: togna_bologna
-tags:
-  - jdr
+tags: jdr
 ---
 
 _DISCLAIMER : Ceci est un compte-rendu d'une partie de jeu de rôle sur Cyberpunk RED du point de vue de mon personnage, Borys "Zed" Zedinski, un techie, sur la campagne Eurotour. Tout ceci n'est donc que fiction. Toute ressemblance bla bla bla…_

@@ -26,7 +26,7 @@ Je décide donc de m'abonner de nouveau (maintenant que j'ai bien séparé mes c
 
 Petit problème cependant dans le tunnel de paiement, c'est que Instagram n'autorise pas les sites à l'intégrer dans une iframe… même si le site en question est Instagram lui-même…
 
-{% image "./img/iframe.png", "Firefox ne peut ouvrir cette page" %}
+![Firefox ne peut ouvrir cette page](img/iframe.png)
 
 Impossible d'aller au bout du tunnel de paiement donc. Évidemment le problème est le même quelque soit le navigateur utilisé.
 
@@ -38,7 +38,7 @@ Et bingpot ! Ça fonctionne ! Je peux enfin payer !
 
 Je valide le paiement auprès de ma banque et ça me dit bien que la banque valide et que ça va revenir sur le site Meta. Et BIM page blanche…
 
-{% image "./img/redirect.png", "Page de redirection blanche" %}
+![Page de redirection blanche](img/redirect.png)
 
 En regardant le code, je vois qu'il y a un `<form>` censé être soumis au `onload` mais manifestement rien ne se passe et pas d'erreur dans la console.
 

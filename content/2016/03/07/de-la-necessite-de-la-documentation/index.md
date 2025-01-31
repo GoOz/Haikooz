@@ -2,9 +2,7 @@
 title: De la nécessité de la documentation
 date: 2016-03-07
 featured: img/featured.jpg
-tags:
-  - code
-  - notes
+tags: [code, notes]
 ---
 
 J'ai récemment été confronté à un soucis qui n'a rien de rare et qui emmerde tout nouvel arrivant sur un projet : **l'absence de documentation**.

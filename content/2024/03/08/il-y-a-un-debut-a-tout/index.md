@@ -4,8 +4,7 @@ date: 2024-03-08
 featured: img/featured.jpg
 featured_author: Oleksii Hlembotskyi
 featured_url: lshphoto
-tags:
-  - notes
+tags: notes
 ---
 **En vrac…**
 

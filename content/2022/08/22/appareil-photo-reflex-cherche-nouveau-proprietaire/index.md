@@ -15,31 +15,31 @@ Je me suis vendu à la cause hybride et je me déleste donc de mon cher reflex a
 
 Quelques éraflures sur l'écran d'information mais l'écran LCD et tout le reste de l'appareil est nickel.
 
-{% image "./img/IMG_2648.jpg", "" %}
+![](img/IMG_2648.jpg)
 
-{% image "./img/IMG_2649.jpg", "" %}
+![](img/IMG_2649.jpg)
 
-{% image "./img/IMG_2650.jpg", "" %}
+![](img/IMG_2650.jpg)
 
-{% image "./img/IMG_2651.jpg", "" %}
+![](img/IMG_2651.jpg)
 
-{% image "./img/IMG_2652.jpg", "" %}
+![](img/IMG_2652.jpg)
 
 ## Canon Grip BG-E7
 
 En très bon état, vient avec une batterie supplémentaire Canon LP-E6 et adaptateur pour pile si vous préférez les piles.
 
-{% image "./img/IMG_2653.jpg", "" %}
+![](img/IMG_2653.jpg)
 
-{% image "./img/IMG_2654.jpg", "" %}
+![](img/IMG_2654.jpg)
 
-{% image "./img/IMG_2655.jpg", "" %}
+![](img/IMG_2655.jpg)
 
-{% image "./img/IMG_2656.jpg", "" %}
+![](img/IMG_2656.jpg)
 
-{% image "./img/IMG_2657.jpg", "" %}
+![](img/IMG_2657.jpg)
 
-{% image "./img/IMG_2658.jpg", "" %}
+![](img/IMG_2658.jpg)
 
 ## Flash Canon 430EX II Speedlite
 
@@ -47,25 +47,25 @@ Comme neuf, je ne l'ai quasiment jamais utilisé pour être honnête. Je préfè
 
 Il vient avec son pied amovible et sa sacoche de transport.
 
-{% image "./img/IMG_2660.jpg", "" %}
+![](img/IMG_2660.jpg)
 
-{% image "./img/IMG_2661.jpg", "" %}
+![](img/IMG_2661.jpg)
 
-{% image "./img/IMG_2662.jpg", "" %}
+![](img/IMG_2662.jpg)
 
-{% image "./img/IMG_2663.jpg", "" %}
+![](img/IMG_2663.jpg)
 
-{% image "./img/IMG_2664.jpg", "" %}
+![](img/IMG_2664.jpg)
 
 ## Objectif Canon EF 50mm f/1.8
 
 Mon petit préféré. Parfait pour les portraits avec sa grande ouverture.
 
-{% image "./img/IMG_2665.jpg", "" %}
+![](img/IMG_2665.jpg)
 
-{% image "./img/IMG_2666.jpg", "" %}
+![](img/IMG_2666.jpg)
 
-{% image "./img/IMG_2667.jpg", "" %}
+![](img/IMG_2667.jpg)
 
 ## Objectif Canon EF-S 10-22mm f/3.5-4.5 USM
 
@@ -73,59 +73,59 @@ Un peu plus usé que les autres car c'est déjà une deuxième main. Mais c'est 
 
 Bien que le plus usé, il ne s'agit là que d'usure superficielle comme des annotations légèrement effacées et légères éraflures sur la peinture sinon il fonctionne toujours très bien.
 
-{% image "./img/IMG_2678.jpg", "" %}
+![](img/IMG_2678.jpg)
 
-{% image "./img/IMG_2679.jpg", "" %}
+![](img/IMG_2679.jpg)
 
-{% image "./img/IMG_2680.jpg", "" %}
+![](img/IMG_2680.jpg)
 
-{% image "./img/IMG_2681.jpg", "" %}
+![](img/IMG_2681.jpg)
 
-{% image "./img/IMG_2682.jpg", "" %}
+![](img/IMG_2682.jpg)
 
 ## Objectif Canon EF 28-80mm f/3.5-5.6
 
 Objectif somme toute standard mais très correct pour un zoom/dézoom léger.
 
-{% image "./img/IMG_2672.jpg", "" %}
+![](img/IMG_2672.jpg)
 
-{% image "./img/IMG_2673.jpg", "" %}
+![](img/IMG_2673.jpg)
 
-{% image "./img/IMG_2674.jpg", "" %}
+![](img/IMG_2674.jpg)
 
 ## Objectif Canon EF-S 55-250mm f/4-5.6 IS
 
 Bon objectif avec un très bon zoom de départ et stabilisation d'image s'il vous plait. Parfait pour jouer les paparazzis d'animaux en restant à distance et garantir une image assez nette.
 
-{% image "./img/IMG_2668.jpg", "" %}
+![](img/IMG_2668.jpg)
 
-{% image "./img/IMG_2669.jpg", "" %}
+![](img/IMG_2669.jpg)
 
-{% image "./img/IMG_2670.jpg", "" %}
+![](img/IMG_2670.jpg)
 
-{% image "./img/IMG_2671.jpg", "" %}
+![](img/IMG_2671.jpg)
 
 ## Objectif Canon EF-S 18-55mm f/3.5-5.6 II
 
 Objectif "de base" qui est vendu avec l'appareil d'origine.
 
-{% image "./img/IMG_2675.jpg", "" %}
+![](img/IMG_2675.jpg)
 
-{% image "./img/IMG_2676.jpg", "" %}
+![](img/IMG_2676.jpg)
 
-{% image "./img/IMG_2677.jpg", "" %}
+![](img/IMG_2677.jpg)
 
 ## Objectif Canon EF 75-300mm f/4-5.6 III
 
 Zoom plus puisssant que le précédent mais sans stabilisateur par contre.
 
-{% image "./img/IMG_2683.jpg", "" %}
+![](img/IMG_2683.jpg)
 
-{% image "./img/IMG_2684.jpg", "" %}
+![](img/IMG_2684.jpg)
 
-{% image "./img/IMG_2685.jpg", "" %}
+![](img/IMG_2685.jpg)
 
-{% image "./img/IMG_2686.jpg", "" %}
+![](img/IMG_2686.jpg)
 
 ## Et les petits accessoires qui vont avec…
 
@@ -134,13 +134,13 @@ Zoom plus puisssant que le précédent mais sans stabilisateur par contre.
 - Télécommande pour déclenchement à distance (je garantie pas que le pile soit de toute jeunesse par contre mais elle se change facilement)
 - Sacoche DeviantArt pour ranger tout ce beau monde
 
-{% image "./img/IMG_2688.jpg", "" %}
+![](img/IMG_2688.jpg)
 
-{% image "./img/IMG_2689.jpg", "" %}
+![](img/IMG_2689.jpg)
 
-{% image "./img/IMG_2690.jpg", "" %}
+![](img/IMG_2690.jpg)
 
-{% image "./img/IMG_2691.jpg", "" %}
+![](img/IMG_2691.jpg)
 
 ## Ok et combien ?
 

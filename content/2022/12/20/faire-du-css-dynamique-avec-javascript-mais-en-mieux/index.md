@@ -4,9 +4,7 @@ date: 2022-12-20
 featured: img/featured.jpg
 featured_author: Jackson Sophat
 featured_url: jacksonsophat
-tags:
-  - code
-  - tips
+tags: [code, tips]
 ---
 
 CSS c'est cool, JavaScript c'est cool. Mais mettre à jour du CSS avec du JS ça sous-entend de faire du CSS inline et ça c'est pas cool. Le truc c'est que JS ne sait pas vraiment faire autre chose que ça, à moins que…
@@ -132,7 +130,7 @@ Array.from(avatars).forEach((element) => {
 {% enddemo %}
 
 Ça marche bien, par contre on se retrouve avec du style inline ce qui en plus d'être indiscutablement moche (je suis évidemment objectif 🙃) devient aussi compliqué à surcharger. À part écrire directement par dessus, il ne reste que l'option `!important` ce qui est encore plus moche, indiscutablement toujours.
-{% image "./img/bgcolor-custom.png", "Image du DOM après modification du JS" %}
+<img src="./img/bgcolor-custom.png" alt="Image du DOM après modification du JS">
 
 <div class="notabene">
 Oui les navigateurs traduisent le HSL (entre autres) en RGB. C'est un truc qu'ils font apparemment, je sais pas trop pourquoi mais ça change pas grand chose pour nous ici.
@@ -245,6 +243,6 @@ Array.from(avatars).forEach((element) => {
 Ce qui donne exactement le même résultat… mais quand même en mieux parce que maintenant on peut surcharger simplement ces styles depuis le CSS si besoin.
 
 Et puis franchement c'est plus beau à voir, indiscutablement toujours.
-{% image "./img/bgcolor-custom-enhanced.png", "Image du DOM après modification du JS" %}
+<img src="./img/bgcolor-custom-enhanced.png" alt="Image du DOM après modification du JS">
 
 <script src="{{ script }}"></script>

@@ -1,52 +1,111 @@
-require("dotenv").config();
+import "dotenv/config.js";
 
-const { DateTime } = require("luxon");
-const markdownItAnchor = require("markdown-it-anchor");
+import {
+  IdAttributePlugin,
+  InputPathToUrlTransformPlugin,
+  HtmlBasePlugin,
+} from "@11ty/eleventy";
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import pluginNavigation from "@11ty/eleventy-navigation";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const pluginNavigation = require("@11ty/eleventy-navigation");
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-const timeToRead = require("eleventy-plugin-time-to-read");
-const embedEverything = require("eleventy-plugin-embed-everything");
-const bundlerPlugin = require("@11ty/eleventy-plugin-bundle");
-const readerBar = require("eleventy-plugin-reader-bar");
-const svgSprite = require("eleventy-plugin-svg-sprite");
-const Webmentions = require("eleventy-plugin-webmentions");
-const { EleventyPluginCodeDemo } = require("eleventy-plugin-code-demo");
-const pluginTOC = require("eleventy-plugin-toc");
-const pluginUnfurl = require("eleventy-plugin-unfurl");
+import pluginFilters from "./_config/filters.js";
 
-module.exports = function (eleventyConfig) {
-  // PassThroughCopy
-  eleventyConfig.addPassthroughCopy({
-    "./public/": "/",
-  });
-  eleventyConfig.addPassthroughCopy("./content/**/*.svg");
-  eleventyConfig.addPassthroughCopy("./content/**/*.pdf");
-  eleventyConfig.addPassthroughCopy("./content/**/*.gif");
-  eleventyConfig.addPassthroughCopy("./content/**/*.webm");
+import timeToRead from "eleventy-plugin-time-to-read";
+import embedEverything from "eleventy-plugin-embed-everything";
+import readerBar from "eleventy-plugin-reader-bar";
+import svgSprite from "eleventy-plugin-svg-sprite";
+import Webmentions from "eleventy-plugin-webmentions";
+import { EleventyPluginCodeDemo } from "eleventy-plugin-code-demo";
+import pluginUnfurl from "eleventy-plugin-unfurl";
 
-  // Generate excerpts
-  eleventyConfig.setFrontMatterParsingOptions({
-    excerpt: true,
+export default async function (eleventyConfig) {
+  // Drafts, see also _data/eleventyDataSchema.js
+  eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
+    if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
+      return false;
+    }
   });
 
-  // Watch content images for the image pipeline.
-  eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
+  eleventyConfig
+    .addPassthroughCopy({
+      "./public/": "/",
+    })
+    .addPassthroughCopy("./content/feed/pretty-atom-feed.xsl")
+    .addPassthroughCopy("./content/**/*.svg")
+    .addPassthroughCopy("./content/**/*.pdf")
+    .addPassthroughCopy("./content/**/*.gif")
+    .addPassthroughCopy("./content/**/*.webm");
 
-  // App plugins
-  eleventyConfig.addPlugin(require("./eleventy.config.drafts.js"));
-  eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
+  eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpg,jpeg,gif}");
+
+  eleventyConfig.addBundle("css", {
+    toFileDirectory: "dist",
+  });
+
+  eleventyConfig.addBundle("js", {
+    toFileDirectory: "dist",
+  });
 
   // Official plugins
-  eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.setFrontMatterParsingOptions({
+    excerpt: true,
+    // Optional, default is "---"
+    excerpt_separator: "<!-- excerpt -->",
+  });
   eleventyConfig.addPlugin(pluginSyntaxHighlight, {
     preAttributes: { tabindex: 0 },
   });
   eleventyConfig.addPlugin(pluginNavigation);
-  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-  eleventyConfig.addPlugin(bundlerPlugin);
+  eleventyConfig.addPlugin(HtmlBasePlugin);
+  eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
+
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "atom", // or "rss", "json"
+    outputPath: "/feeds/posts.xml",
+    stylesheet: "pretty-atom-feed.xsl",
+    collection: {
+      name: "posts",
+      limit: 0,
+    },
+    metadata: {
+      language: "fr",
+      title: "HaïkoOz",
+      subtitle: "Journal personnel de GoOz, avec des mots petits et grands.",
+      base: "https://blog.foojin.com/",
+      author: {
+        name: "GoOz",
+      },
+    },
+  });
+
+  // Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    // Output formats for each image.
+    formats: ["avif", "webp", "auto"],
+    widths: [400, 812, 1400, "auto"],
+    failOnError: false,
+    htmlOptions: {
+      imgAttributes: {
+        // e.g. <img loading decoding> assigned on the HTML tag will override these values.
+				sizes: "(min-width: 50em) 812px, 100vw",
+        loading: "lazy",
+        decoding: "async",
+      },
+    },
+    sharpOptions: {
+      animated: true,
+    },
+  });
+
+  // Filters
+  eleventyConfig.addPlugin(pluginFilters);
+
+  eleventyConfig.addPlugin(IdAttributePlugin, {
+    // slugify: eleventyConfig.getFilter("slugify"),
+    // selector: "h1,h2,h3,h4,h5,h6", // default
+  });
 
   // Community plugins
   eleventyConfig.addPlugin(timeToRead, {
@@ -62,7 +121,6 @@ module.exports = function (eleventyConfig) {
     domain: "blog.foojin.com",
     token: process.env.WEBMENTION_TOKEN,
   });
-  eleventyConfig.addPlugin(pluginTOC);
   eleventyConfig.addPlugin(pluginUnfurl);
   eleventyConfig.addPlugin(EleventyPluginCodeDemo, {
     name: "demo",
@@ -83,92 +141,43 @@ module.exports = function (eleventyConfig) {
       width: "100%",
     },
   });
+}
 
-  // Filters
-  eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
-    return DateTime.fromJSDate(dateObj, { zone: zone || "utc" })
-      .setLocale("fr-FR")
-      .toFormat(format || "dd LLLL yyyy");
-  });
+export const config = {
+  // Control which files Eleventy will process
+  // e.g.: *.md, *.njk, *.html, *.liquid
+  templateFormats: ["md", "njk", "html", "liquid", "11ty.js"],
 
-  eleventyConfig.addFilter("htmlDateString", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
-  });
+  // Pre-process *.md files with: (default: `liquid`)
+  markdownTemplateEngine: "njk",
 
-  // Get the first `n` elements of a collection.
-  eleventyConfig.addFilter("head", (array, n) => {
-    if (!Array.isArray(array) || array.length === 0) {
-      return [];
-    }
-    if (n < 0) {
-      return array.slice(n);
-    }
+  // Pre-process *.html files with: (default: `liquid`)
+  htmlTemplateEngine: "njk",
 
-    return array.slice(0, n);
-  });
+  // These are all optional:
+  dir: {
+    input: "content", // default: "."
+    includes: "../_includes", // default: "_includes"
+    data: "../_data", // default: "_data"
+    output: "_site",
+  },
 
-  // Return the smallest number argument
-  eleventyConfig.addFilter("min", (...numbers) => {
-    return Math.min.apply(null, numbers);
-  });
+  // -----------------------------------------------------------------
+  // Optional items:
+  // -----------------------------------------------------------------
 
-  // Return all the tags used in a collection
-  eleventyConfig.addFilter("getAllTags", (collection) => {
-    let tagSet = new Set();
-    for (let item of collection) {
-      (item.data.tags || []).forEach((tag) => tagSet.add(tag));
-    }
-    return Array.from(tagSet);
-  });
+  // If your site deploys to a subdirectory, change `pathPrefix`.
+  // Read more: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix
 
-  eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
-    return (tags || []).filter(
-      (tag) => ["all", "nav", "post", "posts"].indexOf(tag) === -1
-    );
-  });
+  // When paired with the HTML <base> plugin https://www.11ty.dev/docs/plugins/html-base/
+  // it will transform any absolute URLs in your HTML to include this
+  // folder name and does **not** affect where things go in the output folder.
 
-  // Customize Markdown library settings:
-  eleventyConfig.amendLibrary("md", (mdLib) => {
-    mdLib.use(markdownItAnchor, {
-      permalink: markdownItAnchor.permalink.ariaHidden({
-        placement: "after",
-        class: "header-anchor",
-        symbol: "#",
-        ariaHidden: false,
-      }),
-      level: [1, 2, 3, 4],
-      slugify: eleventyConfig.getFilter("slugify"),
-    });
-  });
-
-  return {
-    // Control which files Eleventy will process
-    templateFormats: ["md", "njk", "html"],
-
-    // Pre-process *.md files with: (default: `liquid`)
-    markdownTemplateEngine: "njk",
-
-    // Pre-process *.html files with: (default: `liquid`)
-    htmlTemplateEngine: "njk",
-
-    // These are all optional:
-    dir: {
-      input: "content", // default: "."
-      includes: "../_includes", // default: "_includes"
-      data: "../_data", // default: "_data"
-      output: "_site",
-    },
-
-    // -----------------------------------------------------------------
-    // Optional items:
-    // -----------------------------------------------------------------
-
-    // If your site deploys to a subdirectory, change `pathPrefix`.
-    // Read more: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix
-
-    // When paired with the HTML <base> plugin https://www.11ty.dev/docs/plugins/html-base/
-    // it will transform any absolute URLs in your HTML to include this
-    // folder name and does **not** affect where things go in the output folder.
-    pathPrefix: "/",
-  };
+  pathPrefix: "/",
 };
+
+// module.exports = function (eleventyConfig) {
+// App plugins
+// eleventyConfig.addPlugin(require("./eleventy.config.drafts.js"));
+// eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
+// };

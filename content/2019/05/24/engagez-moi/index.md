@@ -4,9 +4,7 @@ date: 2019-05-24
 featured: img/featured.jpg
 featured_author: Clem Onojeghuo
 featured_url: clemono
-tags:
-  - code
-  - notes
+tags: [code, notes]
 ---
 
 Le dernier billet en date de ce blog fêtait mes deux ans chez Cozy. Je n'en ferai pas trois. Ça a été une aventure mémorable et malgré les aléas de la vie d'une startup j'en garderai un très bon souvenir.

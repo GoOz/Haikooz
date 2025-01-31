@@ -2,8 +2,7 @@
 title: On nous ment, on nous spolie.
 date: 2016-02-16
 featured: img/featured.jpg
-tags:
-  - notes
+tags: notes
 ---
 
 Hier, [Boris](http://twitter.com/borisschapira) réagissait sur un article du [Monde.fr](http://correcteurs.blog.lemonde.fr/2016/01/30/le-pronom-nous-est-il-entre-en-zone-omineuse/) à propos de la douce mais pernicieuse infection du "**nous**" par le "**on**", sur les impacts sémantiques, de la disparition de la responsabilité.

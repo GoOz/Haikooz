@@ -4,8 +4,7 @@ date: 2025-01-30
 featured: img/featured.jpg
 featured_author: Stefan Steinbauer
 featured_url: usinglight
-tags:
-  - tips
+tags: tips
 ---
 
 Tous les jours (ouvrés) je poste une de mes photos en ligne. Tous les jours je répète les mêmes gestes simples mais barbants. Tous les jours je me dis qu'il faudrait que je fasse quelque chose pour me faciliter la vie. C'est maintenant chose faite !
@@ -66,7 +65,7 @@ Et bien c'est "simplement" un système de suite d'actions automatisées géré p
 
 *Spoiler alert* : in fine mon workflow ressemble à ça :
 
-{% image "./img/workflow.png", "Workflow complet" %}
+<img src="./img/workflow.png" alt="Workflow complet">
 
 ### Étape 1 Le choix
 Désormais pour choisir une photo il me suffit d'ouvrir Alfred, taper `pick X` (X étant le nombre de photos que je souhaite afficher ou bien par défaut il en affichera 6), puis je clique sur l'image de mon choix qui sera dupliquée avec un contour.  
@@ -89,7 +88,7 @@ En détail, sur la deuxième ligne, voici ce que j'ai fait :
 
 J'ai aussi rajouté une petite action sur fichier qui me permet, lorsque j'ai un fichier sélectionné, de directement l'envoyer au script pour en faire une copie avec cadre. Ça m'arrive d'avoir ce besoin ponctuel.  
 Même action finale, juste un trigger différent.
-{% image "./img/pick.png", "Tâche pick" %}
+<img src="./img/pick.png" alt="Tâche pick">
 
 ### Étape 2 la préparation
 Pour la préparation, c'est le mot clé `create` que j'ai choisi auquel s'ajoute l'argument obligatoire du nom du dossier. 
@@ -110,7 +109,7 @@ En détail :
 5. puis dans ce dossier je crée un fichier `index.md` vide
 6. finalement j'envoie une notification de succès
 
-{% image "./img/create.png", "Tâche create" %}
+<img src="./img/create.png" alt="Tâche create">
 
 <div class="notabene">
 Notez qu'à ce moment-là j'aurais pu créer un fichier markdown partiellement pré-rempli mais comme j'édite ça dans <strong>VSCode</strong> en utilisant un template de fichier avec des arrêts de tabulation dans les zones à éditer, c'est plus pratique de juste créer le fichier vide.
@@ -134,7 +133,7 @@ En détail :
 4. puis je renomme le fichier en `photo.jpg`
 5. enfin j'envoie une notification de travail terminé
 
-{% image "./img/copynrename.png", "Tâche copy and rename" %}
+<img src="./img/copynrename.png" alt="Tâche copy and rename">
 
 ### Étape 3 La publication
 C'est là que ça pêche…

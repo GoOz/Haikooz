@@ -4,8 +4,7 @@ date: 2014-10-13T07:44:13.000Z
 featured: img/featured.jpg
 featured_author: Ashim D’Silva
 featured_url: randomlies
-tags:
-  - code
+tags: code
 ---
 
 C'est là que commence la période la plus obscure de notre voyage, il va falloir toucher à des fichiers de config et coder un peu.
@@ -43,7 +42,7 @@ Je vous invite toutefois à aller faire un tour dans les options `⌘+,` et nota
 
 Je vous conseille aussi de cocher les options "Utiliser les polices grasses", "Afficher les couleurs ANSI" et "Utiliser des couleurs vives pour le texte en gras" comme sur la capture ci-dessous.
 
-{% image "./img/terminal-settings.png", "Terminal settings" %}
+![Terminal settings](img/terminal-settings.png)
 
 Pensez donc à changer de thème aussi, le terminal est déjà tellement rustre de base que laisser la coloration neutre serait encore pis.
 
@@ -61,15 +60,15 @@ Ceci étant j'en recommande certains à cocher/décocher.
 
 Comme sur l'onglet "Général", il vaut mieux décocher (de mémoire il est activé par défaut) l'option *Startup > Open profiles window*. Je pars du principe que vous n'aurez pas besoin de plusieurs profils de par votre utilisation du terminal.
 
-{% image "./img/iterm-gen.png", "iTerm gen" %}
+![iTerm gen](img/iterm-gen.png)
 
 Sur l'onglet *Profiles > General*, Cochez l'option "Reuse previous session's directory". Celle-ci vous permet à chaque nouvelle ouverture de fenêtre de ne pas repartir de la racine de votre dossier utilisateur mais du dernier dossier où vous vous trouviez juste avant.
 
-{% image "./img/iterm-prof.png", "iTerm prof" %}
+![iTerm prof](img/iterm-prof.png)
 
 Enfin, dans *Profiles > Colors*, vous pourrez ajouter un theme. Je recommande mes préférés toujours [Solarized](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized), [Monokai, Zenburn, Twilight ou plein d'autres encore](https://github.com/mbadolato/iTerm2-Color-Schemes) ou bien faire vous même le vôtre avec votre pouvoir créatif sur [4bit](http://ciembor.github.io/4bit/).
 
-{% image "./img/iterm-colors.png", "iTerm colors" %}
+![iTerm colors](img/iterm-colors.png)
 
 Au delà de ça, laissez vous aller à fouiller ce que vous propose iTerm2 mais je vous déconseille de cocher/décocher des options dont vous connaissez pas la portée.
 
@@ -112,7 +111,7 @@ Personnaliser son *prompt* paraît très obscur pour les profanes.
 
 Par exemple, pour obtenir le prompt que j'ai sur mon Terminal avec ces couleurs comme le montre l'image ci-dessous, il vous faut ajouter une ligne telle quelle `export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "`
 
-{% image "./img/bash-prompt.png", "Bash prompt" %}
+![Bash prompt](img/bash-prompt.png)
 
 Je ne vais pas vous apprendre à faire ça à la main parce que ce serait, je pense, pousser le bouchon trop loin.
 
@@ -149,11 +148,11 @@ Laissez l'installation se finir et voilà ! Sauf que en fait comme je vous l'ai 
 
 **Avec Terminal**
 
-{% image "./img/terminal-zsh.png", "Terminal zsh" %}
+![Terminal zsh](./img/terminal-zsh.png)
 
 **Avec iTerm2**
 
-{% image "./img/iterm-zsh.png", "iTerm zsh" %}
+![iTerm zsh](./img/iterm-zsh.png)
 
 ### Les thèmes
 

@@ -4,8 +4,7 @@ date: 2024-03-15
 featured: img/featured.jpg
 featured_author: Joshua Newton
 featured_url: joshuanewton
-tags:
-  - notes
+tags: notes
 ---
 
 **En vrac**
@@ -27,7 +26,7 @@ C'est comme si _React_ était le nouveau défaut. Sauf que non.
 
 Ce n'est peut être que moi mais quand tu parles d'un problème global, je pense que tu devrais faire des exemples qui parlent à tout le monde en utilisant du code neutre.
 
-{% image "./img/gears.png", "Meme de Peter Griffin de la série Family Guy présentant what really grinds my gears" %}
+![Meme de Peter Griffin de la série Family Guy présentant what really grinds my gears](img/gears.png)
 
 ---
 

@@ -51,7 +51,7 @@
 			property="og:url"
 			content="{{ metadata.url }}{{ page.url | htmlBaseUrl }}"
 		/>
-		{% ogFeatured "content/"+page.url+featured %}
+		<meta property="og:image" content="{{ featured }}">
 		<meta property="og:locale" content="fr_FR" />
 		<meta
 			property="article:published_time"
@@ -63,6 +63,8 @@
 		<meta property="og:image:width" content="2000" />
 		<meta property="og:image:height" content="1333" />
 		{% endif %}
+			{#- Add the heading-anchors web component to the JavaScript bundle #}
+		{%- js %}{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}{% endjs %}
 	</head>
 	<body>
 		{% svgsprite %}
@@ -70,7 +72,7 @@
 
 		<header>
 			<a href="/" class="home-link img-link"
-				><img src="/img/haikooz.svg" alt="{{ metadata.title }}"
+				><img eleventy:ignore src="/img/haikooz.svg" alt="{{ metadata.title }}"
 			/></a>
 			<nav>
 				<h2 class="visually-hidden">Menu de navigation</h2>
@@ -97,12 +99,12 @@
 					</li>
 					<li class="nav-item">
 						{% svg "hashtag", "nav-icon" %}
-						<a href="/tags">Tags</a>
+						Tags
 						<ul class="tags-list">
-							{% for tag in collections.all | getAllTags | filterTagList %}
+							{% for tag in collections | getKeys | filterTagList %}
 							{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 							<li>
-								<a href="{{ tagUrl }}">{{ tag }}</a>
+								<a href="{{ tagUrl }}" class="tag">{{ tag }}</a>
 							</li>
 							{% endfor %}
 						</ul>
@@ -176,7 +178,7 @@
 			{{ content | safe }}
 		</main>
 		{% if post %}
-		<script src="/js/toc.js"></script>
+		<script type="module" src="{% getBundleFileUrl "js" %}"></script>
 		{% endif %}
 	</body>
 </html>

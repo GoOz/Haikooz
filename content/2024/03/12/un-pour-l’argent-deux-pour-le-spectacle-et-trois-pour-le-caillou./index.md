@@ -4,8 +4,7 @@ date: 2024-03-12
 featured: img/featured.jpg
 featured_author: Marino Linic
 featured_url: marinolinic
-tags:
-  - notes
+tags: notes
 ---
 
 **En vrac**

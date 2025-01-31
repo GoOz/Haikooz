@@ -4,9 +4,7 @@ date: 2014-09-02
 featured: img/featured.jpg
 featured_author: Jack Scorner
 featured_url: jack_scorner
-tags:
-  - notes
-  - photo
+tags: [notes, photo]
 ---
 
 J'ai eu une idée de projet photographique récemment, une idée dont j'avais bien besoin. Mon amour de la photographie ne s'estompe pas avec le temps mais ma motivation pour en faire, elle, est aussi rare que le soleil d'août en France.

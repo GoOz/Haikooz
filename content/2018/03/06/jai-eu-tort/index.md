@@ -4,9 +4,7 @@ date: 2018-03-06
 featured: img/featured.jpg
 featured_author: Nikko Macaspac
 featured_url: nikkotations
-tags:
-  - code
-  - notes
+tags: [code, notes]
 ---
 
 Une vie sans apprendre sur soi ou sur ce qui nous entoure n'est pas vraiment une vie.

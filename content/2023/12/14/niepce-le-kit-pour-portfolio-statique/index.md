@@ -4,9 +4,7 @@ date: 2023-12-14
 featured: img/featured.jpg
 featured_author: Zalfa Imani
 featured_url: zalfaimani
-tags:
-  - code
-  - photo
+tags: [code, photo]
 ---
 
 Depuis que j'ai refait ce blog en site statique avec [Eleventy](https://www.11ty.dev/) je suis tombé amoureux de cet outil et j'ai décidé de refaire aussi mon portfolio avec. Mais j'ai remarqué qu'il y avait peu ou pas de starter kit dans la communauté pour créer son portfolio. Alors je l'ai fait… pour moi d'abord et puis pour les autres ensuite.
@@ -37,7 +35,7 @@ Attention toutefois, le nom devra être court sous peine de passer à la ligne, 
 Quand vous ou quelqu'un d'autre partagera un lien vers votre site sur les réseaux sociaux ou sur toute autre plateforme qui gère [Opengraph](https://ogp.me/) cela affichera une carte avec les informations essentielles de la page partagée.
 
 Un peu comme ceci :
-{% image "./img/opengraph.png", "capture d'écran d'un partage sur Twitter usant d'OpenGraph", "400px" %}
+![Capture d'écran d'un partage sur Twitter usant d'OpenGraph](img/opengraph.png)
 
 Pour les pages de vos photos, ce sera déjà pris en charge mais pour le reste vous pouvez choisir une bannière personnalisée.
 
@@ -51,10 +49,10 @@ Niepce existe en 3 saveurs :
 En bref, vous avez le choix de forcer un des deux tons ou de laisser les préférences utilisateurs choisir à votre place.
 
 **Le ton clair**
-{% image "./img/light-theme.png", "Capture d'écran du ton clair" %}
+<img src="./img/light-theme.png" alt="Capture d'écran du ton clair">
 
 **Le ton obscur**
-{% image "./img/dark-theme.png", "Capture d'écran du ton obscur" %}
+<img src="./img/dark-theme.png" alt="Capture d'écran du ton obscur">
 
 ### 4 choix de présentation
 
@@ -71,16 +69,16 @@ Dans le portfolio, deux types de page sont candidats à afficher une de ses pré
 Vous aurez la possibilité de choisir une présentation globale (pour les 2 types de page donc) ou présenter les choses de manière différente sur chaque type.
 
 **La grille *Justified***
-{% image "./img/justified.png", "Capture d'écran de la grille justified" %}
+<img src="./img/justified.png" alt="Capture d'écran de la grille justified">
 
 **La grille *Masonry***
-{% image "./img/masonry.png", "Capture d'écran de la grille masonry" %}
+<img src="./img/masonry.png" alt="Capture d'écran de la grille masonry">
 
 **La grille *Instagrid***
-{% image "./img/instagrid.png", "Capture d'écran de la grille instagrid" %}
+<img src="./img/instagrid.png" alt="Capture d'écran de la grille instagrid">
 
 **La grille *Monocolumn***
-{% image "./img/monocolumn.png", "Capture d'écran de la grille monocolumn" %}
+<img src="./img/monocolumn.png" alt="Capture d'écran de la grille monocolumn">
 
 ### Affichage des métadonnées EXIF
 

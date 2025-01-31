@@ -4,8 +4,7 @@ date: 2014-10-13T07:43:00.000Z
 featured: img/featured.jpg
 featured_author: Danie Franco
 featured_url: dani_franco
-tags:
-  - code
+tags: code
 ---
 
 Quand on fait dans le développement Front-end ou dans l'intégration web (chacun ses appellations, je ne rentrerai pas dans le débat), si l'on veut être efficace et rapide, il faut savoir utiliser de nombreux nouveaux outils (Sass, Compass, Grunt, Bundler, Bower, Gulp, etc).
@@ -31,7 +30,7 @@ Pour bien comprendre ce que nous allons faire ensemble, il faut distinguer plusi
 
 Votre mac est livré avec sa propre application de terminal, judicieusement appelé **Terminal**, que vous pourrez trouver dans le dossier *Applications* ou recherchez-le avec spotlight `⌘ + Space`.
 
-{% image "./img/terminal.png", "Terminal" %}
+![Terminal](img/terminal.png)
 
 *Ci-dessus, Terminal avec le theme Homebrew*
 
@@ -51,7 +50,7 @@ On peut noter tout de même ma fonctionnalité préférée, le *split view* ou *
 
 En bref, cela permet d'avoir des onglets dans des onglets. Très pratique quand, comme moi, vous aimez avoir un onglet par projet avec une vue dans laquelle une tâche de fond tourne et une autre sur l'arborescence de votre dépôt comme le montre la capture ci-dessous.
 
-{% image "./img/iterm.png", "iTerm" %}
+![iTerm](img/iterm.png)
 
 D'aucuns diront que **iTerm2** propose de nombreuses autres options que **Terminal** ne propose pas, mais même si c'est vrai, ce sont surtout des options pour un public assez confirmé, donc je n'en parlerai pas. :)
 

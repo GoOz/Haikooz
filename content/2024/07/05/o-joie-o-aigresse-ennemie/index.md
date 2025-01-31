@@ -4,8 +4,7 @@ date: 2024-07-05
 featured: img/featured.jpg
 featured_author: Luis Quintero
 featured_url: jibarox
-tags:
-  - notes
+tags: notes
 ---
 **En vrac**
 
