@@ -9,7 +9,7 @@ tags: [code, notes]
 
 Le dernier billet en date de ce blog fêtait mes deux ans chez Cozy. Je n'en ferai pas trois. Ça a été une aventure mémorable et malgré les aléas de la vie d'une startup j'en garderai un très bon souvenir.
 
----
+<!-- excerpt -->
 
 Toujours est-il que je suis donc disponible pour un nouveau job.
 

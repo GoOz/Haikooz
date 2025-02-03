@@ -9,7 +9,7 @@ Aaaah Noël…
 
 C'est la période de l'année où l'on voit passer beaucoup de calendriers de l'avent. Parmi tout ceux qui trainent il y a celui de [Cozy Cloud](https://www.myadvent.net/calendars/?id=60a3f8cf02141a43ec6efbd8a76a02a6) que j'apprécie beaucoup mais aussi et surtout celui d'[Alfred](https://www.alfredapp.com/xmascalendar/), vous savez l'app OS X dont je vous ai parlé [il n'y a pas si longtemps](/2016/05/05/alfred-le-messie-des-feignasses/) ?
 
----
+<!-- excerpt -->
 
 Et bien en passant en revue tous leurs trucs et astuces, je me suis rendu compte que je n'utilisais que trop peu la gestion des snippets alors je me suis amusé à faire ma propre collection…
 

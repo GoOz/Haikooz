@@ -9,7 +9,7 @@ tags: notes
 
 C'est fou ce qu'on peut amasser en une vie… et je ne suis même pas encore "vieux". Pourtant je vois chez moi dès que je tourne la tête, ici et là, des objets plus ou moins utiles. M'en vient alors les questions de pourquoi j'amasse et pourquoi je ne me débarrasse pas de certains de ces objets.
 
----
+<!-- excerpt -->
 
 Il y a quelques années je me suis débarrassé déjà de mes CDs et DVDs, ne gardant que ceux qui avait une valeur sentimentale. Aujourd'hui je les vois dans une case de mon bureau et je me rends compte que je n'ai ni écouté, ni regardé aucun d'entre eux depuis le grand ménage. Et ça doit faire 5 ans maintenant.  
 D'aucun pourrait conclure qu'il est temps de dire au revoir et s'en débarrasser mais je ne sais pas si je suis prêt encore. Le constat est là toutefois : je garde par nostalgie.  

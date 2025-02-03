@@ -9,7 +9,7 @@ tags: photo
 
 Depuis quelques temps je me suis un peu poussé au cul pour reprendre la photographie avec plus d'assiduité. Seul problème, mon boulot consiste à avoir ce même cul vissé sur une chaise toute la journée devant un ordinateur et ce toujours dans le même bureau, chez moi. Alors je me suis mis à penser que faire un petit challenge serait une bonne idée.
 
----
+<!-- excerpt -->
 
 ## La génèse
 

@@ -7,7 +7,7 @@ tags: [code, notes]
 
 J'ai récemment été confronté à un soucis qui n'a rien de rare et qui emmerde tout nouvel arrivant sur un projet : **l'absence de documentation**.
 
----
+<!-- excerpt -->
 
 Alors je ne vous cache pas que chez mon précédent employeur, tout le monde utilisait les mêmes outils, les mêmes _frameworks_, etc. Il y avait bien quelques subtilités par projet mais globalement on codait tous avec le même système.
 

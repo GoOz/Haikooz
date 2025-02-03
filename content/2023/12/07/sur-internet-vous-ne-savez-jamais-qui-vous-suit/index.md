@@ -9,7 +9,7 @@ tags: notes
 
 Si on met de côté les différents réseaux sociaux, j'ai deux présences en ligne : ce blog et mon [portfolio de photographie](https://www.bloogart.com/). Et récemment j'ai fait une refonte des deux avec [Eleventy](https://www.11ty.dev/) mais surtout je les ai migré chez mon nouvel hébergeur [alwaysdata](https://www.alwaysdata.com).
 
----
+<!-- excerpt -->
 
 Ça fait bien longtemps que je n'utilise plus d'outil de mesure d'audience sur mes sites, déjà parce que je n'aime pas vraiment ça personnellement donc je ne vais pas l'imposer aux autres et puis ça fait toujours ça de moins en JavaScript à télécharger.
 

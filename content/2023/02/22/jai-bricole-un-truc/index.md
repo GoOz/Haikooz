@@ -9,7 +9,7 @@ tags: [notes, jdr, code]
 
 Je bosse vraiment dans le développement web depuis 2007 et j'ai jamais vraiment fait un projet open-source de A à Z qui serve à quelqu'un d'autre que moi depuis tout ce temps. Mais je crois que ce temps est révolu.
 
----
+<!-- excerpt -->
 
 Voyez, je suis à mes heures perdues grand amateur de jeu de rôle sur table et à la fois un peu fan de technologie. Tout ça pour dire que, souvent, plus le jeu a des règles complexes plus la sempiternelle feuille de personnage sous forme papier devient vite chiante à maintenir à jour. Pas impossible mais chiante.
 

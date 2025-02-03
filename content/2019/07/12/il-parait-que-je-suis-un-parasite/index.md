@@ -7,7 +7,7 @@ tags: notes
 
 Ça fait un peu plus de 10 ans que je suis entré dans la "vie active", non-stop depuis 2007 en enchaînant chaque nouveau poste , et là, d'un coup sans vraiment prévenir, je me retrouve donc au **chômage** en pleine période estivale alors… comment dire… vu que le recrutement est un peu désert à ce moment précis, ça va pas être une période cool.
 
----
+<!-- excerpt -->
 
 <div style="width:100%;height:0;padding-bottom:68%;position:relative;"><iframe src="https://giphy.com/embed/a6zGGyjGKq7GE" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 

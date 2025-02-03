@@ -9,7 +9,7 @@ tags: notes
 
 La période est à la fuite des réseaux sociaux mainstream après les dernières sorties médiatiques des grands noms du web (Musk & Zuck pour ne pas les nommer). On invite tout le monde à se "désolidariser" de ces dangereux bouffons en allant voir ailleurs, rester serait les légitimer mais je ne suis pas convaincu que ce soit aussi simple.
 
----
+<!-- excerpt -->
 
 S'il me semble que **Mastodon** et **Bluesky** sont désormais assez bien ancrés pour qu'une migration de Twitter se fasse sans heurt ou tout du moins sans trop de perte, je ne suis pas sûr que ce soit la même pour Meta.
 

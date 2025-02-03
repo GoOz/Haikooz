@@ -9,7 +9,7 @@ tags: notes
 
 L’enfer c’est les autres comme disait l’autre. C’est toujours l’autre. Jamais soi, jamais nos proches. C’est toujours de la faute des autres. Mais qui sommes-nous sinon les autres des autres. Sommes-nous alors leur enfer ?
 
----
+<!-- excerpt -->
 
 ## Les autres sont des cons.
 

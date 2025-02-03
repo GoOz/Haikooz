@@ -26,7 +26,7 @@ Elle est tout ce que tu aurais dû être.
 Elle est tout ça et plus encore.  
 Elle est tout ce dont j'ai besoin.  
 
---- 
+<!-- excerpt -->
 
 L'extrême droite c'est la haine de l'autre, la haine de l'autre c'est le fascisme, le fascisme c'est la mort.
 

@@ -9,7 +9,7 @@ tags: tips
 
 Tous les jours (ouvrés) je poste une de mes photos en ligne. Tous les jours je répète les mêmes gestes simples mais barbants. Tous les jours je me dis qu'il faudrait que je fasse quelque chose pour me faciliter la vie. C'est maintenant chose faite !
 
----
+<!-- excerpt -->
 
 ## Ma routine
 

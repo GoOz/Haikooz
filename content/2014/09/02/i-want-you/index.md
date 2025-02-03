@@ -9,7 +9,7 @@ tags: [notes, photo]
 
 J'ai eu une idée de projet photographique récemment, une idée dont j'avais bien besoin. Mon amour de la photographie ne s'estompe pas avec le temps mais ma motivation pour en faire, elle, est aussi rare que le soleil d'août en France.
 
----
+<!-- excerpt -->
 
 ## Mon projet
 

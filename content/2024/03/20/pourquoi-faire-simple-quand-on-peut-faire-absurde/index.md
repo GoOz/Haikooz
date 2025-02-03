@@ -9,7 +9,7 @@ tags: notes
 
 **En vrac…**
 
----
+<!-- excerpt -->
 
 J'ai réagi sur un *toot* de [Zach Leatherman](https://fediverse.zachleat.com/@zachleat/112117301801565699#.) qui reprend un *tweet* d'une personne demandant un outil simple pour pondre quelques pages pour un site personnel et une des réponses était d'utiliser **React**.
 

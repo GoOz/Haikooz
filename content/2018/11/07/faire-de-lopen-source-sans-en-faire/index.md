@@ -7,7 +7,7 @@ tags: notes
 
 Ça va faire deux ans ce mois-ci que je suis chez Cozy. Et même si je continue à me faire spammer par des recruteurs de propositions à ne plus savoir quoi en faire, je m'y sens trop bien pour changer.
 
----
+<!-- excerpt -->
 
 **2 ans en télétravail, 2 ans à bosser sur un projet auquel je crois, 2 ans à côtoyer des gens brillants et bienveillants. Non vraiment, j'y suis bien.**
 

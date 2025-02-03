@@ -9,7 +9,7 @@ tags: [notes, photo]
 
 Quand il s'agit de voyage, je suis plutôt du genre dépaysement par la nature que par le soleil, plage et tout le toutim. Je préfère la verdure et le calme. Pendant des années j'ai rêvé de visiter l'Écosse et ça m'aura peut être pris une dizaine d'années mais c'est enfin chose faite. Alors voici mon retour de voyage, pour partager et si jamais ça peut servir comme base à quelqu'un d'autre qui serait intéressé pour vivre la même expérience alors tant mieux.
 
----
+<!-- excerpt -->
 
 On est donc parti sur un road trip de 9 jours.  
 Évidemment on a pas pu tout faire.  

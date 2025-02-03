@@ -9,7 +9,7 @@ tags: jdr
 
 _DISCLAIMER : Ceci est un compte-rendu d'une partie de jeu de rôle sur Cyberpunk RED du point de vue de mon personnage, Borys "Zed" Zedinski, un techie, sur la campagne Eurotour. Tout ceci n'est donc que fiction. Toute ressemblance bla bla bla…_
 
----
+<!-- excerpt -->
 
 ## Entrée du 5 juin 2045 - suite
 

@@ -6,7 +6,8 @@ tags: jdr
 ---
 
 Je suis maître de jeu dans une partie de Donjon et Dragons 5ème édition et mes joueurs ont pris des cours d'alchimie dans une école de sorciers, une sorte de Poudlard pour sorciers malfaisants, tout ça dans le but de créer leurs propres potions de soin. J'aurais dû le voir venir…
----
+
+<!-- excerpt -->
 
 En attendant, je me suis retrouvé comme un con parce qu'il n'y a pas de règles officielles pour l'alchimie et je ne peux pas leur dire qu'ils ne pourront pas en préparer. J'ai merdé, donc j'assume.
 

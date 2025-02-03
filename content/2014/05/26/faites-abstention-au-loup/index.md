@@ -9,6 +9,8 @@ tags: notes
 
 À chaque nouvelle élection, un phénomène massif pointe le bout de son nez, c'est l'**abstentionnisme**.
 
+<!-- excerpt -->
+
 À chaque nouvelle élection, on spolie ces gens.
 
 À chaque nouvelle élection où les partis d'extrêmes font de bons scores, on se laisse aller en diatribes belliqueuses contre cette partie de la population.

@@ -8,7 +8,8 @@ tags: code
 ---
 
 C'est là que commence la période la plus obscure de notre voyage, il va falloir toucher à des fichiers de config et coder un peu.
----
+
+<!-- excerpt -->
 
 Sachant que les fichiers de config sont des fichiers cachés, ils seront plus facile à localiser et ouvrir directement depuis le terminal.
 

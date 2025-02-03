@@ -7,7 +7,8 @@ tags: [notes, photo]
 
 Début 2024 [j'ai décidé de me lancer dans un challenge photo](https://blog.foojin.com/2023/12/22/shuffle-mon-challenge-photo/), avec une photo par semaine, et aujourd'hui c'est la fin de l'année et donc du challenge. Faisons le point !
 
----
+<!-- excerpt -->
+
 ![Shuffle 01](img/shuffle-01.jpg)
 
 Je l'ai fini ! En respectant les conditions de bout en bout, pendant 1 an. Rien que pour ça je suis assez fier de moi. Rétrospectivement je suis content de mon choix d'avoir fait un challenge 52 (chaque semaine) plutôt que 365 (chaque jour), parce que le principe était bien trop complexe pour que je réussisse à faire ça tous les jours. Il m'est arrivé de passer la semaine à trouver quoi faire en fonction du tirage que j'avais eu.

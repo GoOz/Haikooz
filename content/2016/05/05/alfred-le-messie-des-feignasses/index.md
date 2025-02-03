@@ -7,7 +7,7 @@ tags: tips
 
 Plus les années passent, moins je touche à ma souris. C'est un fait. Je pense que la raison principale est que je passe beaucoup de mon temps sur ma machine à coder et que ça, ça se fait uniquement au clavier.
 
----
+<!-- excerpt -->
 
 Du coup, on apprend vite les raccourcis pour ne pas avoir à lâcher ce clavier. C'est sûrement ce qui m'a le plus attiré chez les _launchers_
 

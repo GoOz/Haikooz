@@ -8,7 +8,7 @@ tags: notes
 ---
 **En vrac…**
 
----
+<!-- excerpt -->
 
 Comme de nombreux copains et copines qui le font déjà depuis de belles lurettes, je vais m'atteler à essayer de poster des billets "fourre-tout", c'est à dire une sorte de bric à brac de notes, pensées, liens utiles, etc. 
 En bref tout ce qui peut bien me passer par la tête mais qui ne mériterait pas un post à part entière.

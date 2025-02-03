@@ -9,7 +9,7 @@ tags: notes
 
 **En vrac**
 
----
+<!-- excerpt -->
 
 Au cours de mes pérégrinations sur [Mastodon](https://mamot.fr/@GoOz) je suis tombé sur deux billets traitant le même sujet : **Ne pas mettre de `margin` sur un composant réutilisable**
 

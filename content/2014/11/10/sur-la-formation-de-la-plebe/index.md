@@ -9,7 +9,7 @@ tags: [code, notes]
 
 Vous savez quand on a un métier dont le savoir est en perpétuelle évolution, et c'est le cas du mien l'intégration web / le développement front-end, on a, pour peu que notre propre n'égo ne se sente pas pousser des ailes, l'immuable sensation d'être une sous-merde.
 
----
+<!-- excerpt -->
 
 Nous sommes, nous autres intégrateurs, sous le joug au mieux d'une humilité sans faille, au pire d'un sentiment d'imposture. Marie "[kReEsTaL](https://twitter.com/kreestal)" Guilllaumet, dans son billet "[L'intégration web, cette leçon d'humilité](http://www.lesintegristes.net/2013/03/19/integration-web-humilite/)", le résume à la perfection.
 

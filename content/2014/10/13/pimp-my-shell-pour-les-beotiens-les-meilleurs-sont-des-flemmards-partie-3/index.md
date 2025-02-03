@@ -8,7 +8,8 @@ tags: code
 ---
 
 Dans cette troisième partie, nous allons voir ensemble le pouvoir des commandes et leur options cachées ainsi que la toute puissance des *aliases*.
----
+
+<!-- excerpt -->
 
 ***NB** : je risque d'écrire des choses dans cette partie qui paraîtront évidentes mais je pars du principe que quand on parle à des profanes du terminal, rien n'est jamais évident. Alors, accrochez-vous, vous apprendrez peut-être quelque chose dans le tas.*
 

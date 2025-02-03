@@ -7,7 +7,7 @@ tags: notes
 
 Hier, [Boris](http://twitter.com/borisschapira) réagissait sur un article du [Monde.fr](http://correcteurs.blog.lemonde.fr/2016/01/30/le-pronom-nous-est-il-entre-en-zone-omineuse/) à propos de la douce mais pernicieuse infection du "**nous**" par le "**on**", sur les impacts sémantiques, de la disparition de la responsabilité.
 
----
+<!-- excerpt -->
 
 Qu'on le veuille ou non, "nous" sera remplacé par "on". La langue française est vivante et évolue et se simplifie par le biais de son utilisation au jour le jour par ceux qui la parlent. Et n'allez pas me faire croire que le français est une langue simple. Elle est excessivement compliquée. La conjugaison est un monstre horrible, les règles grammaticales perverses et l'orthographe un punk à chien qui ne respecte que ce qu'il veut bien respecter.
 

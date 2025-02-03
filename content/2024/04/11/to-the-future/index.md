@@ -9,7 +9,7 @@ tags: notes
 
 **En vrac**
 
----
+<!-- excerpt -->
 
 Je me suis rajouté une petite page "[Projets](https://blog.foojin.com/projects/)" sur le blog. 
 

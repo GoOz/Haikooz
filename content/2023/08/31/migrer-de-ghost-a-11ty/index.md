@@ -9,7 +9,7 @@ tags: [code, tips]
 
 Après plusieurs années d'utilisation de Ghost comme CMS de ce blog ainsi que mon portfolio, j'ai décidé de migrer sur Eleventy. Ça n'a pas été super facile mais franchement pas très compliqué non plus.
 
----
+<!-- excerpt -->
 
 ## Pourquoi changer ?
 

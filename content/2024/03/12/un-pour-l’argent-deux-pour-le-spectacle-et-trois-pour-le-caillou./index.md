@@ -9,7 +9,7 @@ tags: notes
 
 **En vrac**
 
---- 
+<!-- excerpt -->
 
 Je trouve que ça a un effet relaxant d'écrire du CSS moderne. La satisfaction que cela me procure est *étrangement* inversement proportionnelle à la frustration que j'éprouvais quand je faisais du support IE jadis.
 

@@ -9,7 +9,7 @@ tags: [notes, photo]
 
 Cela fait bien longtemps que je pratique la photographie, depuis mes 15 ou 16 ans avec une régularité plus que variable, donc j’ai eu le temps de tester moult choses, découvrir ce que je n’aimais pas ou ce que j’aimais prendre en photo et ce qui me laissait pantois ou impassible à regarder.
 
----
+<!-- excerpt -->
 
 Si aujourd’hui je me cherche encore ou en tout cas je cherche à comprendre ce qui me fait le plus vibrer pour en faire des séries ou des projets, j’ai tout de même une liste de choses avec un avis plus ou moins bien arrêté. Comme vous le verrez, mon avis a évolué avec le temps donc rien ne dit que je ne changerai pas encore d'avis dans le futur.
 

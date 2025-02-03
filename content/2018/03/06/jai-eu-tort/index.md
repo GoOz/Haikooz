@@ -9,7 +9,7 @@ tags: [code, notes]
 
 Une vie sans apprendre sur soi ou sur ce qui nous entoure n'est pas vraiment une vie.
 
----
+<!-- excerpt -->
 
 Cela fait plus de 10 ans que je travaille dans le web, toujours quasi dans le même contexte, et il y a un peu plus d'1 an j'ai rejoint une Start-Up, **Cozy Cloud**, qui était comme un tout nouveau paradigme pour moi. Non pas parce que c'était une Start-Up mais pour ce que j'y faisais, que ce soit les technologies, les manières de travailler, l'environnement, etc.
 

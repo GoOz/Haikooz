@@ -8,7 +8,8 @@ tags: code
 ---
 
 Quand on fait dans le développement Front-end ou dans l'intégration web (chacun ses appellations, je ne rentrerai pas dans le débat), si l'on veut être efficace et rapide, il faut savoir utiliser de nombreux nouveaux outils (Sass, Compass, Grunt, Bundler, Bower, Gulp, etc).
----
+
+<!-- excerpt -->
 
 Outils qui sont pour la plupart uniquement utilisables en ligne de commande (ou CLI) et par conséquent, pour mieux les dompter, il faut se préparer le meilleur des équipements.
 

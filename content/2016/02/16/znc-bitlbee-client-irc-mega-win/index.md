@@ -11,7 +11,7 @@ tags: [code, tips]
 
 Cela vous est-il déjà arrivé de vous dire qu'entre Gtalk (Hangout), IRC, le chat Facebook, Twitter, voire même Slack maintenant vous ne saviez plus où donner de la tête ?
 
----
+<!-- excerpt -->
 
 Que vous aviez peur de râter des conversations intéressantes alors que vous deviez vous déconnecter parce que quelque chose sur le feu sonnait à la porte ?
 

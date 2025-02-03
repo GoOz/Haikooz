@@ -10,7 +10,7 @@ tags: notes
 Cela fait déjà quelques années que j'ai commencé à "dégoogliser" mon internet afin de garder mes données perso pour ma tronche. J'ai bien réduit ma relation avec Google mais il me restait à restreindre ma relation avec Marko Zuckerberg et son mastodonte de Facebook.  
 Je pense qu'il est temps de passer la seconde.
 
----
+<!-- excerpt -->
 
 ## Résumé des épisodes précédents
 

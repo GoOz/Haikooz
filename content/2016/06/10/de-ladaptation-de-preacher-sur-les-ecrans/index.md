@@ -7,7 +7,7 @@ tags: notes
 
 Je ne suis pas un critique émérite de séries télé ou même de comics mais hé, je me suis dit que ça couterait rien de donner mon avis sur cette fraîche nouvelle série qu'est **Preacher** et de quelques autres adaptation de comics.
 
----
+<!-- excerpt -->
 
 **GARANTI 100% SANS SPOIL**
 

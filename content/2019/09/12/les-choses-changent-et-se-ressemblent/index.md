@@ -11,7 +11,7 @@ tags: notes
 
 Quand je suis entré dans le métier, il y a plus de 10 ans, il y avait les dev backend qui s'occupaient de tout ce qui se passait sur le serveur, PHP et MySQL par exemple et les intégrateurs, comme moi, de tout ce qui se passait côté navigateur c'est à dire HTML et CSS principalement. Le JS servait alors peu mais quand les jQuery et autres Mootools ont explosé on s'y est mis aussi.
 
----
+<!-- excerpt -->
 
 Et puis le JS a évolué, beaucoup évolué pour prendre la place qu'il prend aujourd'hui.
 

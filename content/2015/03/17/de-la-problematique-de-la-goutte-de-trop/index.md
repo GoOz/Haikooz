@@ -7,7 +7,7 @@ tags: [notes, tips]
 
 Je me baladais un jour dans la [forêt de Marly](https://www.google.fr/maps/place/Foret+de+Marly,+Marly+le+Roi+Forest,+78620+L%27%C3%89tang-la-Ville/@48.8628984,2.0564139,16z/data=!4m2!3m1!1s0x47e687d57299aba3:0x482779b4764984f?hl=en) avec ma douce et tendre, et une conversation en amenant une autre, elle vient à me parler du [pisse debout](http://www.pissedebout.fr/) et remarque qu'elle pourrait enfin savoir ce que c'est que pisser debout et peut-être même comprendre le pourquoi de la goutte de pisse sur la cuvette.
 
----
+<!-- excerpt -->
 
 Là, je prends mon plus bel air narquois, non pas parce que je suis un macho phallocrate et misogyne mais parce que je suis juste un simple connard, et je lui dis qu'elle ne comprendrait qu'une partie mais pas tout, car le "pisse-debout" n'est malgré tout pas un pénis. Et c'est alors que j'ai essayé de lui expliquer toutes les possibles explications de la goutte de trop.
 

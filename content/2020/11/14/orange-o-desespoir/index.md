@@ -10,7 +10,7 @@ tags: notes
 Cela faisait presque 3 ans que j'avais déménagé dans une contrée charmante et calme mais sans fibre internet, seulement dotée d'une faiblarde ADSL fatiguée et surexploitée, ce qui rendait difficiles les conditions pour télétravailler.  
 Mais ces jours sombres sont révolus car j'ai la fibre désormais… enfin ça n'a pas été une sinécure non plus pour y arriver…
 
----
+<!-- excerpt -->
 
 **NB: **Je vais parler d'Orange ici car c'est l'opérateur que j'ai choisi mais je ne pourrais dire avec certitude que l'herbe aurait été plus verte chez un concurrent. Ce billet n'est pas un pamphlet contre la société au fruit amère, plutôt sur les processus rigide et le manque de souplesse qu'on peut trouver parfois chez certaines entreprises.
 

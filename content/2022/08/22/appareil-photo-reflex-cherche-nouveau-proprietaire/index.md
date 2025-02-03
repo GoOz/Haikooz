@@ -9,7 +9,7 @@ tags: notes
 
 Je me suis vendu à la cause hybride et je me déleste donc de mon cher reflex adoré et de tout ce qui va avec.
 
----
+<!-- excerpt -->
 
 ## Canon EOS 7D
 

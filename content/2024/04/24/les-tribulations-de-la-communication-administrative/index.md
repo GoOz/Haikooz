@@ -9,7 +9,7 @@ tags: notes
 
 Cela fait plusieurs années que je suis membre du bureau d'une association de jeu de rôle et si nos interactions avec la mairie sont rares, elles ne sont jamais sereines car tout parait toujours compliqué et insurmontable avec eux.
 
----
+<!-- excerpt -->
 
 ## La situation
 Cette association compte une trentaine de membres et la mairie nous prête donc des locaux (qui est un appartement vraiment) dans la ville.  

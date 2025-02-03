@@ -10,7 +10,7 @@ tags:
 
 **En vrac**
 
----
+<!-- excerpt -->
 
 J'aime pas trop la pub. J'apprécie pas trop Instagram non plus mais force est d'admettre que c'est encore une plateforme où les photographes trainent alors j'y suis aussi.
 

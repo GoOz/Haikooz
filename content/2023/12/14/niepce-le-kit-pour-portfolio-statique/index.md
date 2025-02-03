@@ -9,7 +9,7 @@ tags: [code, photo]
 
 Depuis que j'ai refait ce blog en site statique avec [Eleventy](https://www.11ty.dev/) je suis tombé amoureux de cet outil et j'ai décidé de refaire aussi mon portfolio avec. Mais j'ai remarqué qu'il y avait peu ou pas de starter kit dans la communauté pour créer son portfolio. Alors je l'ai fait… pour moi d'abord et puis pour les autres ensuite.
 
----
+<!-- excerpt -->
 
 ## Pourquoi, comment et à quoi ça ressemble donc ?
 

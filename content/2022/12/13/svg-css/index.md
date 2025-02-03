@@ -9,7 +9,7 @@ tags: [code, tips]
 
 SVG est clairement un super format pour les illustrations sur le web. Mais ce qui en fait un encore meilleur format est le fait qu'il peut interagir avec CSS et ça c'est vraiment cool ! ❤️
 
----
+<!-- excerpt -->
 
 Mais le sujet est un poil long et complexe alors accrochez-vous
 

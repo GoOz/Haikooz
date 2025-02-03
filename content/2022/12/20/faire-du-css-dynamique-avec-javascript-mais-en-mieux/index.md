@@ -9,6 +9,8 @@ tags: [code, tips]
 
 CSS c'est cool, JavaScript c'est cool. Mais mettre à jour du CSS avec du JS ça sous-entend de faire du CSS inline et ça c'est pas cool. Le truc c'est que JS ne sait pas vraiment faire autre chose que ça, à moins que…
 
+<!-- excerpt -->
+
 La plupart du temps on peut très bien changer du style avec JS en appliquant ou en supprimant uniquement une classe CSS pré-écrite. Et quand c'est possible c'est encore ce qu'il y a de mieux à faire mais il arrive parfois que cette option ne soit pas suffisante, notamment quand on cherche à écrire du CSS dynamique ou "_à la volée_".
 
 Mettons que sur mon site ou ma webapp j'utilise un composant d'avatar qui affiche par défaut les initiales de l'utilisateur et que, parce que je veux que ce soit sympa, je veux que le `background-color` de ce composant soit calculé en fonction des lettres de ces initiales afin d'être un brin plus personnalisé. Ça a l'air un peu con comme exemple mais j'ai déjà fait ça et c'est vrai que ça rend bien.
