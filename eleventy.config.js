@@ -176,8 +176,3 @@ export const config = {
   pathPrefix: "/",
 };
 
-// module.exports = function (eleventyConfig) {
-// App plugins
-// eleventyConfig.addPlugin(require("./eleventy.config.drafts.js"));
-// eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
-// };

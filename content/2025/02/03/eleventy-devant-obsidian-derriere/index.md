@@ -32,9 +32,9 @@ Générer des pages avec **11ty** c'est une seule commande : `npm run build`. Ç
 - Soit vous écrivez vos billets sur votre machine mais vous versionnez votre site avec Git (ou autre) puis vous vous connectez au serveur pour faire un `git pull` puis `npm run build` et là on commence à parler mais il y a toujours une étape manuelle fort chiante.
 - Soit vous faites tout comme avant **MAIS** vous mettez en place un webhook qui va, dès qu'il sait qu'un nouveau commit git a eu lieu, faire un `git pull` puis `npm run build` tout seul comme un grand et à votre place.
 
-Personnellement, j'ai mis en place le denier choix . Je ne peux vous dire comment faire ce webhook partout ailleurs mais chez mon hébergeur [alwaysdata](https://www.alwaysdata.com/fr/) et avec **Github** comme gestionnaire de *repository* Git j'ai mis en place ça relativement facilement en suivant ce [guide](https://blog.alwaysdata.com/fr/2023/02/01/devops-react-we-can-be-heroes-just-for-one-app/).
+Personnellement, j'ai mis en place le denier choix . Je ne peux vous dire comment faire ce webhook partout ailleurs mais chez mon hébergeur [alwaysdata](https://www.alwaysdata.com/fr/) et avec **Github** comme gestionnaire de *repository* Git j'ai mis en place ça relativement facilement et j'en parle sur ce [billet](/2025/04/11/comment-deployer-son-site-statique-11ty-depuis-github-vers-alwaysdata/).
 
-Depuis dès que je `push` des choses sur git ça se retrouve mis en ligne dans les 2-3 minutes, le temps que tout passe dans les tuyaux et que ça génère les pages. 
+Depuis dès que je `push` des choses sur git ça se retrouve mis en ligne dans les 2-3 minutes au maximum, le temps que tout passe dans les tuyaux et que ça génère les pages. 
 
 ## L'écriture du billet
 C'est sûrement plus une question de goût personnel, des éditeurs de markdown il y en a pléthore, mais je trouve qu'[Obsidian](https://obsidian.md/) est particulièrement bien adapté à ce besoin là. Le confort d'écriture m'y parait idéal tout en permettant une souplesse et une certaine adaptation grâce à ses nombreuses extensions, notamment celle qui permet d'y utiliser **Git**.
