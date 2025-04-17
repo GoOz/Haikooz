@@ -54,7 +54,7 @@ $ wget -O- https://github.com/adnanh/webhook/releases/download/2.8.0/webhook-lin
 Rendez-vous sur l'admin d'alwaysdata dans la section `Web > Sites` et cliquez sur le bouton "Ajouter un site", puis :
 1. Dans le champ **adresse**, mettez `<votreNomDeCompte>.alwaysdata.net/webhook`
 2. Dans le champ **type**, choisissez `Programme utilisateur`
-3. Dans le champ **commande**, mettez-y la commande qui devra être éxécuté `./webhook -port $PORT -hooks ./hooks.json -logfile webhook.log`
+3. Dans le champ **commande**, mettez-y la commande qui devra être exécuté `./webhook -port $PORT -hooks ./hooks.json -logfile webhook.log`
 4. Dans le champ **répertoire de travail**, mettez `webhook` (ou le nom du dossier où vous avez installé la library webhook de l'étape d'avant)
 5. Dans l'onglet **SSL**, *Forcez le HTTPS* si ce n'est pas déjà le cas
 6. Dans l'onglet **Avancé**, *Excluez le chemin*
@@ -83,6 +83,8 @@ On pourrait naïvement croire que c'est fini mais non. À ce stade chaque nouvea
 ## Configuration du webhook sur alwaysdata
 ### Authentification et configuration
 Vous allez donc devoir créer un fichier `hooks.json` de configuration. Pour ce faire, soit vous vous connectez en SSH sur le serveur et l'ajoutez à la main, soit vous créez ce fichier localement et l'envoyez sur le serveur par SFTP. Peu importe vraiment, ce qui compte c'est que ce fichier existe sur le serveur au final.
+
+Dans mon cas, et comme stipulé dans la commande à exécuter de la configuration du site `webhook`, je l'ai mis dans le dossier `webhook`. Ce n'est pas obligatoire mais si vous faites différemment pensez à bien uniformiser ça partout.
 
 Ce fichier json devra ressembler à ceci :
 
@@ -171,6 +173,8 @@ Et si vous avez plusieurs sites 11ty à déployer de la même façon, vous pourr
   ]
 ```
 
+Notez donc que la seule différence entre les deux entrées sera le `secret`.
+
 On a donc désormais l'authentification en place et la commande à éxécuter, sauf que si vous suivez bien ce fichier `deploy.sh` n'existe pas (encore).
 
 ### Configuration du déploiement
@@ -197,6 +201,8 @@ Donc ce script va, depuis votre *home*, :
 2. Mettre à jour sa codebase en allant `pull --rebase` les modifications récentes
 3. Faire un `npm i` pour installer les nouvelles dépendances le cas échéant
 4. Faire un `npm run build` pour générer les changements opérés dans le dernier `push` et les publier
+
+Pour finir il vous faudra donner les droits d'exécution à ce script alors connectez-vous en SSH sur le serveur **alwaysdata** et tapez `chmod +x path/to/deploy.sh`.
 
 Et voilà ! Normalement si tout s'est bien passé vous devriez pouvoir faire un petit test en faisant un `push` de modifications mineures et voir ces changements apparaitre. 
 ## Troubleshooting 
