@@ -19,6 +19,7 @@ import svgSprite from "eleventy-plugin-svg-sprite";
 import Webmentions from "eleventy-plugin-webmentions";
 import { EleventyPluginCodeDemo } from "eleventy-plugin-code-demo";
 import pluginUnfurl from "eleventy-plugin-unfurl";
+import MarkdownItGitHubAlerts from "markdown-it-github-alerts";
 
 export default async function (eleventyConfig) {
   // Drafts, see also _data/eleventyDataSchema.js
@@ -60,6 +61,9 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(HtmlBasePlugin);
   eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
+	eleventyConfig.amendLibrary("md", (mdLib) =>
+    mdLib.use(MarkdownItGitHubAlerts, { markers: '*' })
+  );
 
   eleventyConfig.addPlugin(feedPlugin, {
     type: "atom", // or "rss", "json"

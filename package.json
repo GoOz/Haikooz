@@ -2,7 +2,7 @@
 	"name": "haikooz",
 	"version": "2.0.0",
 	"description": "11ty blog engine for Haikooz blog",
-	"type":"module",
+	"type": "module",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
 		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
@@ -46,6 +46,7 @@
 		"eleventy-plugin-unfurl": "^1.0.0",
 		"eleventy-plugin-webmentions": "^2.0.0",
 		"luxon": "^3.5.0",
+		"markdown-it-github-alerts": "^1.0.0",
 		"prism-themes": "^1.9.0",
 		"zod": "^3.23.8",
 		"zod-validation-error": "^3.3.1"

@@ -45,6 +45,7 @@ export default function (eleventyConfig) {
 	const md = new markdownIt({
 		html: true,
 	});
+
 	eleventyConfig.addFilter("markdown", (content) => {
 		return md.render(content);
 	});
