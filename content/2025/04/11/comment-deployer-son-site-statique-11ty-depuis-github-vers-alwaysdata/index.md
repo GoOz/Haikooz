@@ -16,9 +16,8 @@ Mais comme pour tout processus répétitif, on se sent mieux quand on automatise
 
 La [dernière fois](/2025/02/03/eleventy-devant-obsidian-derriere/) je vous avais parlé de comment j'utilisais [11ty](https://www.11ty.dev/) comme moteur et [Obsidian](https://obsidian.md/) comme éditeur de contenu mais j'avais occulté sur le processus de mise en ligne et il est temps d'y remédier.
 
-<div class="notabene">
-Par soucis de simplicité et parce que c'est ce que je connais le mieux, je vais décrire mon processus avec un repository Git hébergé sur <a href="https://github.com/">Github</a> et un hébergement du site chez <a href="https://www.alwaysdata.com/">alwaysdata</a> mais le principe est a priori transposable dans des contextes différents.
-</div>
+> [!NOTE]
+> Par soucis de simplicité et parce que c'est ce que je connais le mieux, je vais décrire mon processus avec un repository Git hébergé sur <a href="https://github.com/">Github</a> et un hébergement du site chez <a href="https://www.alwaysdata.com/">alwaysdata</a> mais le principe est a priori transposable dans des contextes différents.
 
 Comme on avait vu la dernière fois ce blog est sur un repository **Git** et à chaque nouvelle mise à jour, je fais donc un `commit` que je `push` ensuite sur **Github**.  
 Maintenant il faut trouver un moyen de dire à **Github** que, dès qu'il reçoit une mise à jour, il lui faudra envoyer un message au serveur d'hébergement du site pour que ce dernier puisse récupérer ces mises à jours et les mettent en ligne.

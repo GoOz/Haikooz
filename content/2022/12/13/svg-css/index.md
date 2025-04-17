@@ -177,9 +177,8 @@ J'en ai déjà un peu parlé sur chaque méthode mais ce seront ces avantages et
 - Est-ce que vous souhaitez pouvoir **interagir directement avec les formes de votre SVG depuis les styles et/ou le JavaScript de votre page** ?
 - Est-ce que au contraire, je veux juste **charger un SVG simple sans rien y changer comme une image bitmap** ?
 
-<div class="notabene">
-Si vous décidez de charger un SVG contenant du JS via un appel externe (`img`, `object`, etc) il vaut mieux qu'il vienne du même domaine que la page. Pour des raisons de sécurité, il me semble que certains navigateurs pourraient bloquer l'interprétation du JS (à prendre avec des pincettes car je ne suis sûr de rien à ce sujet).
-</div>
+> [!TIP]
+> Si vous décidez de charger un SVG contenant du JS via un appel externe (`img`, `object`, etc) il vaut mieux qu'il vienne du même domaine que la page. Pour des raisons de sécurité, il me semble que certains navigateurs pourraient bloquer l'interprétation du JS (à prendre avec des pincettes car je ne suis sûr de rien à ce sujet).
 
 Pour vous aider à peut être y voir un poil plus clair voici ci-dessous un tableau récapitulatif.
 
@@ -250,9 +249,8 @@ Maintenant que vous connaissez toutes les bases nécessaires on va pouvoir passe
 
 ## Interagir avec un SVG depuis le document
 
-<div class="notabene">
-Tout ce qui va suivre ne sera possible que si votre SVG est inlined avec ou sans symbol.
-</div>
+> [!WARNING]
+> Tout ce qui va suivre ne sera possible que si votre SVG est inlined avec ou sans symbol.
 
 ### Les propriétés CSS pour SVG
 
@@ -638,9 +636,8 @@ body {
 
 {% enddemo %}
 
-<div class="notabene">
-	J'ai mis ici un fond blanc ici parce que par défaut un svg sans couleur définie est noir donc c'était mieux pour la visibilité.
-</div>
+> [!TIP]
+> J'ai mis ici un fond blanc ici parce que par défaut un svg sans couleur définie est noir donc c'était mieux pour la visibilité.
 
 Comme vous pouvez le voir la forme `text` prend bien en charge toutes les propriétés CSS propres aux fonts. Toutes ? Non ! Car la couleur devrait être `DarkSeaGreen` et ce noir est tout sauf du vert d'une mer sombre.
 

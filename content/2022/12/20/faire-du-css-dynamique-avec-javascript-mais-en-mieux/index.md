@@ -134,9 +134,8 @@ Array.from(avatars).forEach((element) => {
 Ça marche bien, par contre on se retrouve avec du style inline ce qui en plus d'être indiscutablement moche (je suis évidemment objectif 🙃) devient aussi compliqué à surcharger. À part écrire directement par dessus, il ne reste que l'option `!important` ce qui est encore plus moche, indiscutablement toujours.
 <img src="./img/bgcolor-custom.png" alt="Image du DOM après modification du JS">
 
-<div class="notabene">
-Oui les navigateurs traduisent le HSL (entre autres) en RGB. C'est un truc qu'ils font apparemment, je sais pas trop pourquoi mais ça change pas grand chose pour nous ici.
-</div>
+> [!NOTE]
+> Oui les navigateurs traduisent le HSL (entre autres) en RGB. C'est un truc qu'ils font apparemment, je sais pas trop pourquoi mais ça change pas grand chose pour nous ici.
 
 **MAIS !**
 

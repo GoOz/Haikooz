@@ -93,9 +93,8 @@ Même action finale, juste un trigger différent.
 ### Étape 2 la préparation
 Pour la préparation, c'est le mot clé `create` que j'ai choisi auquel s'ajoute l'argument obligatoire du nom du dossier. 
 
-<div class="notabene">
-J'écris directement le nom du dossier en <code>kebab-case</code> pour avoir de belles URLs mais j'aurais très bien pu rajouter une étape pour forcer le formatage attendu aussi.
-</div>
+> [!TIP]
+> J'écris directement le nom du dossier en <code>kebab-case</code> pour avoir de belles URLs mais j'aurais très bien pu rajouter une étape pour forcer le formatage attendu aussi.
 
 <video controls width="100%">
 	<source src="./img/create.webm" type="video/webm">
@@ -111,14 +110,13 @@ En détail :
 
 <img src="./img/create.png" alt="Tâche create">
 
-<div class="notabene">
-Notez qu'à ce moment-là j'aurais pu créer un fichier markdown partiellement pré-rempli mais comme j'édite ça dans <strong>VSCode</strong> en utilisant un template de fichier avec des arrêts de tabulation dans les zones à éditer, c'est plus pratique de juste créer le fichier vide.
-</div>
+> [!NOTE]
+> À ce moment-là j'aurais pu créer un fichier markdown partiellement pré-rempli mais comme j'édite ça dans <strong>VSCode</strong> en utilisant un template de fichier avec des arrêts de tabulation dans les zones à éditer, c'est plus pratique de juste créer le fichier vide.
+
 Il reste donc la photo à déplacer.
 
-<div class="notabene">
-Notez là aussi que j'ai préféré pour des raisons d'habitude pratique de séparer création de dossier et copie de photo en deux tâches distinctes mais j'aurais pu tout faire une seule tâche. Peut être même que je le ferai un jour. Le temps nous le dira.
-</div>
+> [!NOTE]
+> Là aussi que j'ai préféré pour des raisons d'habitude pratique de séparer création de dossier et copie de photo en deux tâches distinctes mais j'aurais pu tout faire une seule tâche. Peut être même que je le ferai un jour. Le temps nous le dira.
 
 Je sélectionne donc le fichier, je lance l'action sur fichier `Copy & rename` qui va demander ensuite dans quel dossier déplacer la copie et voilà la copie est déplacée et bien nommée.
 

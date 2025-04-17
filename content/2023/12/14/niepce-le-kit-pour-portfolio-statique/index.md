@@ -148,9 +148,8 @@ git clone https://github.com/GoOz/Niepce.git mon-portfolio
 
 ou de télécharger l'archive directement depuis le bouton télécharger de Github.
 
-<div class="notabene">
-vous ne pourrez pas <code>push</code> sur mon dépôt git donc si vous voulez continuer sur git ensuite pour versionner votre portfolio il vous faudra changer le <code>remote</code>.
-</div>
+> [!WARNING]
+> Vous ne pourrez pas <code>push</code> sur mon dépôt git donc si vous voulez continuer sur git ensuite pour versionner votre portfolio il vous faudra changer le <code>remote</code>.
 
 ### Mise en place de l'environnement
 
@@ -360,9 +359,9 @@ tags:
 - `tags` sera donc la catégorie à laquelle appartient ce billet et donc cette photo. Personnellement je n'en mets qu'une seule à chaque fois mais libre à vous de faire des inter-catégories ou que sais-je.
 
 Encore une fois, tout ce qui sera écrit en markdown après ce *frontmatter* apparaitra sur le billet aussi. 
-<div class="notabene">
-Si vous avez activé les options <code>exif</code> et/ou <code>tags</code> le contenu de vos billets apparaitra après ces éléments dans la page.
-</div>
+
+> [!TIP]
+> Si vous avez activé les options <code>exif</code> et/ou <code>tags</code> le contenu de vos billets apparaitra après ces éléments dans la page.
 
 Si vous avez tout rempli correctement vous devriez être en mesure de voir vos billets et pages indépendantes sur  [http://localhost:8080/](http://localhost:8080/) 
 

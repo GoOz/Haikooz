@@ -13,9 +13,8 @@ Cela fait bien longtemps que je pratique la photographie, depuis mes 15 ou 16 an
 
 Si aujourd’hui je me cherche encore ou en tout cas je cherche à comprendre ce qui me fait le plus vibrer pour en faire des séries ou des projets, j’ai tout de même une liste de choses avec un avis plus ou moins bien arrêté. Comme vous le verrez, mon avis a évolué avec le temps donc rien ne dit que je ne changerai pas encore d'avis dans le futur.
 
-<div class="notabene">
-Note : Toutes les photographies sans auteur spécifié sont de moi et à retrouver sur <a href="https://gooz.photography">gooz.photography</a>
-</div>
+> [!NOTE]
+> Toutes les photographies sans auteur spécifié sont de moi et à retrouver sur <a href="https://gooz.photography">gooz.photography</a>
 
 ## Ce que je n’aime pas voir ni faire
 

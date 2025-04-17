@@ -35,6 +35,20 @@
   --dropshadow: 0 0 5px 3px var(--action-color);
   --networkIconSize: 1.5rem;
   --syntax-tab-size: 2;
+
+	/* Callouts */
+	--callout-note: hsl(215 93% 58%);
+	--callout-note-bg: hsl(215 93% 58% / 0.1);
+  --callout-tip: hsl(128 49% 49%);
+  --callout-tip-bg: hsl(128 49% 49% / 0.1);
+  --callout-warning: hsl(41 72% 48%);
+  --callout-warning-bg: hsl(41 72% 48% / 0.1);
+  --callout-severe: hsl(23 71% 51%);
+  --callout-severe-bg: hsl(23 71% 51% / 0.1);
+  --callout-caution: hsl(3 93% 63%);
+  --callout-caution-bg: hsl(3 93% 63% / 0.1);
+  --callout-important: hsl(262 89% 71%);
+  --callout-important-bg: hsl(262 89% 71% / 0.1);
 }
 
 /*==========================================
@@ -280,21 +294,6 @@ kbd {
 
 .skip {
   flex: none;
-}
-
-.notabene {
-  margin: 1em;
-  padding: 1em;
-  font-size: 0.9em;
-  font-style: italic;
-  background-color: var(--grey);
-  border-left: 0.25em solid var(--border);
-}
-.notabene::before {
-  content: "N. B.";
-  display: block;
-  font-weight: bold;
-  font-style: normal;
 }
 
 .toolbar {
@@ -824,6 +823,83 @@ heading-anchors:not(:defined) :is(h2,h3,h4,h5,h6):after {
   width: 1.5rem;
   height: 1.5rem;
   display: block;
+}
+
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  color: inherit;
+  border-left: .25em solid #888;
+	font-size: .8em;
+}
+
+.markdown-alert > :first-child {
+  margin-top: 0;
+}
+
+.markdown-alert > :last-child {
+  margin-bottom: 0;
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1;
+	margin-block-end: .5rem;
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--callout-note);
+	background-color: var(--callout-note-bg);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--callout-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--callout-important);
+	background-color: var(--callout-important-bg);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--callout-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--callout-warning);
+	background-color: var(--callout-warning-bg);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--callout-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--callout-tip);
+	background-color: var(--callout-tip-bg);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--callout-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--callout-caution);
+	background-color: var(--callout-caution-bg);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--callout-caution);
 }
 
 .resume {
