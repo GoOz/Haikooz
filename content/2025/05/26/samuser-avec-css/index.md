@@ -23,7 +23,7 @@ Finalement, je me suis tellement pris au jeu que j'ai fait exclusivement sans JS
 
 Je me suis bien amusé à faire ce petit jeu sans prétention et juste pour le fun.
 
-Si vous voulez tester ça vous-même et sans spoiler, rendez-vous sur https://gooz.alwaysdata.net/seminaire/ et partez donc à la poursuite du lapin ! Avant de revenir ici.
+Si vous voulez tester ça vous-même et sans spoiler, rendez-vous sur [https://gooz.alwaysdata.net/seminaire/](https://gooz.alwaysdata.net/seminaire/) et partez donc à la poursuite du lapin ! Avant de revenir ici.
 
 > [!WARNING]
 Attention ce petit jeu n'est pas vraiment pas accessible par moment. Je n'ai même pas essayé de tester mais vu ce que j'ai fait à certains endroits c'est certain qu'il ne l'est pas.
