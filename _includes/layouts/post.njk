@@ -29,7 +29,10 @@ post: true
 						{%- for tag in tags | filterTagList %}
 						{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 						<li>
-							<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
+							<a href="{{ tagUrl }}" class="post-tag">
+								{% svg "hashtag" %}
+								{{ tag }}
+							</a>
 							{%- if not loop.last %}{% endif %}
 						</li>
 						{%- endfor %}

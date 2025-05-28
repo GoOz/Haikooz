@@ -6,9 +6,9 @@ featured_author: Luis Quintero
 featured_url: jibarox
 tags: notes
 ---
-**En vrac**
+**Des trucs en vrac…**
 
----
+<!-- excerpt -->
 
 Tu m'avais promis d'être aveugle,  
 Intègre,  

@@ -5,8 +5,8 @@ featured: img/featured.jpg
 featured_author: Martin Adams
 featured_url: martinadams
 tags:
-  - notes
   - code
+  - tips
 ---
 
 Utiliser un moteur de site statique c'est sympa, léger, économique mais la mise en ligne des dernières mises à jour finit souvent comme un processus manuel, parfois laborieux, souvent répétitif.

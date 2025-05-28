@@ -7,7 +7,7 @@ featured_url: marinolinic
 tags: notes
 ---
 
-**En vrac**
+**Des trucs en vrac…**
 
 <!-- excerpt -->
 

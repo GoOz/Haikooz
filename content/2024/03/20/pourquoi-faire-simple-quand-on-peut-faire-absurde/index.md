@@ -7,7 +7,7 @@ featured_url: nhanai
 tags: notes
 ---
 
-**En vrac…**
+**Des trucs en vrac……**
 
 <!-- excerpt -->
 

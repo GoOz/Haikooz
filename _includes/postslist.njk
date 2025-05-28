@@ -1,6 +1,6 @@
 <ol reversed class="grid{% if home %} grid--highlight{% endif%}">
 {% for post in postslist | reverse %}
-	<li class="grid-item post-item">
+	<li class="grid-item">
 		<a href="{{ post.url }}">
 			<span class="reading-time" aria-label="Temps de lecture">
 		    {% svg "time" %}
@@ -9,8 +9,28 @@
 			{% if post.data.featured %}
 			<img src="/{{ post.url }}/{{ post.data.featured }}" alt="" sizes="(min-width: 50em) 50vw, 100vw">
 			{% endif %}
-			<span class="post-item-title">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</span>
-			</a>
+			<div class="grid-item-data">
+				<div class="grid-metadata">
+					<time datetime="{{ post.date | htmlDateString }}">
+						{{ post.date | readableDate }}
+					</time>
+					<div>
+						{% for tag in post.data.tags | filterTagList %}
+							<span class="post-tag">
+								{% svg "hashtag" %}
+								{{ tag }}
+							</span>
+						{% endfor %}
+					</div>
+				</div>
+				<div class="grid-item-title">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</div>
+			</div>
+		</a>
+		<div class="grid-item-data">
+			{% if post.page.excerpt %}
+				{{ post.page.excerpt | markdown | safe }}
+			{% endif %}
+		</div>
 	</li>
 {% endfor %}
 </ol>

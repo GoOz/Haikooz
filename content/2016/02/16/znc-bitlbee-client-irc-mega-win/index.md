@@ -7,8 +7,6 @@ featured_url: rowaneal
 tags: [code, tips]
 ---
 
-## On parle de quoi là déjà ?
-
 Cela vous est-il déjà arrivé de vous dire qu'entre Gtalk (Hangout), IRC, le chat Facebook, Twitter, voire même Slack maintenant vous ne saviez plus où donner de la tête ?
 
 <!-- excerpt -->

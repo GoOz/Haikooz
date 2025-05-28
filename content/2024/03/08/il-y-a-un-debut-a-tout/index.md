@@ -6,7 +6,7 @@ featured_author: Oleksii Hlembotskyi
 featured_url: lshphoto
 tags: notes
 ---
-**En vrac…**
+**Des trucs en vrac…**
 
 <!-- excerpt -->
 

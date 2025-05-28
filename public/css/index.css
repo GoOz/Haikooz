@@ -13,7 +13,7 @@
 /* Custom props */
 :root {
   /* Colors */
-  --dark: hsl(0 0% 20%);
+  --dark: hsl(0 0% 17%);
   --darkgrey: hsl(0 0% 15%);
   --darkgreyalpha: hsl(0 0% 15% / 0.5);
   --grey: hsl(0 0% 30%);
@@ -21,9 +21,10 @@
   --lighter: hsl(0 0% 100%);
   --border: hsl(0 0% 53%);
   --action-color: hsl(239 78% 84%);
+  --action-color-alpha: hsl(239 78% 84% / 0.1);
 
   /* Typography */
-  --h1-font-size: 1.8em;
+  --h1-font-size: 2.5em;
   --h2-font-size: 1.5em;
   --h3-font-size: 1.25em;
   --h4-font-size: 1.2em;
@@ -65,7 +66,7 @@ body {
   font-family: var(--font-family);
   color: var(--light);
   background-color: var(--dark);
-  line-height: 1.6;
+  line-height: 1.5;
   background-image: linear-gradient(
     90deg,
     var(--darkgrey) 0,
@@ -389,7 +390,7 @@ kbd {
   );
 }
 
-.post-item .reading-time {
+:is(.post-item, .grid-item) .reading-time {
   position: absolute;
   top: 0;
   right: 0;
@@ -429,7 +430,7 @@ main {
   flex: 1 1 auto;
   background-color: var(--dark);
 }
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 68em) {
   body {
     display: flex;
     flex-direction: row;
@@ -550,21 +551,81 @@ header {
 ============================*/
 .grid {
   --auto-grid-min-size: 20rem;
+	--gap: 3rem;
   display: grid;
+	gap: var(--gap);
   grid-template-columns: repeat(
     auto-fill,
     minmax(var(--auto-grid-min-size), 1fr)
   );
-  padding: 0;
+  padding: 2rem;
   margin: 0;
   list-style: none;
 }
 @media screen and (min-width: 50em) {
   .grid--highlight .grid-item:first-child {
     grid-area: 1 / 1 / 2 / 3;
-    max-height: none;
-    font-size: 2em;
   }
+}
+.grid-item {
+	position: relative;
+	background-color: transparent;
+	transition: background-color var(--transition);
+	border-radius: 1rem;
+	overflow: hidden;
+
+	&:is(:hover, :focus-within) {
+		background-color: var(--action-color-alpha);
+	}
+
+	& > a {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		border-radius: 1rem;
+		text-decoration: none;
+		color: var(--light);
+
+		&:is(:hover, :focus-visible) {
+			text-decoration: none;
+		}
+	}
+
+	& picture {
+		margin: 0;
+		aspect-ratio: 16/9;
+		border-radius: 1rem;
+		overflow: hidden;
+	}
+
+	& img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+}
+.grid-item-data {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 0 1rem 1rem;
+}
+
+.grid-metadata {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: .5rem;
+
+	& > * {
+
+	}
+}
+.grid-item-title {
+	font-size: 1.4em;
+	line-height: 1.3;
+	font-weight: bold;
 }
 
 /*============================
@@ -646,12 +707,16 @@ heading-anchors:not(:defined) :is(h2,h3,h4,h5,h6):after {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 1em;
+	justify-content: center;
+  gap: .5em;
   list-style: none;
   padding: 0;
   margin-block: 0 2em;
   font-size: 0.8em;
   font-style: italic;
+	background-color: var(--darkgreyalpha);
+	padding: .5rem 1rem;
+	border-radius: .5rem
 }
 .post-metadata li {
   display: inline-block;
@@ -660,8 +725,22 @@ heading-anchors:not(:defined) :is(h2,h3,h4,h5,h6):after {
 .post-metadata li:not(:last-child):after {
   content: "•";
   display: inline-block;
-  margin-inline-start: 1em;
+  margin-inline-start: .5em;
   color: var(--border);
+}
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	gap: .25rem;
+	background-color: var(--grey);
+	border-radius: .5rem;
+	padding: 0 .5rem;
+
+	& svg {
+		width: 1em;
+		height: 1em;
+		fill: currentColor;
+	}
 }
 
 .reading-time {
@@ -796,6 +875,12 @@ heading-anchors:not(:defined) :is(h2,h3,h4,h5,h6):after {
   order: -1;
   padding: 0;
   margin: 0;
+}
+
+.unfurl p:has(.unfurl__logo),
+.unfurl p:has(.unfurl__publisher),
+.unfurl p:empty {
+  display: none;
 }
 
 .unfurl__image {

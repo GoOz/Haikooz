@@ -7,7 +7,7 @@ featured_url: joshuanewton
 tags: notes
 ---
 
-**En vrac**
+**Des trucs en vrac…**
 
 <!-- excerpt -->
 
