@@ -797,6 +797,7 @@ heading-anchors:not(:defined) :is(h2,h3,h4,h5,h6):after {
 }
 .wm-react-label {
   font-weight: bold;
+	flex-basis: 100%;
 }
 .wm-react-list {
   display: flex;
@@ -804,10 +805,14 @@ heading-anchors:not(:defined) :is(h2,h3,h4,h5,h6):after {
   list-style: none;
   padding-inline-start: 1.5rem;
   margin: 0;
+	padding-block-start: 1rem;
 }
 .wm-react-list li {
   display: inline-block;
-  margin-inline-start: -0.75rem;
+  margin-inline-start: -0.5rem;
+}
+.wm-react-avatar picture {
+	margin: 0;
 }
 .wm-react-avatar img {
   display: block;
