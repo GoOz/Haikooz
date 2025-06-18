@@ -190,7 +190,7 @@ DEST_DIR=${HOME}/${NAME,,}
 
 cd ${DEST_DIR}
 git pull origin main --rebase
-npm i && npm run build
+npm ci && npm run build
 ```
 
 Dans ce script on y récupère le nom du repository via `NAME` qui dans mon cas s'avère être aussi le nom du dossier où mon site **11ty** est cloné. Ce n'est pas obligatoire mais si comme moi vous vous retrouvez avec plusieurs sites **11ty** de la sorte vous pourrez utiliser le même script de déploiement pour tous vos sites au lieu de le dupliquer, mais c'est à vous de voir.
