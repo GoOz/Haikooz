@@ -21,7 +21,7 @@ Puis les limites ont sauté et on a pu de nouveau écrire normalement… de bell
 
 Et le message audio est arrivé en rendant beaucoup plus simple et rapide de parler de quelque chose sans écrire un roman à la main, sans même avoir à s'arrêter pour se concentrer ou pour être sûr de ne pas rater une touche. En plus de tout ça, ça règle le problème du ton invisible de l'écrit.
 
-Franchement, je comprends tout fait à quel point c'est pratique.
+Franchement, je comprends tout à fait à quel point c'est pratique.
 
 ## MAIS !
 
