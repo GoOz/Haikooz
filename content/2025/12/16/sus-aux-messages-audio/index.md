@@ -8,7 +8,7 @@ tags:
   - notes
 ---
 
-Je deviens vieux, comme tout le monde, mais même si je me considère progressiste il existe quelque chose en ce bas monde que les générations précédentes font qui a le don de m'énerver : **les messages audio sur les messageries instantanées**.
+Je deviens vieux, comme tout le monde, mais même si je me considère progressiste il existe quelque chose en ce bas monde que les générations suivantes font qui a le don de m'énerver : **les messages audio sur les messageries instantanées**.
 
 <!-- excerpt -->
 
