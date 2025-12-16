@@ -19,7 +19,7 @@ Je peux comprendre pourquoi les messages audio sont au demeurant intéressants.
 Il y a une époque on écrivait en "langage SMS" parce qu'on était limité en caractères; c'était dégueulasse et pas toujours compréhensible pour tout le monde mais il y avait une raison derrière : l'argent ! 💸    
 Puis les limites ont sauté et on a pu de nouveau écrire normalement… de belles phrases longues et chiantes.
 
-Et le message audio est arrivé en rendant beaucoup plus simple et rapide de parler de quelque chose sans écrire un romain à la main, sans même avoir à s'arrêter pour se concentrer ou pour être sûr de ne pas rater une touche. En plus de tout ça, ça règle le problème du ton invisible de l'écrit.
+Et le message audio est arrivé en rendant beaucoup plus simple et rapide de parler de quelque chose sans écrire un roman à la main, sans même avoir à s'arrêter pour se concentrer ou pour être sûr de ne pas rater une touche. En plus de tout ça, ça règle le problème du ton invisible de l'écrit.
 
 Franchement, je comprends tout fait à quel point c'est pratique.
 
