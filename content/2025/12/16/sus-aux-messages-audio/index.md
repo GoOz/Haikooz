@@ -8,7 +8,7 @@ tags:
   - notes
 ---
 
-Je deviens vieux, comme tout le monde, mais même si je me considère progressiste il existe quelque chose en ce bas monde que les générations précédentes font qui a le don de m'énerver : **les messages audio sur les messageries instantanées**.
+Je deviens vieux, comme tout le monde, mais même si je me considère progressiste il existe quelque chose en ce bas monde que les générations précédentes font qui a le don de m'énerver : **les messages audio sur les messageries instantanées**.
 
 <!-- excerpt -->
 
@@ -27,7 +27,7 @@ Franchement, je comprends tout fait à quel point c'est pratique.
 
 C'est surtout pratique en tant qu'émetteur…
 
-En tant que receveur c'est une toute autre histoire, pour moi tout du moins :
+En tant que receveur c'est une toute autre histoire, pour moi tout du moins :
 - Il faut avoir le temps et être en capacité de pouvoir écouter ce message donc ne pas être dans un endroit bruyant et, si comme moi vous n'aimez pas étaler vos communications personnelles au monde qui vous entoure, trouver un endroit pour y être seul (sauf si j'ai un casque mais c'est rarement le cas).
 - L'impossibilité de scanner visuellement une conversation pour retrouver une information particulière, d'ailleurs si les deux parties ne communiquent qu'en messages audio ça devient juste un historique de widgets sans queue ni tête.
 - Le message écrit implique implicitement d'aller un peu à l'essentiel ou tout du moins de s'en rapprocher le plus possible. Avec l'audio, plus de limite, alors si votre interlocuteur s'avère être une personne qui aime parler mais surtout s'entendre parler, vous êtes obligé de vous taper l'entièreté du message pour obtenir l'information importante souhaitée. Une vraie torture. Pour moi en tout cas. Tu peux lire en diagonale un message écrit et t'arrêter sur les parties qui t'importent mais tu ne peux pas faire ça sur un message audio.
