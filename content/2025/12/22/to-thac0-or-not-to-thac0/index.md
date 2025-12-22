@@ -40,14 +40,14 @@ Bref, donc si je me rajoute des points de CA, son score total va donc diminuer.
 Et là vous vous demandez : "mais si j'ajoute plein de choses qui ajoutent de la CA, je risque de passer sous la barre de `0`, non ?! Et bien oui et ce n'est pas rare.  
 Vous pouvez tomber sur un monstre avec une CA de `-5` par exemple. Ce serait clairement à plus haut niveau mais ce n'est pas tellement exceptionnel.
 
-À côté de ça vous pouvez aussi trouver une `épée +2` mais à quoi correspond ce +2 ?! Au touché que diable ! Donc évidemment ça changera indirectement votre thac0 si vous utilisez cette arme pour attaquer. 
+À côté de ça vous pouvez aussi trouver une `épée +2` mais à quoi correspond ce +2 ?! Au touché que diable ! Donc évidemment ça changera indirectement votre thac0 si vous utilisez cette arme pour attaquer.  
 Je dis "indirectement" puisque dans les faits votre valeur de thac0 reste inchangée, c'est juste un bonus qui viendra changer le résultat final, mais le fait est que si votre thac0 est de `10` et que vous utilisez cette arme vous toucherez à partir de là une CA de `0` en faisant un `8` ou plus sur le dé. Oui de `8`, c'est certes +2 mais on est toujours dans un contexte descendant donc ou soustrait.
 
 J'espère que vous commencez à saisir la complexité grandissante mais prenons un cas concret.
 
 Disons que **Takor** s'est trouvé une `épée +2` et qu'il s'est spécialisé dans les épées ce qui lui confère un `+1` au touché. Et puis au détour d'un donjon *bien sombre* (`-4`) il tombe sur un chevalier malfaisant en armure de plate et tout le bordel qui a une CA de `-5`.
 
-> [!Info] Normalement le joueur n'est pas censé connaître la CA de l'adversaire mais pour le bien de l'exemple et puisque quelqu'un va bien devoir faire le calcul, on va dire qu'il est au courant
+> [!Tip] Normalement le joueur n'est pas censé connaître la CA de l'adversaire mais pour le bien de l'exemple et puisque quelqu'un va bien devoir faire le calcul, on va dire qu'il est au courant
 
 On a donc un Thac0 de `10` de base auquel on va soustraire le `+2` de l'épée et le `+1` de la compétence de spécialisation, mais on lui rajoute le `-4` parce que le combat se passe dans l'obscurité et on aurait pu s'arrêter là si la CA de l'adversaire était de `0` mais ce n'est pas le cas donc on va rajouter le `-5` de différence, soit donc : `10 - (2+1) - (-4) - (-5) = 16`  
 Il faudra donc faire 16 ou plus sur le d20 d'attaque pour toucher.
