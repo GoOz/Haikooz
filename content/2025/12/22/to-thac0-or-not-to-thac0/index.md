@@ -90,4 +90,4 @@ Et puis il y a toujours ceux qui disent c'était mieux avant parce qu'ils ont la
 
 Bref… Le thac0 c'est de la merde ! *Change my mind!*
 
-![](thac0.jpg)
+![](img/thac0.jpg)
