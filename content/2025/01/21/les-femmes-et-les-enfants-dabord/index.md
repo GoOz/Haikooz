@@ -4,7 +4,8 @@ date: 2025-01-21
 featured: img/featured.jpg
 featured_author: Noah Silliman
 featured_url: noahsilliman
-tags: notes
+tags:
+  - notes
 ---
 
 La période est à la fuite des réseaux sociaux mainstream après les dernières sorties médiatiques des grands noms du web (Musk & Zuck pour ne pas les nommer). On invite tout le monde à se "désolidariser" de ces dangereux bouffons en allant voir ailleurs, rester serait les légitimer mais je ne suis pas convaincu que ce soit aussi simple.

@@ -4,7 +4,8 @@ date: 2020-11-14
 featured: img/featured.jpg
 featured_author: Engin Akyurt
 featured_url: enginakyurt
-tags: notes
+tags:
+  - notes
 ---
 
 Cela faisait presque 3 ans que j'avais déménagé dans une contrée charmante et calme mais sans fibre internet, seulement dotée d'une faiblarde ADSL fatiguée et surexploitée, ce qui rendait difficiles les conditions pour télétravailler.  

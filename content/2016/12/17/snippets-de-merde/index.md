@@ -2,7 +2,8 @@
 title: Snippets de merde !
 date: 2016-12-17
 featured: img/featured.jpg
-tags: tips
+tags:
+  - tips
 ---
 
 Aaaah Noël…  

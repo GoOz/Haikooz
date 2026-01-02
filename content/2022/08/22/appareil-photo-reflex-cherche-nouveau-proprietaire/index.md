@@ -4,7 +4,8 @@ date: 2022-08-22
 featured: img/featured.jpg
 featured_author: Markus Spiske
 featured_url: markusspiske
-tags: notes
+tags:
+  - notes
 ---
 
 Je me suis vendu à la cause hybride et je me déleste donc de mon cher reflex adoré et de tout ce qui va avec.

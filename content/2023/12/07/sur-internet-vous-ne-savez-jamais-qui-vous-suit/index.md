@@ -4,7 +4,8 @@ date: 2023-12-07
 featured: img/featured.jpg
 featured_author: Jehyun Sung
 featured_url: jaysung
-tags: notes
+tags:
+  - notes
 ---
 
 Si on met de côté les différents réseaux sociaux, j'ai deux présences en ligne : ce blog et mon [portfolio de photographie](https://www.bloogart.com/). Et récemment j'ai fait une refonte des deux avec [Eleventy](https://www.11ty.dev/) mais surtout je les ai migré chez mon nouvel hébergeur [alwaysdata](https://www.alwaysdata.com).

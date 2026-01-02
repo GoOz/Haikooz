@@ -4,7 +4,8 @@ date: 2023-03-27
 featured: img/featured.jpg
 featured_author: Carolina Heza
 featured_url: carolinahdzz
-tags: notes
+tags:
+  - notes
 ---
 
 L’enfer c’est les autres comme disait l’autre. C’est toujours l’autre. Jamais soi, jamais nos proches. C’est toujours de la faute des autres. Mais qui sommes-nous sinon les autres des autres. Sommes-nous alors leur enfer ?

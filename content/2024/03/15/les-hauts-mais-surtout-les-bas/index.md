@@ -4,7 +4,8 @@ date: 2024-03-15
 featured: img/featured.jpg
 featured_author: Joshua Newton
 featured_url: joshuanewton
-tags: notes
+tags:
+  - notes
 ---
 
 **Des trucs en vrac…**

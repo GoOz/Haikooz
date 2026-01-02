@@ -4,7 +4,8 @@ date: 2024-03-20
 featured: img/featured.jpg
 featured_author: Ai Nhan
 featured_url: nhanai
-tags: notes
+tags:
+  - notes
 ---
 
 **Des trucs en vrac……**

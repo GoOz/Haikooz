@@ -4,7 +4,8 @@ date: 2024-04-11
 featured: img/featured.jpg
 featured_author: Tomasz Frankowski
 featured_url: sunlifter
-tags: notes
+tags:
+  - notes
 ---
 
 **Des trucs en vrac…**

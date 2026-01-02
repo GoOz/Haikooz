@@ -4,7 +4,8 @@ date: 2014-10-13T07:45:20.000Z
 featured: img/featured.jpg
 featured_author: Danie Franco
 featured_url: dani_franco
-tags: code
+tags:
+  - code
 ---
 
 Dans cette troisième partie, nous allons voir ensemble le pouvoir des commandes et leur options cachées ainsi que la toute puissance des *aliases*.

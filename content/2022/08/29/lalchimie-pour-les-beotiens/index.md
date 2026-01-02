@@ -2,7 +2,8 @@
 title: L'alchimie pour les béotiens
 date: 2022-08-29
 featured: img/featured.png
-tags: jdr
+tags:
+  - jdr
 ---
 
 Je suis maître de jeu dans une partie de Donjon et Dragons 5ème édition et mes joueurs ont pris des cours d'alchimie dans une école de sorciers, une sorte de Poudlard pour sorciers malfaisants, tout ça dans le but de créer leurs propres potions de soin. J'aurais dû le voir venir…

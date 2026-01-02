@@ -4,7 +4,8 @@ date: 2014-10-13T07:43:00.000Z
 featured: img/featured.jpg
 featured_author: Danie Franco
 featured_url: dani_franco
-tags: code
+tags:
+  - code
 ---
 
 Quand on fait dans le développement Front-end ou dans l'intégration web (chacun ses appellations, je ne rentrerai pas dans le débat), si l'on veut être efficace et rapide, il faut savoir utiliser de nombreux nouveaux outils (Sass, Compass, Grunt, Bundler, Bower, Gulp, etc).

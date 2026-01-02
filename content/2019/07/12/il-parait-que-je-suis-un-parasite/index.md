@@ -2,7 +2,8 @@
 title: Je suis un parasite
 date: 2019-07-12
 featured: img/featured.png
-tags: notes
+tags:
+  - notes
 ---
 
 Ça fait un peu plus de 10 ans que je suis entré dans la "vie active", non-stop depuis 2007 en enchaînant chaque nouveau poste , et là, d'un coup sans vraiment prévenir, je me retrouve donc au **chômage** en pleine période estivale alors… comment dire… vu que le recrutement est un peu désert à ce moment précis, ça va pas être une période cool.

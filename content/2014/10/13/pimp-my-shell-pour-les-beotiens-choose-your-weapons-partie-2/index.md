@@ -4,7 +4,8 @@ date: 2014-10-13T07:44:13.000Z
 featured: img/featured.jpg
 featured_author: Ashim D’Silva
 featured_url: randomlies
-tags: code
+tags:
+  - code
 ---
 
 C'est là que commence la période la plus obscure de notre voyage, il va falloir toucher à des fichiers de config et coder un peu.

@@ -2,7 +2,8 @@
 title: Alfred, le messie des feignasses
 date: 2016-05-05
 featured: img/featured.jpg
-tags: tips
+tags:
+  - tips
 ---
 
 Plus les années passent, moins je touche à ma souris. C'est un fait. Je pense que la raison principale est que je passe beaucoup de mon temps sur ma machine à coder et que ça, ça se fait uniquement au clavier.
