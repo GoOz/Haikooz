@@ -31,7 +31,7 @@ Et pour finir si c’est un lieu abandonné depuis si longtemps que la nature y 
 ### La macro
 
 <img src="./img/macro.jpg" alt="Photographie exemple de macro">
-<small>_par [gildardorh8](https://unsplash.com/fr/@gildardorh8)_</small>
+_par [gildardorh8](https://unsplash.com/fr/@gildardorh8)_
 
 Je n’ai aucun problème avec les insectes, au contraire il existe plusieurs espèces que je trouve très belles ou les zooms sur des détails fins et de texture avancées mais la photo de macro ne me fait aucun effet la plupart du temps. J’ai l’impression que c’est finalement plus proche de la photographie commerciale de packshot mais pour les insectes ou la nature, c’est plus une question de réussir à mettre en valeur une beauté évidente mais souvent ignorée, plus technique que ressenti je dirais. A vrai dire, j’ai l’impression que la macro est plus une question de matériel que de thématique, la plus grosse difficulté résiderait probablement plus dans la recherche des sujets qu’autre chose.
 
@@ -45,21 +45,21 @@ Disons juste qu’il me faut bien plus que ça pour attirer mon attention mais o
 ### Le sport
 
 <img src="./img/sport.jpg" alt="Photographie exemple de sport">
-<small>_par [svkj](https://unsplash.com/fr/@svkj)_</small>
+_par [svkj](https://unsplash.com/fr/@svkj)_
 
 Je n’ai jamais été sportif ni amateur de sport en général alors vous pensez bien que la photo sportive… je n’aime pas. Mais je reconnais bien facilement que c’est une thématique particulière et complexe qui demande énormément de réflexes et de dextérité. Mais c’est juste pas pour moi, tant comme spectateur qu'auteur.
 
 ### Le documentaire
 
 <img src="./img/docu.jpg" alt="Photographie exemple de documentaire">
-<small>_par [ilvagabiondo](https://unsplash.com/fr/@ilvagabiondo)_</small>
+_par [ilvagabiondo](https://unsplash.com/fr/@ilvagabiondo)_
 
 Ce n’est pas tellement que je n’aime pas ça mais plutôt que j’ai rarement aimé des séries de ce type. Pourtant j’aime bien les histoires et les tranches de vie mais j’ai rarement vu des photos de ce type avec une belle composition ou une belle lumière. C’est plus souvent pris sur le vif alors ça n’aide pas j’en conviens mais du coup je suis souvent un peu déçu. Mais je sais qu'il y a des exceptions alors je ne m'empêche pas d'aller en voir si je tombe dessus mais je n'irai probablement pas les chercher non plus.
 
 ### La mode
 
 <img src="./img/mode.jpg" alt="Photographie exemple de mode">
-<small>_par [shotbyjudeus](https://unsplash.com/fr/@shotbyjudeus)_</small>
+_par [shotbyjudeus](https://unsplash.com/fr/@shotbyjudeus)_
 
 Comme pour le sport je ne suis pas franchement branché mode donc forcément ça ne me parle pas trop non plus mais il est vrai que très souvent la frontière entre mode et portrait n’est pas toujours très nette et parfois je me retrouve à en aimer certaines.  
 Évidemment les rares photo de mode qui me plaisent sont celles qui s’éloignent le plus souvent beaucoup des standards de la mode.
@@ -67,7 +67,7 @@ Comme pour le sport je ne suis pas franchement branché mode donc forcément ça
 ### La double exposition
 
 <img src="./img/double.jpg" alt="Photographie exemple de double exposition">
-<small>_par [antoniolio](https://unsplash.com/fr/@antoniolio)_</small>
+_par [antoniolio](https://unsplash.com/fr/@antoniolio)_
 
 Je ne m’explique pas pourquoi mais j’ai toujours eu du mal avec la double (ou plus) exposition. Je n’arrive pas à trouver ça intéressant visuellement. Et pourtant je sais reconnaître le travail technique ou créatif qu'il y a derrière mais rien n’y fait, je ne m’enlève pas cette sensation de brouillon.
 Les goûts et les couleurs hein.
@@ -75,14 +75,14 @@ Les goûts et les couleurs hein.
 ### Le diptyque / triptyque
 
 <img src="./img/diptyque.jpg" alt="Photographie exemple de diptyque">
-<small>_par [taramaemil](https://unsplash.com/fr/@taramaemil)_</small>
+_par [taramaemil](https://unsplash.com/fr/@taramaemil)_
 
 J’aime bien le principe, de raconter des choses en plusieurs images, seulement je vois trop de diptyques qui au final ne racontent rien, ou alors je ne comprends pas ce que ça veut raconter ce qui est une possibilité. Bref finalement je finis trop souvent déçu, pour ne pas dire tout le temps, et j’ai développé avec le temps une sorte de réaction naturelle de rejet…
 
 ### SOOC (Straight Out Of Camera)
 
 <img src="./img/sooc.jpg" alt="Photographie exemple de SOOC">
-<small>_par [kazusaki_sagar](https://unsplash.com/fr/@kazusaki_sagar)_</small>
+_par [kazusaki_sagar](https://unsplash.com/fr/@kazusaki_sagar)_
 
 Technique qui consiste à ne pas faire de post-traitement et de tout faire à la prise de vue directement depuis l'appareil. Je peux comprendre que ce soit intéressant pour apprendre à bien maitriser son appareil mais c'est bien le seul avantage que je lui trouve. Après évidemment chacun fait comme il veut mais moi ça ne m'intéresse pas. Du tout. Surtout que très souvent quand je pars en vadrouille photographique je ne suis pas seul donc je ne peux pas faire attendre les gens des dizaines de minutes pour quelques images.
 
@@ -91,7 +91,7 @@ De plus, j'essaye de ne pas trop donner de crédit à ses sympatisants mais, j'a
 ### Le light painting
 
 <img src="./img/lightpainting.jpg" alt="Photographie exemple de light painting">
-<small>_par [mariolagr](https://unsplash.com/fr/@mariolagr)_</small>
+_par [mariolagr](https://unsplash.com/fr/@mariolagr)_
 
 J’aime bien pourtant ce qu’on peut faire avec les poses longues mais je suis complètement hermétique à ce genre de photographie. Enfin je suis surtout hermétique quand on a un fond (une rue, une plaine, etc) ou un sujet avec juste les tracés de lumière par dessus. Je pense que ça se rapproche de mon aversion pour la double exposition, je trouve ça un peu dégueulasse.  
 Mais utiliser la lumière pour dessiner des choses sur un fond uni, tel une toile, pour en faire un truc plus abstrait me parle déjà beaucoup plus.
@@ -140,7 +140,7 @@ Discipline qui consiste à prendre en photo des sujets très sommaires, pas de p
 ### Le nu
 
 <img src="./img/nude2.jpg" alt="Photographie exemple de nu">
-<small>_par [emilianovittoriosi](https://unsplash.com/fr/@emilianovittoriosi)_</small>
+_par [emilianovittoriosi](https://unsplash.com/fr/@emilianovittoriosi)_
 
 J’aime quand c’est pour utiliser le corps humain, entier ou en partie, pour jouer avec les formes et la lumière. J’aime quand c’est mettre en place des petites scènettes candides qui racontent une histoire. J’aime quand on suggère plus qu’on ne montre. En bref, j’aime un peu tout nu qui ne serait pas explicitement sexuel. Je sais que c’est difficile de tracer une ligne bien nette pour ça et c’est plus rare qu’il n’y parait de voir des photos de nu qui ne tombent justement pas dans l’explicite. Je regrette aussi qu’il n’y ait pas plus de photos d’hommes nus et pas forcément des éphèbes foutus comme des athlètes. Le corps masculin lui aussi peut être sublimer.
 
@@ -164,7 +164,7 @@ Mais même si j’aime bien en voir, je n’aime pas trop en faire moi-même, su
 ### L’aérien
 
 <img src="./img/aerien.jpg" alt="Photographie exemple d'aérien">
-<small>_par [a2eorigins](https://unsplash.com/fr/@a2eorigins)_</small>
+_par [a2eorigins](https://unsplash.com/fr/@a2eorigins)_
 
 Qu’on ait les moyens de **Yann Arthus-Bertrand** ou qu’on soit l’heureux détenteur d’un drone, je trouve que les points de vue aériens sont toujours très intéressants à voir, c’est une toute nouvelle perspective qui s’ouvre à nous offrant de nombreuses nouvelles opportunités de composition.  
 Alors peut être que l’effet de nouveauté s’estompera un jour, en tout cas pour moi, mais pour le moment j’aime bien. Par contre je n'ai ni les moyens pour un hélicoptère, ni l’envie d’acheter un drone alors ce ne sera pas pour moi.
@@ -179,7 +179,7 @@ Mais comme beaucoup d’autres photographes, je n’aime pas trop passer de l’
 ### La nature morte
 
 <img src="./img/still.jpg" alt="Photographie exemple de nature morte">
-<small>_par [mary_skr](https://unsplash.com/fr/@mary_skr)_</small>
+_par [mary_skr](https://unsplash.com/fr/@mary_skr)_
 
 J’aime l’ambiance zen qui ressort des natures mortes et le gros travail de composition qui les accompagne la majorité du temps mais c’est beaucoup de travail préparatoire et ce n’est définitivement pas la partie que je trouve la plus fun, c’est pourquoi je n’en fais jamais. Mais vraiment j’ai bien en regarder.
 
