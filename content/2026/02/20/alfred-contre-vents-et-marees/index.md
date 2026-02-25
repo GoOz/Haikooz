@@ -7,7 +7,7 @@ featured_url: alevtakil
 tags:
   - tips
 ---
-Je vous avais pour la première fois parlé d'Alfred [il y a de ça 10 ans](./2016/05/05/alfred-le-messie-des-feignasses/) (putain 10 ans…) et je me suis rendu compte récemment que je l'utilise toujours et toujours autant mais que ne nombreuses choses ont changé.  
+Je vous avais pour la première fois parlé d'Alfred [il y a de ça 10 ans](/2016/05/05/alfred-le-messie-des-feignasses/) (putain 10 ans…) et je me suis rendu compte récemment que je l'utilise toujours et toujours autant mais que ne nombreuses choses ont changé.  
 Si le fonctionnement de base (mises à part les quelques *updates* du logiciel entre temps) n'a pas changé, j'ai pas mal chamboulé ma collection de workflows et je me suis dit que ce serait pas mal de faire un point de mise à jour.
 
 <!-- excerpt -->
@@ -35,11 +35,11 @@ Du coup je me suis créé un raccourci tout con pour y remédier.
 </video>
 
 ### Publication d'une nouvelle photo
-Je ne vais pas m'étendre sur celui-ci plus que ça puisque j'en ai parlé longuement déjà dans [un autre billet](./2025/01/30/pourquoi-faire-long-et-simple-quand-on-peut-faire-rapide-et-complique/) mais si c'est un workflow bien plus compliqué qu'un bête raccourci, ce dernier m'a quand même permis de drastiquement réduire le temps qu'il me fallait pour publier une de mes photos en ligne sur les réseaux.  
+Je ne vais pas m'étendre sur celui-ci plus que ça puisque j'en ai parlé longuement déjà dans [un autre billet](/2025/01/30/pourquoi-faire-long-et-simple-quand-on-peut-faire-rapide-et-complique/) mais si c'est un workflow bien plus compliqué qu'un bête raccourci, ce dernier m'a quand même permis de drastiquement réduire le temps qu'il me fallait pour publier une de mes photos en ligne sur les réseaux.  
 Et rien que pour ça je dis : "Merci Alfred ! 🙇" !
 
 ### Snippets de merde
-J'en avais aussi déjà parlé… *[il y a 10 ans](./2016/12/17/snippets-de-merde/)*…  mais je me suis fait une collection de snippets avec moult répliques du film *La classe américaine* parce que j'aime sortir des répliques de trucs de pop culture.  
+J'en avais aussi déjà parlé… *[il y a 10 ans](/2016/12/17/snippets-de-merde/)*…  mais je me suis fait une collection de snippets avec moult répliques du film *La classe américaine* parce que j'aime sortir des répliques de trucs de pop culture.  
 Il est donc toujours disponible sur [Github](https://github.com/GoOz/snippetsdemerde) si ça vous intéresse.
 
 Honnêtement je suis à ça 🤏 de faire la même pour *Kaamelott* et *La cité de la peur*… j'ai juste un peu beaucoup la flemme pour le moment.
