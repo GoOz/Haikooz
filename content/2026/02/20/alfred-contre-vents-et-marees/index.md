@@ -22,7 +22,7 @@ Si je n'ai pas partagé sur le web la majorité d'entre eux parce que trop trivi
 Juste un petit raccourci pratique que je me suis fait pour quand j'écris du markdown dans une app qui supporte le markdown mais sans proposer de raccourci clavier pour créer un lien markdown. Ne me demandez pas de nom… je ne suis pas une balance.
 
 <video controls width="100%">
-	<source src="./img/markdown-link.mp4" type="video/mp4">
+	<source src="./img/markdown-link.webm" type="video/webm">
 </video>
 
 ### Coller du texte brut
@@ -31,7 +31,7 @@ Alors certains logiciels gèrent la possibilité de retirer le formatage en copi
 Du coup je me suis créé un raccourci tout con pour y remédier.
 
 <video controls width="100%">
-	<source src="./img/plain-text.mp4" type="video/mp4">
+	<source src="./img/plain-text.webm" type="video/webm">
 </video>
 
 ### Publication d'une nouvelle photo
@@ -66,11 +66,11 @@ Vous n'avez qu'à taper `amm` (pour about my mac), choisir l'item de votre choix
 
 ![Capture d'écran du workflow About This Mac](./img/amm@2x.png)
 
-###  Atop
+### Atop
 Si vous voulez rapidement voir ce qu'il se passe sur votre mac, il y a ce petit workflow qui ne paye pas de mine mais qui fait des merveilles. Que vous souhaitiez vérifier la consommation de votre processeur ou de votre ram, l'activité de votre réseau ou encore la vitesse de votre connexion internet pour ne nommer que ça il sera là, pragmatique et efficace.
 
 <video controls width="100%">
-	<source src="./img/atop.mp4" type="video/mp4">
+	<source src="./img/atop.webm" type="video/webm">
 </video>
 
 ### Calendar++
@@ -83,20 +83,20 @@ Pratique quand vous faites autre chose alors qu'on vous propose un rendez-vous e
 #### Ajouter un événement
 
 <video controls width="100%">
-	<source src="./img/calendar.mp4" type="video/mp4">
+	<source src="./img/calendar.webm" type="video/webm">
 </video>
 
 #### Consulter son calendrier
 
 <video controls width="100%">
-	<source src="./img/calendar2.mp4" type="video/mp4">
+	<source src="./img/calendar2.webm" type="video/webm">
 </video>
 
 ### Calm notifications
 Vous êtes en pleine réunion de vidéoconférence et on vous demande de manière impromptue de partager votre écran ? Vite ! Il faut préparer ça et couper les notifications pour éviter tout moment gênant ! 
 
 <video controls width="100%">
-	<source src="./img/dnd.mp4" type="video/mp4">
+	<source src="./img/dnd.webm" type="video/webm">
 </video>
 
 ### ChatGPT / DALL-E
@@ -105,7 +105,7 @@ Je ne suis pas un gros client de l'IA, je dois l'avouer, mais je m'en sers princ
 > [!WARNING] Normalement il est beaucoup plus rapide à répondre mais le jour où j'ai enregistré la vidéo ChatGPT était un peu dans les choux…
 
 <video controls width="100%">
-	<source src="./img/chatgpt.mp4" type="video/mp4">
+	<source src="./img/chatgpt.webm" type="video/webm">
 </video>
 
 ### CleanShot
@@ -114,7 +114,7 @@ Voir sur [Github](https://github.com/Asikur22/Color-Converter-Alfred-Workflow/) 
 J'utilise beaucoup [CleanShot](https://cleanshot.com/) que ce soit pour des raisons pro ou perso (j'y ai accès sans surcoût grâce à mon abonnement [Setapp](https://setapp.com/fr)) et normalement, pour l'utiliser, il faut principalement utiliser la souris… plus maintenant !
 
 <video controls width="100%">
-	<source src="./img/cleanshot.mp4" type="video/mp4">
+	<source src="./img/cleanshot.webm" type="video/webm">
 </video>
 
 > [!NOTE] Il existe aussi un autre workflow un poil plus récent sur [la galerie officielle](https://alfred.app/workflows/stephenc/cleanshot-x/) qui fait grosso modo la même chose. Je n'ai pas eu l'occasion de le tester mais là j'ai la flemme de changer parce que celui là fonctionne toujours bien malgré le fait que sa dernière mise à jour date d'il y a 4 ans x)
@@ -126,7 +126,7 @@ Voici donc le remplaçant, il propose moins de couleur que l'ancien mais il couv
 Bref, proposez une couleur Hexa, RGB(a) ou HSL, choisissez le formatage qui vous convient, taper Entrée et boom c'est dans le presse-papier.
 
 <video controls width="100%">
-	<source src="./img/color.mp4" type="video/mp4">
+	<source src="./img/color.webm" type="video/webm">
 </video>
 
 ### Common Folders
@@ -135,13 +135,13 @@ Voir sur [Github](https://github.com/rknightuk/alfred-workflows/tree/main/workfl
 Celui là je pense que ça devrait être une fonctionnalité native pour être honnête (dans Alfred v6 peut être🤞), parce que j'ai pris ce workflow comme base mais j'ai tout changé pour convenir à mes besoins. Mais en bref, si vous avez des dossiers sur votre machine que vous visitez souvent, ça permet de le "mettre en favoris" pour faciliter son ouverture dans Finder.
 
 <video controls width="100%">
-	<source src="./img/common-folders.mp4" type="video/mp4">
+	<source src="./img/common-folders.webm" type="video/webm">
 </video>
 ### Currency Converter
 Attends… ça fait combien 20£ en € déjà ?
 
 <video controls width="100%">
-	<source src="./img/currency.mp4" type="video/mp4">
+	<source src="./img/currency.webm" type="video/webm">
 </video>
 
 Ah ok, 22,89€ ! Cool !
@@ -151,7 +151,7 @@ Si vous travaillez dans le web et qu'il vous arrive de tester des interfaces ou 
 Plus de soucis avec Fakum, c'est vite fait, bien fait !
 
 <video controls width="100%">
-	<source src="./img/fakum.mp4" type="video/mp4">
+	<source src="./img/fakum.webm" type="video/webm">
 </video>
 
 ### Fastest Emoji Search
@@ -162,7 +162,7 @@ Les emojis c'est cool mais y en a beaucoup… très beaucoup. Je sais pas vous m
 Heureusement j'ai un peu d'aide avec ce plugin qui supporte en prime les teintes de couleurs de peau et aussi [Emoji Kitchen](https://emojikitchen.dev/) (pour générer des emojis à la volée).
 
 <video controls width="100%">
-	<source src="./img/fastest-emoji-search.mp4" type="video/mp4">
+	<source src="./img/fastest-emoji-search.webm" type="video/webm">
 </video>
 ### Gif Search & Giphy
 J'aime bien utiliser les emojis dans mes conversations mais j'aime aussi beaucoup utiliser des gifs (qu'on prononce gif et non gif, bande de sauvages !).  
@@ -170,14 +170,14 @@ Dans mon cas j'ai deux sources : une source locale de gifs glanés au fur et à 
 Pour chaque source son workflow !
 #### Gif Search
 <video controls width="100%">
-	<source src="./img/gif-search.mp4" type="video/mp4">
+	<source src="./img/gif-search.webm" type="video/webm">
 </video>
 
 #### Giphy
 *Voir sur [Github](https://github.com/kejadlen/giphy.alfredworkflow) 🐙*
 
 <video controls width="100%">
-	<source src="./img/giphy.mp4" type="video/mp4">
+	<source src="./img/giphy.webm" type="video/webm">
 </video>
 Vous pouvez aussi copier le gif directement mais selon le support de l'app ça peut rendre le gif statique, à voir selon vos besoins du coup.
 ### GitFred
@@ -186,14 +186,14 @@ Vous utilisez Github souvent ? vous avez vos propres repository et vous voulez p
 Ce workflow permet même plus pour peu qu'on lui donne les accès de surveiller ses notifications et repository privés.
 
 <video controls width="100%">
-	<source src="./img/gitfred.mp4" type="video/mp4">
+	<source src="./img/gitfred.webm" type="video/webm">
 </video>
 ### Google Suggest
 Par défaut, quand vous tapez du texte dans Alfred, que ça ne correspond à rien sur votre machine, le comportement de fallback envoie la requête sur Google, en considérant çacomme une recherche sur le web.
 Il manquait juste un petit truc pour améliorer l'utilisation de Google, ce sont les suggestions.
 
 <video controls width="100%">
-	<source src="./img/google-suggest.mp4" type="video/mp4">
+	<source src="./img/google-suggest.webm" type="video/webm">
 </video>
 
 ### HEIC to JPEG
@@ -202,7 +202,7 @@ Qu'on aime ou pas le format HEIC d'iOS il est là mais il peut rapidement deveni
 Alors des logiciels d'encodage y en a pléthore mais ce workflow a le mérite d'être très rapide puisqu'il n'y a pas de logiciel à lancer, c'est juste un *FileAction* sur Alfred (c'est à dire un workflow qui fonctionne sans requête, juste une opération sur un fichier et/ou dossier).
 
 <video controls width="100%">
-	<source src="./img/heic-to-jpeg.mp4" type="video/mp4">
+	<source src="./img/heic-to-jpeg.webm" type="video/webm">
 </video>
 
 ### IP Address
@@ -215,7 +215,7 @@ En tant que développeur j'utilise souvent du texte *lorem ipsum* pour remplir m
 Mais ça c'était avant ce workflow
 
 <video controls width="100%">
-	<source src="./img/lorem-ipsum.mp4" type="video/mp4">
+	<source src="./img/lorem-ipsum.webm" type="video/webm">
 </video>
 
 ### Maps Suggest
@@ -223,7 +223,7 @@ Mais ça c'était avant ce workflow
 Même principe que pour **Google Suggest** mais appliqué à *Plans.app*. Et vous pouvez choisir entre Apple Plans ou Google Maps, rien que pour ça c'est cool.
 
 <video controls width="100%">
-	<source src="./img/maps-suggest.mp4" type="video/mp4">
+	<source src="./img/maps-suggest.webm" type="video/webm">
 </video>
 
 ### Menu Bar Search
@@ -231,7 +231,7 @@ Alors celui-là est peu particulier mais j'aime beaucoup. Parfois, quand j'utili
 Grâce à ce workflow, je peux chercher dans l'app active directement avec Alfred la fonctionnalité souhaitée.
 
 <video controls width="100%">
-	<source src="./img/menu-bar-search.mp4" type="video/mp4">
+	<source src="./img/menu-bar-search.webm" type="video/webm">
 </video>
 ### Mini Weather
 Juste un simple workflow pour avoir un aperçu en un clin d'œil de la météo par heure ou par jour où que vous soyez.
@@ -242,7 +242,7 @@ Juste un simple workflow pour avoir un aperçu en un clin d'œil de la météo p
 Un *FileAction* qui utilise [ImageOptim](https://imageoptim.com/fr) en sous-marin (qu'il faudra donc avoir installé avant sur sa machine).
 
 <video controls width="100%">
-	<source src="./img/optimize-images.mp4" type="video/mp4">
+	<source src="./img/optimize-images.webm" type="video/webm">
 </video>
 
 ### Percent Change
@@ -251,27 +251,27 @@ Un *FileAction* qui utilise [ImageOptim](https://imageoptim.com/fr) en sous-mari
 Attends… si un vendeur me fait une réduc de 15% sur un produit à 786€ ça va au final me coûter… alors le produit en croix… et je retiens 12… plus l'âge de la comtesse… oh et puis merde
 
 <video controls width="100%">
-	<source src="./img/percent-change.mp4" type="video/mp4">
+	<source src="./img/percent-change.webm" type="video/webm">
 </video>
 
 ### Reminders Today
 Avoir des choses à faire c'est chiant. Avoir l'app Rappels (Reminders) toujours ouverte c'est chiant. Pouvoir vite fait rajouter des choses et les cocher comme fait c'est mieux.
 
 <video controls width="100%">
-	<source src="./img/reminders-today.mp4" type="video/mp4">
+	<source src="./img/reminders-today.webm" type="video/webm">
 </video>
 
 ### Search CanIUse
 Dans le genre qui aide les développeurs ce workflow de recherche sur le site [CanIUse](https://caniuse.com/) avec suggestions est fort pratique aussi.
 
 <video controls width="100%">
-	<source src="./img/caniuse.mp4" type="video/mp4">
+	<source src="./img/caniuse.webm" type="video/webm">
 </video>
 ### Sequential Paste
 Il existe plein de logiciels qui gèrent bien mieux le copier/coller séquentiel mais pour le besoin que j'ai ce workflow fait très bien le job (et puis le *clipboard history* natif de Alfred est bien complémentaire aussi) et ça me suffit.
 
 <video controls width="100%">
-	<source src="./img/sequential-paste.mp4" type="video/mp4">
+	<source src="./img/sequential-paste.webm" type="video/webm">
 </video>
 
 ### Simple 2FA Paste
@@ -294,7 +294,7 @@ Répondez donc avec un *tapback* sur votre dernier message reçu sans quitter vo
 Le web est terni d'une présence américaine constante et honnêtement je pourrais vivre avec si seulement ils utilisaient le système métrique comme tout le monde. Mais non… Bref heureusement que j'ai ce workflow pour faire mes conversions.
 
 <video controls width="100%">
-	<source src="./img/unit-converter.mp4" type="video/mp4">
+	<source src="./img/unit-converter.webm" type="video/webm">
 </video>
 
 ## Et encore… c'est pas tout
