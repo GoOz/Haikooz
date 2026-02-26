@@ -46,7 +46,8 @@ Honnêtement je suis à ça 🤏 de faire la même pour *Kaamelott* et *La cité
 
 ## Les créations des autres
 
-> [!NOTE] Les workflows présentés ici ne sont pas tous trouvables au même endroit sur le web, certains sont sur la[ galerie de workflow officielle d'Alfred](https://alfred.app/), d'autres sur **Github**. Partez donc du principe que si je ne mets pas de lien c'est que vous le trouverez sur la galerie.
+> [!NOTE] 
+> Les workflows présentés ici ne sont pas tous trouvables au même endroit sur le web, certains sont sur la[ galerie de workflow officielle d'Alfred](https://alfred.app/), d'autres sur **Github**. Partez donc du principe que si je ne mets pas de lien c'est que vous le trouverez sur la galerie.
 
 ### 1Password
 Je suis client de **1Password** depuis des lustres, j'en suis d'ailleurs très content mais couplé à ce workflow, on gagne un temps de dingue.
@@ -102,7 +103,8 @@ Vous êtes en pleine réunion de vidéoconférence et on vous demande de manièr
 ### ChatGPT / DALL-E
 Je ne suis pas un gros client de l'IA, je dois l'avouer, mais je m'en sers principalement et de manière très ponctuelle pour mes parties de jeu de rôle en ligne quand c'est moi le MJ. Ça me sert surtout à créer à la volée des personnages avec un peu de profondeur pour mes joueurs quand l'occasion se présente.
 
-> [!WARNING] Normalement il est beaucoup plus rapide à répondre mais le jour où j'ai enregistré la vidéo ChatGPT était un peu dans les choux…
+> [!WARNING] 
+> Normalement il est beaucoup plus rapide à répondre mais le jour où j'ai enregistré la vidéo ChatGPT était un peu dans les choux…
 
 <video controls width="100%">
 	<source src="./img/chatgpt.webm" type="video/webm">
@@ -117,7 +119,8 @@ J'utilise beaucoup [CleanShot](https://cleanshot.com/) que ce soit pour des rais
 	<source src="./img/cleanshot.webm" type="video/webm">
 </video>
 
-> [!NOTE] Il existe aussi un autre workflow un poil plus récent sur [la galerie officielle](https://alfred.app/workflows/stephenc/cleanshot-x/) qui fait grosso modo la même chose. Je n'ai pas eu l'occasion de le tester mais là j'ai la flemme de changer parce que celui là fonctionne toujours bien malgré le fait que sa dernière mise à jour date d'il y a 4 ans x)
+> [!NOTE] 
+> Il existe aussi un autre workflow un poil plus récent sur [la galerie officielle](https://alfred.app/workflows/stephenc/cleanshot-x/) qui fait grosso modo la même chose. Je n'ai pas eu l'occasion de le tester mais là j'ai la flemme de changer parce que celui là fonctionne toujours bien malgré le fait que sa dernière mise à jour date d'il y a 4 ans x)
 ### Color Converter
 *Voir sur [Github](https://github.com/Asikur22/Color-Converter-Alfred-Workflow/) 🐙*
 
