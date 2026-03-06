@@ -20,6 +20,12 @@ Je voulais refaire mon portfolio photo de manière simple, efficace et performan
 
 {% unfurl "https://github.com/GoOz/Niepce" %}
 
+## StringMod
+
+Un workflow d'Alfred que j'utilisais pour manipuler mes strings de texte est tombé dans l'oubli alors je l'ai refait à ma sauce. Plus souple, plus récent, plus pérenne.
+
+{% unfurl "https://github.com/GoOz/StringMod" %}
+
 ## Snippets de merde
 
 Je suis un grand fan de [la classe américaine](https://fr.wikipedia.org/wiki/La_Classe_am%C3%A9ricaine) et j'aime beaucoup sortir des citations à tout va alors j'utilise la fonctionnalité de snippets d'Alfred pour ça. Du coup, j'ai fait une collection de snippets à partager, pour le plaisir et pour le plaisir.
