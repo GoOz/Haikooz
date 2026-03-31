@@ -12,7 +12,7 @@ eleventyNavigation:
 
 En tant que joueur de jeu de rôle (entre autres de Warhammer Fantasy RolePlay) et amateur de technologie, je me devais de créer une fiche de personnage pour support numérique alors même qu'il n'y avait pas de solution officielle autre qu'un pauvre PDF éditable. Probablement pas le dernier que je fais dans ce genre mais en tout cas c'est le premier.
 
-{% unfurl "https://github.com/GoOz/wfrp-sheet" %}
+{% unfurl "https://github.com/GoOz/wfrp-sheet/" %}
 
 ## Niepce
 
