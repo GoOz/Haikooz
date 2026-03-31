@@ -270,6 +270,7 @@ Dans le genre qui aide les développeurs ce workflow de recherche sur le site [C
 <video controls width="100%">
 	<source src="./img/caniuse.webm" type="video/webm">
 </video>
+
 ### Sequential Paste
 Il existe plein de logiciels qui gèrent bien mieux le copier/coller séquentiel mais pour le besoin que j'ai ce workflow fait très bien le job (et puis le *clipboard history* natif de Alfred est bien complémentaire aussi) et ça me suffit.
 
