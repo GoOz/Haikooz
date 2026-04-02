@@ -32,7 +32,7 @@ Générer des pages avec **11ty** c'est une seule commande : `npm run build`. Ç
 - Soit vous écrivez vos billets sur votre machine mais vous versionnez votre site avec Git (ou autre) puis vous vous connectez au serveur pour faire un `git pull` puis `npm run build` et là on commence à parler mais il y a toujours une étape manuelle fort chiante.
 - Soit vous faites tout comme avant **MAIS** vous mettez en place un webhook qui va, dès qu'il sait qu'un nouveau commit git a eu lieu, faire un `git pull` puis `npm run build` tout seul comme un grand et à votre place.
 
-Personnellement, j'ai mis en place le denier choix . Je ne peux vous dire comment faire ce webhook partout ailleurs mais chez mon hébergeur [alwaysdata](https://www.alwaysdata.com/fr/) et avec **Github** comme gestionnaire de *repository* Git j'ai mis en place ça relativement facilement et j'en parle sur ce [billet](/2025/04/11/comment-deployer-son-site-statique-11ty-depuis-github-vers-alwaysdata/).
+Personnellement, j'ai mis en place le dernier choix. Je ne peux vous dire comment faire ce webhook partout ailleurs mais chez mon hébergeur [alwaysdata](https://www.alwaysdata.com/fr/) et avec **Github** comme gestionnaire de *repository* Git j'ai mis en place ça relativement facilement et j'en parle sur ce [billet](/2025/04/11/comment-deployer-son-site-statique-11ty-depuis-github-vers-alwaysdata/).
 
 Depuis dès que je `push` des choses sur git ça se retrouve mis en ligne dans les 2-3 minutes au maximum, le temps que tout passe dans les tuyaux et que ça génère les pages. 
 
@@ -57,7 +57,7 @@ Le plugin n'a pas besoin de configuration particulière pour fonctionner, vérif
 
 Mes notes sont classées comme suit `/YYYY/MM/DD/titre-du-billet/index.md` et on pourrait vite croire que ce serait vite compliqué de faire ça automatiquement mais que nenni.
 
-Grâce la fonctionnalité native "template" d'**Obsidian** et à une autre extension nommée "templater" on va pouvoir faire de la magie.
+Grâce à la fonctionnalité native "template" d'**Obsidian** et à une autre extension nommée "templater" on va pouvoir faire de la magie.
 Les templates sont assez rudimentaires dans **Obsidian**, c'est vraiment juste un modèle d'architecture de page vide à remplir à la main ensuite mais le plugin *templater*, lui, permet de pousser plus loin en permettant l'auto-remplissage des templates, d'y appliquer des scripts, de faire des ajouts dynamiques, etc.
 
 Par exemple mon template de billet de blog ressemble à ça :
@@ -120,11 +120,11 @@ tags:
 ```
 
 Dans le *frontmatter* (tout ce qu'il y a entre les `---`), les metadonnées qui peuvent être automatisées le sont grâce à *templater*. C'est donc le cas de la date du jour et le titre du billet.
-Evidemment si je décide de changer le titre ou la date, je peux toujours le faire manuellement à tout moment, il s'agit juste un point de départ.
+Evidemment si je décide de changer le titre ou la date, je peux toujours le faire manuellement à tout moment, il s'agit juste d'un point de départ.
 
 ## Le résultat
 
-Avec tout ça, lorsque je veux écrire un nouveau billet, la création est très amplement simplifié.
+Avec tout ça, lorsque je veux écrire un nouveau billet, la création est très amplement simplifiée.
 
 <video controls width="100%">
 	<source src="./img/new-post.webm" type="video/webm">
