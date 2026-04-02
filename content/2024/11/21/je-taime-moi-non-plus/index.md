@@ -193,7 +193,7 @@ Mais comme beaucoup d’autres photographes, je n’aime pas trop passer de l’
 
 <small>_par [mary_skr](https://unsplash.com/fr/@mary_skr)_</small>
 
-J’aime l’ambiance zen qui ressort des natures mortes et le gros travail de composition qui les accompagne la majorité du temps mais c’est beaucoup de travail préparatoire et ce n’est définitivement pas la partie que je trouve la plus fun, c’est pourquoi je n’en fais jamais. Mais vraiment j’ai bien en regarder.
+J’aime l’ambiance zen qui ressort des natures mortes et le gros travail de composition qui les accompagne la majorité du temps mais c’est beaucoup de travail préparatoire et ce n’est définitivement pas la partie que je trouve la plus fun, c’est pourquoi je n’en fais jamais. Mais vraiment j’aime bien en regarder.
 
 ---
 
