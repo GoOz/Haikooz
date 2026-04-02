@@ -16,9 +16,9 @@ Si on met de côté les différents réseaux sociaux, j'ai deux présences en li
 
 Toujours est-il que depuis que j'ai migré j'ai le droit à certains outils de mesure d'audience côté serveur. Alors c'est très rudimentaire, je n'ai finalement pas grand chose d'autre que le nombre de visites uniques mais ça m'a malgré tout assez surpris.  
 J'ai plus de visites que ce que je pensais. Sur ce blog j'ai des pics à **100** visites et sur mon portfolio j'ai une moyenne de **250** et un pic exceptionnel à **650**.  
-Alors ça peut être paraître peu pour certains mais à mon échelle ça me paraît beaucoup.
+Alors ça peut paraître peu pour certains mais à mon échelle ça me paraît beaucoup.
 
-Faut dire que déjà je n'avais pas de système de commentaire ou de like, sur aucun des deux. J'ai bien les _webmentions_ sur ce blog depuis peu mais on va pas se mentir, de toute façon y a toujours eu une question de majorité silencieuse. Tout celleux qui vous lisent, qu'ils aiment ou pas ce que vous faites, ne commente, like, ou partage pas forcément sur les réseaux.
+Faut dire que déjà je n'avais pas de système de commentaire ou de like, sur aucun des deux. J'ai bien les _webmentions_ sur ce blog depuis peu mais on va pas se mentir, de toute façon y a toujours eu une question de majorité silencieuse. Tout celleux qui vous lisent, qu'ils aiment ou pas ce que vous faites, ne commentent, like, ou partagent pas forcément sur les réseaux.
 Donc je n'ai que très peu de retours des autres sur ce que je publie.
 
 Ajoutez à ça le flux RSS (qu'évidemment vous avez tous sur vos sites) qui est en libre accès et voilà vous publiez sans savoir qui vous lit.
