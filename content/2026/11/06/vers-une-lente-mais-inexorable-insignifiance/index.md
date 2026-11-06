@@ -8,7 +8,7 @@ tags:
   - notes
 ---
 
-Y a t'il quelque chose de plus humain que de chercher un sens à son existence ?
+Y a t'il quelque chose de plus humain que de chercher un sens à son existence ?  
 Peut être de perdre le goût à la vie à mesure que l'on perd le sens qu'on y avait trouvé.
 
 <!-- excerpt -->
