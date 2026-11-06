@@ -21,7 +21,7 @@ Quand j'ai commencé mon métier ça a été une sorte d'épiphanie pour moi, c'
 
 Pendant **20 ans** j'ai été émerveillé et motivé par ce que je faisais alors même que nombreuses étaient les gens qui dénigraient les technologies que j'utilisais au quotidien. Mais tant mieux, ça faisait plus de chocolat pour bibi !
 
-J'étais tellement passionné que lorsque que j'ai croisé des *vieux* développeurs qui manifestement ne faisait pas de veille, ne s'intéressait à rien, faisaient leurs heures et au revoir, j'ai trouvé cela triste.  
+J'étais tellement passionné que lorsque que j'ai croisé des *vieux* développeurs qui manifestement ne faisaient pas de veille, ne s'intéressaient à rien, faisaient leurs heures et au revoir, j'ai trouvé cela triste.  
 Je ne jugeais pas vraiment, je trouvais juste ça triste de ne pas avoir de plaisir à ce que l'on faisait et je me suis demandé s'ils étaient vraiment à leur place.
 
 Et puis le temps a passé…
