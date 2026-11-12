@@ -9,7 +9,7 @@ tags:
 ---
 
 Y a t'il quelque chose de plus humain que de chercher un sens à son existence ?  
-Peut être de perdre le goût à la vie à mesure que l'on perd le sens qu'on y avait trouvé.
+Peut-être de perdre le goût à la vie à mesure que l'on perd le sens qu'on y avait trouvé.
 
 <!-- excerpt -->
 
@@ -19,9 +19,9 @@ Peut être de perdre le goût à la vie à mesure que l'on perd le sens qu'on y 
 
 Quand j'ai commencé mon métier ça a été une sorte d'épiphanie pour moi, c'est comme si j'avais débloqué quelque chose qui ne se fermerait plus jamais, une perpétuelle curiosité à jamais assouvie.
 
-Pendant **20 ans** j'ai été émerveillé et motivé par ce que je faisais alors même que nombreuses étaient les gens qui dénigraient les technologies que j'utilisais au quotidien. Mais tant mieux, ça faisait plus de chocolat pour bibi !
+Pendant **20 ans** j'ai été émerveillé et motivé par ce que je faisais alors même que nombreux étaient les gens qui dénigraient les technologies que j'utilisais au quotidien. Mais tant mieux, ça faisait plus de chocolat pour bibi !
 
-J'étais tellement passionné que lorsque que j'ai croisé des *vieux* développeurs qui manifestement ne faisaient pas de veille, ne s'intéressaient à rien, faisaient leurs heures et au revoir, j'ai trouvé cela triste.  
+J'étais tellement passionné que lorsque j'ai croisé des *vieux* développeurs qui manifestement ne faisaient pas de veille, ne s'intéressaient à rien, faisaient leurs heures et au revoir, j'ai trouvé cela triste.  
 Je ne jugeais pas vraiment, je trouvais juste ça triste de ne pas avoir de plaisir à ce que l'on faisait et je me suis demandé s'ils étaient vraiment à leur place.
 
 Et puis le temps a passé…
